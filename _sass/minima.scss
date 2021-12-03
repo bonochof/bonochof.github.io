@@ -10,7 +10,8 @@ $small-font-size:  $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
 
 @import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
-$head-font-family: 'Rampart One', cursive;
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@500&display=swap');
+$head-font-family: 'Tourney', cursive; //'Rampart One', cursive;
 $head-font-color: #cd5e3c;
 
 $spacing-unit:     30px !default;
