@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-<h1>Latest posts</h1>
+<h1>Latest Posts</h1>
 
 <div class="wrapper-home">
   <div class="facebook">

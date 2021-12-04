@@ -4,15 +4,29 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+<h3>Education</h3>
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+|Year      |Education                                                                                           |
+|----------|----------------------------------------------------------------------------------------------------|
+|2020--    |Department of Informatics, Graduate School of Integrated Science and Technology, Shizuoka University|
+|2018--2020|Faculty of Informatics, Shizuoka University                                                         |
+|2013--2018|Department of Information Engineering, National Institute of Technology, Matsue College             |
 
 
-[jekyll-organization]: https://github.com/jekyll
+<h3>Activity</h3>
+
+<div class="activity">
+  <select id="activity-view-num" onchange="change_table();">
+    <option value="10">10</option>
+    <option value="256">All</option>
+  </select>
+
+  <table id="activity-table"><tbody>
+    <tr><th>Date</th><th>Description</th></tr>
+    {% for item in site.data.activity %}
+      <tr><td>{{ item.date }}</td><td>{{ item.description }}</td></tr>
+    {% endfor %}
+  </tbody></table>
+</div>
+
+<script type="text/javascript" src="{{ '/assets/js/main.js' | relative_url }}">
