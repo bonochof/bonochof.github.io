@@ -17,6 +17,10 @@ $base-line-height: 1.5 !default;
 $head-font-family: 'Tourney', cursive; //'Rampart One', cursive;
 $head-font-color: #cd5e3c;
 
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+$name-font-family: 'Press Start 2P', cursive;
+$name-font-color: #cd5e3c;
+
 $spacing-unit:     30px !default;
 
 $text-color:       #111 !default;
@@ -54,78 +58,7 @@ $on-laptop:        800px !default;
 
 // Import partials.
 @import
-  "./assets/css/base",
-  "./assets/css/layout",
-  "./assets/css/syntax-highlighting"
+  "./assets/css/base.scss",
+  "./assets/css/layout.scss",
+  "./assets/css/syntax-highlighting.scss"
 ;
-
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-.profile {
-  position: relative;
-  min-height: 240px;
-
-  & > * {
-    margin-left: 240px;
-  }
-
-  .image {
-    position: absolute;
-    left: 0;
-    top: 0;
-    margin: 0;
-    width: 200px;
-    height: 200px;
-    border: thick double #cd5e3c;
-  }
-
-  .fullname {
-    font-family: 'Press Start 2P', cursive;
-    font-size: 200%;
-    color: #cd5e3c;
-  }
-
-  .description {
-    font-size: 120%;
-  }
-}
-
-.wrapper-home {
-  display: grid;
-  grid-template-areas:
-    "facebook twitter"
-    "youtube youtube"
-    "github github";
-  grid-template-columns: 2fr 1fr;
-  @include media-query(660px) {
-    grid-template-areas:
-      "facebook"
-      "twitter"
-      "youtube"
-      "github";
-    grid-template-columns: 1fr;
-  }
-  grid-gap: 10px;
-}
-
-.facebook {
-  grid-area: facebook;
-}
-
-.twitter {
-  grid-area: twitter;
-}
-
-.youtube {
-  grid-area: youtube;
-  //height: 0;
-  //margin-bottom: 1rem;
-  //overflow: hidden;
-  //padding-bottom: 67.5%;
-  //padding-top: 1.5625rem;
-  //position: relative;
-}
-
-.github {
-  grid-area: github;
-  //margin: auto;
-}

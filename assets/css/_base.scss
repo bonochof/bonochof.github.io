@@ -255,3 +255,66 @@ table {
     border: 1px solid $grey-color-light;
   }
 }
+
+.profile {
+  position: relative;
+  min-height: 240px;
+
+  & > * {
+    margin-left: 240px;
+  }
+
+  .image {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+    width: 200px;
+    height: 200px;
+    border: thick double $name-font-color;
+  }
+
+  .fullname {
+    font-family: $name-font-family;
+    font-size: 200%;
+    color: $name-font-color;
+  }
+
+  .description {
+    font-size: 120%;
+  }
+}
+
+.wrapper-home {
+  display: grid;
+  grid-template-areas:
+    "facebook twitter"
+    "youtube youtube"
+    "github github";
+  grid-template-columns: 2fr 1fr;
+  @include media-query(660px) {
+    grid-template-areas:
+      "facebook"
+      "twitter"
+      "youtube"
+      "github";
+    grid-template-columns: 1fr;
+  }
+  grid-gap: 10px;
+}
+
+.facebook {
+  grid-area: facebook;
+}
+
+.twitter {
+  grid-area: twitter;
+}
+
+.youtube {
+  grid-area: youtube;
+}
+
+.github {
+  grid-area: github;
+}
