@@ -34,14 +34,43 @@
   }
 }
 
+.wrapper-home {
+  display: grid;
+  grid-template-areas:
+    "facebook twitter"
+    "youtube youtube"
+    "github github";
+  grid-template-columns: 2fr 1fr;
+  @include media-query(660px) {
+    grid-template-areas:
+      "facebook"
+      "twitter"
+      "youtube"
+      "github";
+    grid-template-columns: 1fr;
+  }
+  grid-gap: 10px;
+}
+
 .facebook {
-  float: left;
+  grid-area: facebook;
 }
 
 .twitter {
-  float: right;
+  grid-area: twitter;
+}
+
+.youtube {
+  grid-area: youtube;
+  //height: 0;
+  //margin-bottom: 1rem;
+  //overflow: hidden;
+  //padding-bottom: 67.5%;
+  //padding-top: 1.5625rem;
+  //position: relative;
 }
 
 .github {
-  margin: auto;
+  grid-area: github;
+  //margin: auto;
 }

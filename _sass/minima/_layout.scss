@@ -120,6 +120,14 @@
 .social-media-list {
   list-style: none;
   margin-left: 0;
+  overflow: hidden;
+}
+
+.social-media-list li {
+  float: left;
+  @include media-query(660px) {
+    float: none;
+  }
 }
 
 .footer-col-wrapper {
