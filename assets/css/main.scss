@@ -57,6 +57,6 @@ $on-laptop:        800px !default;
 }
 
 // Import partials.
-@import "./assets/css/base.scss";
-@import "./assets/css/layout.scss";
-@import "./assets/css/syntax-highlighting.scss";
+@import "base.scss";
+@import "layout.scss";
+@import "syntax-highlighting.scss";
