@@ -12,7 +12,7 @@ $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
 
-@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+//@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tourney:wght@500&display=swap');
 $head-font-family: 'Tourney', cursive; //'Rampart One', cursive;
 $head-font-color: #cd5e3c;
@@ -25,8 +25,9 @@ $name-font-color: #cd5e3c;
 @import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap');
 $base-font-family-ja: 'Kosugi Maru', sans-serif;
 
-@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700&display=swap');
-$head-font-family-ja: 'M PLUS Rounded 1c', sans-serif;
+//@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+$head-font-family-ja: 'Yusei Magic', sans-serif; //'M PLUS Rounded 1c', sans-serif;
 
 @import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@900&display=swap');
 $name-font-family-ja: 'Zen Maru Gothic', sans-serif;
