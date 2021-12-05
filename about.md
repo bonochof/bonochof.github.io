@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: default
 title: About
-permalink: /about/
+#permalink: /about/
 ---
 
 <h3>Education</h3>
