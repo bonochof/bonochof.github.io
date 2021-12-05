@@ -1,4 +1,2 @@
-- name: Home
-  link: /
-- name: Profile
-  link: /profile.html
+- index.md
+- about.md
