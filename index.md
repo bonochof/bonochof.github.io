@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-<h1>Latest Posts</h1>
+<h1><span class="{{ site.lang }}">{% t home.title %}</span></h1>
 
 <div class="wrapper-home">
   <div class="facebook">

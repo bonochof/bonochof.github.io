@@ -94,7 +94,8 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-  font-family: $head-font-family;
+  .en { font-family: $head-font-family; }
+  .ja { font-family: $head-font-family-ja; }
   font-weight: $base-font-weight;
   color: $head-font-color;
 }
@@ -275,12 +276,15 @@ table {
   }
 
   .fullname {
-    font-family: $name-font-family;
+    .en { font-family: $name-font-family; }
+    .ja { font-family: $name-font-family-ja; }
     font-size: 200%;
     color: $name-font-color;
   }
 
   .description {
+    .en { font-family: $base-font-family; }
+    .ja { font-family: $base-font-family-ja; }
     font-size: 120%;
   }
 }
