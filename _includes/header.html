@@ -3,7 +3,11 @@
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.data.navigation[page.lang] | default: default_paths -%}
-    {%- capture translate_path -%}{%- if page.lang == "en" -%}/ja{%- endif -%}{{ page.url | relative_url }}{%- endcapture -%}
+    {%- if page.lang == "ja" -%}
+      {%- assign translate_path = page.url | relative_url | remove: "/ja" -%}
+    {%- else -%}
+      {%- assign translate_path = page.url | relative_url | prepend: "/ja" -%}
+    {%- endif -%}
 
     {%- if page_paths -%}
       <nav class="site-nav">
@@ -23,7 +27,8 @@
             <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
             {%- endif -%}
           {%- endfor -%}
-          <a href="{{ translate_path }}"><span>{%- if page.lang == "ja" -%}English{%- else -%}日本語{%- endif -%}</span></a>
+
+          <a class="page-link" href="{{ translate_path }}"><span>{%- if page.lang == "ja" -%}English{%- else -%}日本語{%- endif -%}</span></a>
         </div>
       </nav>
     {%- endif -%}
