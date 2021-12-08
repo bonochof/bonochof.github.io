@@ -1,6 +1,7 @@
 en:
   - index.md
-#  - about.md
+  - about.md
 
 ja:
   - ja/index.md
+  - ja/about.md
