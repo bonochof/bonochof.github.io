@@ -42,3 +42,23 @@ about:
     description:
       en: Description
       ja: 内容
+
+publications:
+  title:
+    en: Publications
+    ja: 研究発表
+  journals:
+    en: Journals
+    ja: 学術論文
+  conferences:
+    en: International Conferences
+    ja: 国際会議における発表
+  ja-conferences:
+    en: Internal Conferences
+    ja: 国内学会・シンポジウムにおける発表
+  invite:
+    en: Invited Talks
+    ja: 招待講演
+  awards:
+    en: Awards
+    ja: 受賞
