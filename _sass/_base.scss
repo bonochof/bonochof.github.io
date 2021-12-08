@@ -15,6 +15,9 @@ dl, dd, ol, ul, figure {
  */
 body {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+  &:lang(ja) {
+    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family-ja;
+  }
   color: $text-color;
   background-color: $background-color;
   -webkit-text-size-adjust: 100%;
@@ -273,6 +276,7 @@ table {
     width: 200px;
     height: 200px;
     border: thick double $name-font-color;
+    border-radius: 20px;
   }
 
   .fullname {

@@ -28,7 +28,7 @@
             {%- endif -%}
           {%- endfor -%}
 
-          <a class="page-link" href="{{ translate_path }}"><span>{%- if page.lang == "ja" -%}English{%- else -%}日本語{%- endif -%}</span></a>
+          <a class="translate" href="{{ translate_path }}"><span class="{{ page.lang }}">{%- if page.lang == "ja" -%}English{%- else -%}日本語{%- endif -%}</span></a>
         </div>
       </nav>
     {%- endif -%}
