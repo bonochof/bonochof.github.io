@@ -129,6 +129,7 @@
 
 .contact-list,
 .social-media-list {
+  font-family: $base-font-family;
   list-style: none;
   overflow: hidden;
 }
@@ -142,6 +143,7 @@
 
 .footer-col-wrapper {
   @include relative-font-size(0.9375);
+  font-family: $base-font-family;
   color: $grey-color;
   text-align: center;
   @extend %clearfix;
