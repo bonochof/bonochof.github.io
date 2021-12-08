@@ -1,7 +1,8 @@
 ---
 layout: default
 title: About
-#permalink: /about/
+permalink: /about/
+lang: en
 ---
 
 <h3>Education</h3>
