@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Home
-lang: en
+lang: ja
 ---
 
-<h1><span class="en">{{ site.data.translate.home.title.en }}</span></h1>
+<h1><span class="ja">{{ site.data.translate.home.title.ja }}</span></h1>
 
 <div class="wrapper-home">
   <div class="facebook">

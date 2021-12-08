@@ -1,1 +1,7 @@
 - index.md
+
+- ja:
+  - text: Home
+    url: /ja
+  - text: About
+    url: /ja/about

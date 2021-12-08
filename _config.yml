@@ -5,8 +5,6 @@ github_username:  bonochof
 facebook_username: ryosuke.takata.9
 youtube_username: UCF8ViNqQffiG0WvSjP-bfNQ
 
-languages: ["en", "ja"]
-
 # Build settings
 plugins:
   - jekyll-feed
