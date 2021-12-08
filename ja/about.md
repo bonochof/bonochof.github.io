@@ -1,8 +1,8 @@
 ---
 layout: default
 title: About
-permalink: /about/
-lang: en
+permalink: /ja/about/
+lang: ja
 ---
 
 {%- include contents/about.html -%}

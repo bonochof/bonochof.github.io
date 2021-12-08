@@ -10,3 +10,35 @@ home:
   title:
     en: Latest Posts
     ja: 最新の投稿
+
+about:
+  title:
+    en: About
+    ja: About
+  education:
+    en: Educational History
+    ja: 学歴
+    year:
+      en: Year
+      ja: 年
+    education:
+      en: Education
+      ja: 学校/専攻
+    graduate:
+      en: Department of Informatics, Graduate School of Integrated Science and Technology, Shizuoka University
+      ja: 静岡大学大学院総合科学技術研究科 情報学専攻（首席）
+    undergraduate:
+      en: Faculty of Informatics, Shizuoka University
+      ja: 静岡大学情報学部 情報科学科（首席卒業）
+    kosen:
+      en: Department of Information Engineering, National Institute of Technology, Matsue College
+      ja: 松江工業高等専門学校 情報工学科（首席卒業）
+  activity:
+    en: Activity
+    ja: 活動記録
+    date:
+      en: Date
+      ja: 年月日
+    description:
+      en: Description
+      ja: 内容
