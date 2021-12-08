@@ -27,3 +27,11 @@
 
 <script type="text/javascript" src="{{ '/assets/js/main.js' | relative_url }}">
 -->
+
+<h2><span class="{{ page.lang }}">{{ site.data.translate.about.awards[page.lang] }}</span></h2>
+
+<ul class="awards">
+{%- for data in site.data.awards -%}
+  <li>{{ data.title }}: <span class="name">{{ data.award }}</span><ul><li>{{ data.date }}</li></ul></li>
+{%- endfor -%}
+</ul>

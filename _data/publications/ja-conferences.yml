@@ -1,0 +1,142 @@
+- title: 立脚点の違いによって相互予測問題を解消する強化学習エージェント
+  author:
+    - 高田 亮介
+    - 竹内 勇剛
+  in:
+    title: 日本認知科学会第38回大会論文集
+    pp: 51-57
+    date: Sep. 2021
+  peer-reviewed: true
+  oral-presentation: true
+
+- title: 強化学習を用いた缶蹴りエージェントによる協調行動の獲得
+  author:
+    - 高田 亮介
+    - 坂本 孝丈
+    - 竹内 勇剛
+  in:
+    title: 第35回人工知能学会全国大会論文集, 3I2-GS-5e-03
+    date: Jun. 2021
+  peer-reviewed: true
+  oral-presentation: true
+
+- title: 缶蹴りにおける他者知覚を必要としない協調の実現
+  author:
+    - 高田 亮介
+    - 坂本 孝丈
+    - 竹内 勇剛
+  in:
+    title: HAIシンポジウム2021, G-20
+    date: Mar. 2021
+  peer-reviewed: false
+  oral-presentation: true
+  note: Student Encouragement Award 受賞
+
+- title: 強化学習を用いたエージェントによる缶蹴りの集団形成と振る舞い分析
+  author:
+    - 高田 亮介
+    - 坂本 孝丈
+    - 竹内 勇剛
+  in:
+    title: ヒューマンインタフェースサイバーコロキウム論文集
+    pp: 81-88
+    date: Oct. 2020
+  peer-reviewed: false
+  oral-presentation: true
+  note: 優秀発表賞 受賞
+
+- title: 缶蹴りにおける強化学習を用いた身体的インタラクション
+  author:
+    - 高田 亮介
+    - 竹内 勇剛
+  in:
+    title: 日本認知科学会第37回大会論文集
+    pp: 384-391
+    date: Sep. 2020
+  peer-reviewed: true
+  oral-presentation: false
+
+- title: ニューロエボリューションを用いたクリーチャによる協調行動の分析
+  author:
+    - 高田 亮介
+    - 竹内 勇剛
+  in:
+    title: 第34回人工知能学会全国大会論文集, 4Rin1-64
+    date: Jun. 2020
+  peer-reviewed: true
+  oral-presentation: false
+
+- title: 身体的特徴が異なるエージェントにおける立位熟達過程の分析 -ニューロエボリューションによる進化的学習に注目して-
+  author:
+    - 山田 雅敏
+    - 高田 亮介
+    - 坂本 孝丈
+    - 竹内 勇剛
+  in:
+    title: 第34回人工知能学会全国大会論文集, 4Rin1-19
+    date: Jun. 2020
+  peer-reviewed: true
+  oral-presentation: false
+
+- title: 強化学習を通したクリーチャによる協調行動の自動獲得
+  author:
+    - 高田 亮介
+    - 竹内 勇剛
+  in:
+    title: HAIシンポジウム2020, G-7
+    date: Mar. 2020
+  peer-reviewed: false
+  oral-presentation: true
+
+- title: アクションゲームAIにおける共進化と動機づけの分析～ボンバーマンを題材として～
+  author:
+    - 高田 亮介
+  in:
+    title: 第9回サイエンス・インカレ
+    date: Mar. 2020
+  peer-reviewed: true
+  oral-presentation: true
+  note: COVID-19により大会中止
+
+- title: ニューロエボリューションによるエージェントの立位獲得過程に関する研究
+  author:
+    - 山田 雅敏
+    - 高田 亮介
+    - 竹内 勇剛
+  in:
+    title: 第8回浜松アカデミックカンファレンス
+    date: Feb. 2020
+  peer-reviewed: false
+  oral-presentation: true
+
+- title: アクションゲームの裏技を発見する自己学習手法～スーパーマリオブラザーズを題材として～
+  author:
+    - 高田 亮介
+  in:
+    title: 第8回サイエンス・インカレ
+    date: Mar. 2019
+  peer-reviewed: true
+  oral-presentation: true
+  note: 審査員特別賞 受賞
+
+- title: 無限1UPを題材としたアクションゲームの裏技を発見する自己学習手法の提案
+  author:
+    - 高田 亮介
+    - 橋本 剛
+  in:
+    title: 第39回情報処理学会ゲーム情報学研究会
+    date: Mar. 2018
+  peer-reviewed: false
+  oral-presentation: true
+  note: 若手奨励賞 受賞
+
+- title: 第1回スモウルビー甲子園優勝プログラムと将来の展望
+  author:
+    - 高田 亮介
+    - 加藤 聡
+  in:
+    title: 第58回プログラミング・シンポジウム予稿集
+    pp: 81-83
+    date: Jan. 2017
+  peer-reviewed: false
+  oral-presentation: false

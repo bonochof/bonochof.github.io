@@ -326,3 +326,20 @@ table {
 .github {
   grid-area: github;
 }
+
+.awards {
+  li {
+    &:not(&:last-child){ margin-bottom: 20px; }
+  }
+
+  li ul {
+    margin-left: 10px;
+    padding-left: 0px;
+    font-size: 90%;
+    list-style: none;
+  }
+
+  .name {
+    font-weight: bold;
+  }
+}
