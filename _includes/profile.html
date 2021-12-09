@@ -1,6 +1,6 @@
 <div class="profile">
-  <img class="image" src="/assets/images/prof.png">
-  <h1 class="fullname"><span class="{{ page.lang }}">{{ site.data.translate.profile.name[page.lang] }}</span></h1>
-  <p class="description"><span class="{{ page.lang }}">{{ site.data.translate.profile.description[page.lang] }}</span></p>
+  <div class="fullname"><h1><span class="{{ page.lang }}">{{ site.data.translate.profile.name[page.lang] }}</span></h1></div>
+  <div class="image"><img src="/assets/images/prof.png"></div>
+  <div class="description"><p><span class="{{ page.lang }}">{{ site.data.translate.profile.description[page.lang] }}</span></p></div>
   {%- include social.html -%}
 </div>

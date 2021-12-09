@@ -132,11 +132,14 @@
   font-family: $base-font-family;
   list-style: none;
   overflow: hidden;
+  @include media-query($on-palm) {
+    margin-left: 0px;
+  }
 }
 
 .social-media-list li {
   float: left;
-  @include media-query(660px) {
+  @include media-query($home-min-width) {
     float: none;
   }
 }

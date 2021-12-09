@@ -277,19 +277,27 @@ table {
     height: 200px;
     border: thick double $name-font-color;
     border-radius: 20px;
+    @include media-query($on-palm) {
+      position: relative;
+    }
   }
 
   .fullname {
     .en { font-family: $name-font-family; }
     .ja { font-family: $name-font-family-ja; }
-    font-size: 200%;
     color: $name-font-color;
+    @include media-query($on-palm) {
+      margin-left: 0px;
+    }
   }
 
   .description {
     .en { font-family: $base-font-family; }
     .ja { font-family: $base-font-family-ja; }
     font-size: 120%;
+    @include media-query($on-palm) {
+      margin-left: 0px;
+    }
   }
 }
 
@@ -300,7 +308,7 @@ table {
     "youtube youtube"
     "github github";
   grid-template-columns: 2fr 1fr;
-  @include media-query(660px) {
+  @include media-query($home-min-width) {
     grid-template-areas:
       "facebook"
       "twitter"
