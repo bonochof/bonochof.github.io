@@ -9,3 +9,4 @@ youtube_username: UCF8ViNqQffiG0WvSjP-bfNQ
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
