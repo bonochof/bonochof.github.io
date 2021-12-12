@@ -15,7 +15,8 @@
     - 坂本 孝丈
     - 竹内 勇剛
   in:
-    title: 第35回人工知能学会全国大会論文集, 3I2-GS-5e-03
+    title: 第35回人工知能学会全国大会論文集
+    p-no: 3I2-GS-5e-03
     date: Jun. 2021
   peer-reviewed: true
   oral-presentation: true
@@ -26,7 +27,8 @@
     - 坂本 孝丈
     - 竹内 勇剛
   in:
-    title: HAIシンポジウム2021, G-20
+    title: HAIシンポジウム2021
+    p-no: G-20
     date: Mar. 2021
   peer-reviewed: false
   oral-presentation: true
@@ -61,7 +63,8 @@
     - 高田 亮介
     - 竹内 勇剛
   in:
-    title: 第34回人工知能学会全国大会論文集, 4Rin1-64
+    title: 第34回人工知能学会全国大会論文集
+    p-no: 4Rin1-64
     date: Jun. 2020
   peer-reviewed: true
   oral-presentation: false
@@ -73,7 +76,8 @@
     - 坂本 孝丈
     - 竹内 勇剛
   in:
-    title: 第34回人工知能学会全国大会論文集, 4Rin1-19
+    title: 第34回人工知能学会全国大会論文集
+    p-no: 4Rin1-19
     date: Jun. 2020
   peer-reviewed: true
   oral-presentation: false
@@ -83,7 +87,8 @@
     - 高田 亮介
     - 竹内 勇剛
   in:
-    title: HAIシンポジウム2020, G-7
+    title: HAIシンポジウム2020
+    p-no: G-7
     date: Mar. 2020
   peer-reviewed: false
   oral-presentation: true
