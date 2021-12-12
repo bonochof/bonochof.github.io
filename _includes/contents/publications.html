@@ -7,7 +7,7 @@
   <li><span class="title">{{ data.title }}</span>
     <ul>{%- for a in data.author -%}<li class="author">{{ a }}</li>{%- endfor -%}</ul>
     <ul>{%- if data.in.title -%}<li class="info">{{ data.in.title }}</li>{%- endif -%}{%- if data.in.vol -%}<li class="info">Vol. {{ data.in.vol }}</li>{%- endif -%}{%- if data.in.no -%}<li class="info">No. {{ data.in.no }}</li>{%- endif -%}{%- if data.in.pp -%}<li class="info">pp. {{ data.in.pp }}</li>{%- endif -%}{%- if data.in.date -%}<li class="info">{{ data.in.date }}</li>{%- endif -%}</ul>
-    <ul>{%- if data.peer-reviewed -%}<li class="detail">{%- if page.lang == 'ja' -%}(査読有り){%- else -%}(peer-reviewed){%- endif -%}</li>{%- endif -%}</ul>
+    <ul><li class="detail">{%- if data.refereed -%}{%- if page.lang == 'ja' -%}(査読有り){%- else -%}(refereed){%- endif -%}{%- else -%}{%- if page.lang == 'ja' -%}(査読無し){%- else -%}(unrefereed){%- endif -%}{%- endif -%}</li></ul>
   </li>
 {%- endfor -%}
 </ul>
@@ -19,7 +19,7 @@
   <li><span class="title">{{ data.title }}</span>
     <ul>{%- for a in data.author -%}<li class="author">{{ a }}</li>{%- endfor -%}</ul>
     <ul>{%- if data.in.title -%}<li class="info">{{ data.in.title }}</li>{%- endif -%}{%- if data.in.vol -%}<li class="info">Vol. {{ data.in.vol }}</li>{%- endif -%}{%- if data.in.no -%}<li class="info">No. {{ data.in.no }}</li>{%- endif -%}{%- if data.in.pp -%}<li class="info">pp. {{ data.in.pp }}</li>{%- endif -%}{%- if data.in.p-no -%}<li class="info">{{ data.in.p-no }}</li>{%- endif -%}{%- if data.in.date -%}<li class="info">{{ data.in.date }}</li>{%- endif -%}</ul>
-    <ul>{%- if data.peer-reviewed -%}<li class="detail">{%- if page.lang == 'ja' -%}(査読有り){%- else -%}(peer-reviewed){%- endif -%}</li>{%- endif -%}<li class="detail">{%- if data.oral-presentation -%}{%- if page.lang == 'ja' -%}(口頭発表){%- else -%}(oral presentation){%- endif -%}{%- else -%}{%- if page.lang == 'ja' -%}(ポスター発表){%- else -%}(poster presentation){%- endif -%}{%- endif -%}</li>{%- if data.note -%}<li class="detail">({{ data.note }})</li>{%- endif -%}</ul>
+    <ul><li class="detail">{%- if data.refereed -%}{%- if page.lang == 'ja' -%}(査読有り){%- else -%}(refereed){%- endif -%}{%- else -%}{%- if page.lang == 'ja' -%}(査読無し){%- else -%}(unrefereed){%- endif -%}{%- endif -%}</li><li class="detail">{%- if data.oral-presentation -%}{%- if page.lang == 'ja' -%}(口頭発表){%- else -%}(oral presentation){%- endif -%}{%- else -%}{%- if page.lang == 'ja' -%}(ポスター発表){%- else -%}(poster presentation){%- endif -%}{%- endif -%}</li>{%- if data.note -%}<li class="detail">({{ data.note }})</li>{%- endif -%}</ul>
   </li>
 {%- endfor -%}
 </ul>
@@ -31,7 +31,7 @@
   <li><span class="title">{{ data.title }}</span>
     <ul>{%- for a in data.author -%}<li class="author">{{ a }}</li>{%- endfor -%}</ul>
     <ul>{%- if data.in.title -%}<li class="info">{{ data.in.title }}</li>{%- endif -%}{%- if data.in.vol -%}<li class="info">Vol. {{ data.in.vol }}</li>{%- endif -%}{%- if data.in.no -%}<li class="info">No. {{ data.in.no }}</li>{%- endif -%}{%- if data.in.pp -%}<li class="info">pp. {{ data.in.pp }}</li>{%- endif -%}{%- if data.in.p-no -%}<li class="info">{{ data.in.p-no }}</li>{%- endif -%}{%- if data.in.date -%}<li class="info">{{ data.in.date }}</li>{%- endif -%}</ul>
-    <ul>{%- if data.peer-reviewed -%}<li class="detail">{%- if page.lang == 'ja' -%}(査読有り){%- else -%}(peer-reviewed){%- endif -%}</li>{%- endif -%}<li class="detail">{%- if data.oral-presentation -%}{%- if page.lang == 'ja' -%}(口頭発表){%- else -%}(oral presentation){%- endif -%}{%- else -%}{%- if page.lang == 'ja' -%}(ポスター発表){%- else -%}(poster presentation){%- endif -%}{%- endif -%}</li>{%- if data.note -%}<li class="detail">({{ data.note }})</li>{%- endif -%}</ul>
+    <ul><li class="detail">{%- if data.refereed -%}{%- if page.lang == 'ja' -%}(査読有り){%- else -%}(refereed){%- endif -%}{%- else -%}{%- if page.lang == 'ja' -%}(査読無し){%- else -%}(unrefereed){%- endif -%}{%- endif -%}</li><li class="detail">{%- if data.oral-presentation -%}{%- if page.lang == 'ja' -%}(口頭発表){%- else -%}(oral presentation){%- endif -%}{%- else -%}{%- if page.lang == 'ja' -%}(ポスター発表){%- else -%}(poster presentation){%- endif -%}{%- endif -%}</li>{%- if data.note -%}<li class="detail">({{ data.note }})</li>{%- endif -%}</ul>
   </li>
 {%- endfor -%}
 </ul>

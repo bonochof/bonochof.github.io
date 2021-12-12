@@ -6,7 +6,7 @@
     title: Proceedings of the 7th International Conference on Human-Agent Interaction
     pp: 220-222
     date: Oct. 2019
-  peer-reviewed: true
+  refereed: true
   oral-presentation: true
 
 - title: Design of Cooperative Interaction between Humans and Agents through Reinforcement Learning
@@ -16,7 +16,7 @@
   in:
     title: Next Generation Human-Agent Interaction Workshop
     date: Oct. 2019
-  peer-reviewed: false
+  refereed: false
   oral-presentation: true
 
 - title: Learning Method to Discover Secret Tricks Using Reinforcement Learning
@@ -26,5 +26,5 @@
   in:
     title: NIT-NUU Bilateral Academic Conference
     date: Jul. 2018
-  peer-reviewed: true
+  refereed: true
   oral-presentation: true
