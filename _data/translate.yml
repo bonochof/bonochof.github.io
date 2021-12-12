@@ -15,6 +15,9 @@ about:
   title:
     en: About
     ja: プロフィール
+  description:
+    en: Ryosuke Takata was born in 1997. He is in the Department of Informatics, Graduate School of Integrated Science and Technology at the Shizuoka University.
+    ja: 1997年4月27日生まれ．島根県松江市出身．マルチエージェント系，強化学習，人工生命，ゲーム情報学に興味を持つ．
   education:
     en: Educational History
     ja: 学歴
