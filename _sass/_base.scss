@@ -351,3 +351,33 @@ table {
     font-weight: bold;
   }
 }
+
+.publications {
+  .title {
+    font-weight: bold;
+  }
+
+  .author {
+    display: inline-block;
+    &:not(:last-child)::after {
+      content: ',';
+      margin-right: 8px;
+    }
+  }
+
+  .info {
+    display: inline-block;
+    &:not(:last-child)::after {
+      content: ',';
+      margin-right: 8px;
+    }
+  }
+
+  .detail {
+    display: inline-block;
+    &:not(:last-child)::after {
+      content: '';
+      margin-right: 10px;
+    }
+  }
+}
