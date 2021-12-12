@@ -348,6 +348,30 @@ table {
   }
 }
 
+.programming {
+  ul {
+    &:last-child{ margin-bottom: 20px; }
+  }
+
+  li ul {
+    margin-left: 10px;
+    padding-left: 0px;
+    font-size: 90%;
+  }
+
+  .lang {
+    font-weight: bold;
+  }
+
+  .info {
+    display: inline-block;
+    &:not(:last-child)::after {
+      content: ',';
+      margin-right: 8px;
+    }
+  }
+}
+
 .publications {
   li ul {
     margin-left: 10px;

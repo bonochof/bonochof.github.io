@@ -45,6 +45,12 @@ about:
   awards:
     en: Awards
     ja: 受賞
+  programming:
+    en: Programming Skills
+    ja: プログラミング
+    others:
+      en: Others
+      ja: その他
 
 publications:
   title:
