@@ -349,6 +349,12 @@ table {
 }
 
 .publications {
+  li ul {
+    margin-left: 10px;
+    padding-left: 0px;
+    font-size: 90%;
+  }
+
   .title {
     font-weight: bold;
   }
@@ -371,6 +377,7 @@ table {
 
   .detail {
     display: inline-block;
+    margin-bottom: 20px;
     &:not(:last-child)::after {
       content: '';
       margin-right: 10px;
