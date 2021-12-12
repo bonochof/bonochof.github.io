@@ -15,9 +15,6 @@ dl, dd, ol, ul, figure {
  */
 body {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
-  &:lang(ja) {
-    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family-ja;
-  }
   color: $text-color;
   background-color: $background-color;
   -webkit-text-size-adjust: 100%;
@@ -97,8 +94,7 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-  .en { font-family: $head-font-family; }
-  .ja { font-family: $head-font-family-ja; }
+  font-family: $head-font-family;
   font-weight: $base-font-weight;
   color: $head-font-color;
 }
@@ -283,17 +279,17 @@ table {
   }
 
   .fullname {
-    .en { font-family: $name-font-family; }
-    .ja { font-family: $name-font-family-ja; }
+    font-family: $name-font-family;
+    font-size: xx-large;
     color: $name-font-color;
+    margin-bottom: 20px;
     @include media-query($on-palm) {
       margin-left: 0px;
     }
   }
 
   .description {
-    .en { font-family: $base-font-family; }
-    .ja { font-family: $base-font-family-ja; }
+    margin-top: 20px;
     font-size: 120%;
     @include media-query($on-palm) {
       margin-left: 0px;

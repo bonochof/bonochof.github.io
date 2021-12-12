@@ -6,33 +6,24 @@
 
 $kabairo: #cd5e3c;
 
-//--- Default (English) Font ---//
+//--- Font ---//
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
-$base-font-family: 'Ubuntu Condensed', sans-serif; //-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+@import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap');
+$base-font-family: 'Ubuntu Condensed', 'Kosugi Maru', sans-serif;
 $base-font-size:   16px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
 
-//@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tourney:wght@500&display=swap');
-$head-font-family: 'Tourney', cursive; //'Rampart One', cursive;
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+$head-font-family: 'Tourney', 'Yusei Magic', cursive;
 $head-font-color: $kabairo;
 
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-$name-font-family: 'Press Start 2P', cursive;
-$name-font-color: $kabairo;
-
-//--- Japanese Font ---//
-@import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap');
-$base-font-family-ja: 'Kosugi Maru', sans-serif;
-
-//@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
-$head-font-family-ja: 'Yusei Magic', sans-serif; //'M PLUS Rounded 1c', sans-serif;
-
 @import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@900&display=swap');
-$name-font-family-ja: 'Zen Maru Gothic', sans-serif;
+$name-font-family: 'Press Start 2P', 'Zen Maru Gothic', cursive;
+$name-font-color: $kabairo;
 
 $spacing-unit:     30px !default;
 

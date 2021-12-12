@@ -38,15 +38,12 @@
   }
 
   .page-link {
-    font-family: $base-font-family;
     color: $text-color;
     line-height: $base-line-height;
     margin-right: 20px;
   }
 
   .translate {
-    .en { font-family: $base-font-family-ja; }
-    .ja { font-family: $base-font-family; }
     color: $background-color;
     padding: 8px;
     background-color: $kabairo;

@@ -1,6 +1,6 @@
-<h1><span class="{{ page.lang }}">{{ site.data.translate.about.title[page.lang] }}</span></h1>
+<h1>{{ site.data.translate.about.title[page.lang] }}</h1>
 
-<h2><span class="{{ page.lang }}">{{ site.data.translate.about.education[page.lang] }}</span></h2>
+<h2>{{ site.data.translate.about.education[page.lang] }}</h2>
 
 |{{ site.data.translate.about.education.year[page.lang] }}|{{ site.data.translate.about.education.education[page.lang] }}|
 |----------|------------------------------------------------------------------|
@@ -9,7 +9,7 @@
 |2013--2018|{{ site.data.translate.about.education.kosen[page.lang] }}        |
 
 <!--
-<h2><span class="{{ page.lang }}">{{ site.data.translate.about.activity[page.lang] }}</span></h2>
+<h2>{{ site.data.translate.about.activity[page.lang] }}</h2>
 
 <div class="activity">
   <select id="activity-view-num" onchange="change_table();">
@@ -28,7 +28,7 @@
 <script type="text/javascript" src="{{ '/assets/js/main.js' | relative_url }}">
 -->
 
-<h2><span class="{{ page.lang }}">{{ site.data.translate.about.awards[page.lang] }}</span></h2>
+<h2>{{ site.data.translate.about.awards[page.lang] }}</h2>
 
 <ul class="awards">
 {%- for data in site.data.awards -%}
