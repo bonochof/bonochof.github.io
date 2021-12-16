@@ -47,3 +47,11 @@
   </li>
 {%- endfor -%}
 </ul>
+
+<h2>{{ site.data.translate.publications.awards[page.lang] }}</h2>
+
+<ul class="awards">
+{%- for data in site.data.publications.awards -%}
+  <li>{{ data.title }}: <span class="name">{{ data.award }}</span><ul><li>{{ data.date }}</li></ul></li>
+{%- endfor -%}
+</ul>
