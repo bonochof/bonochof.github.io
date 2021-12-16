@@ -331,23 +331,6 @@ table {
   grid-area: github;
 }
 
-.awards {
-  li {
-    &:not(&:last-child){ margin-bottom: 20px; }
-  }
-
-  li ul {
-    margin-left: 10px;
-    padding-left: 0px;
-    font-size: 90%;
-    list-style: none;
-  }
-
-  .name {
-    font-weight: bold;
-  }
-}
-
 .programming {
   ul {
     &:last-child{ margin-bottom: 20px; }
@@ -377,6 +360,9 @@ table {
     margin-left: 10px;
     padding-left: 0px;
     font-size: 90%;
+    &:last-child {
+      margin-bottom: 20px;
+    }
   }
 
   .title {
@@ -401,10 +387,19 @@ table {
 
   .detail {
     display: inline-block;
-    margin-bottom: 20px;
     &:not(:last-child)::after {
       content: '';
       margin-right: 10px;
+    }
+  }
+
+  .award {
+    font-size: 110%;
+    font-weight: bold;
+    display: inline-block;
+    &:not(:last-child)::after {
+      content: ',';
+      margin-right: 8px;
     }
   }
 }

@@ -57,17 +57,23 @@ publications:
     en: Publications
     ja: 業績
   journals:
-    en: Journals
+    en: Journal Papers
     ja: 学術論文
   conferences:
-    en: International Conferences
+    en: International Conference Papers
     ja: 国際会議における発表
   ja-conferences:
-    en: Internal Conferences
+    en: Domestic Conference Papers
     ja: 国内学会・シンポジウムにおける発表
   invite:
     en: Invited Talks
     ja: 招待講演
+  grants:
+    en: Grants
+    ja: 研究助成
+  dissertations:
+    en: Dissertations
+    ja: 学位論文
   awards:
     en: Awards
     ja: 受賞
