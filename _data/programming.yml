@@ -1,30 +1,28 @@
 - lang: C
   start: 2013
-  memo: 高専1年生の授業でHello Worldした　なんでもできる
+  memo-key: c
 
 - lang: Ruby
   start: 2015
-  memo: 1番好きな言語　なぜならRubyCity出身なので
+  memo-key: ruby
 
 - lang: Python
   start: 2016
-  memo: 研究でお世話になってる　機械学習とか分析とか
+  memo-key: python
 
 - lang: Java
   start: 2016
-  memo: オブジェクト指向はこれで学んだ　高専の卒研でのメイン言語
+  memo-key: java
 
 - lang: C#
   start: 2018
-  memo: 研究・業務で使用中
+  memo-key: cs
 
 - others:
-  -
-    - JavaScript
-    - C++
-    - PHP
-    - LISP
-    - Prolog
-    - Objective-C
-    - SQL
-  - memo: すべてアプリ・システム開発経験有り
+  - JavaScript
+  - C++
+  - PHP
+  - LISP
+  - Prolog
+  - Objective-C
+  - SQL

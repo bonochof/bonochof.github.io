@@ -48,9 +48,27 @@ about:
   programming:
     en: Programming Skills
     ja: プログラミング
+    c:
+      en: Since my first year of technical college.
+      ja: 高専1年生の授業でHello Worldした　なんでもできる
+    ruby:
+      en: It is my favorite programming language.
+      ja: 1番好きな言語　なぜならRubyCity出身なので
+    python:
+      en: Often used for analysis in research.
+      ja: 研究でお世話になってる　機械学習とか分析とか
+    java:
+      en: This is how I learned the basics of object orientation.
+      ja: オブジェクト指向はこれで学んだ　高専の卒研でのメイン言語
+    cs:
+      en: Frequent use in research and work.
+      ja: 研究・業務で使用中
     others:
       en: Others
       ja: その他
+      memo:
+        en: All have experience in application and system development.
+        ja: すべてアプリ・システム開発経験有り
 
 publications:
   title:

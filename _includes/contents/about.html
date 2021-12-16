@@ -36,11 +36,11 @@
 {%- for data in site.data.programming -%}
   {%- if data.lang -%}<li><span class="lang">{{ data.lang }}</span>
     {%- if data.start -%}<ul><li class="info">{{ data.start }}{%- if page.lang == 'ja' -%}年{%- endif -%}～</li></ul>{%- endif -%}
-    {%- if data.memo -%}<ul><li class="info">{{ data.memo }}</li></ul>{%- endif -%}
+    {%- if data.memo-key -%}<ul><li class="info">{{ site.data.translate.about.programming[data.memo-key][page.lang] }}</li></ul>{%- endif -%}
   </li>{%- endif -%}
 {%- endfor -%}
 <li>{{ site.data.translate.about.programming.others[page.lang] }}
-  <ul>{%- for data in site.data.programming.last.others.first -%}<li class="info"><span class="lang">{{ data }}</span></li>{%- endfor -%}</ul>
-  {%- if site.data.programming.last.others.last.memo -%}<ul><li class="info">{{ site.data.programming.last.others.last.memo }}</li></ul>{%- endif -%}
+  <ul>{%- for data in site.data.programming.last.others -%}<li class="info"><span class="lang">{{ data }}</span></li>{%- endfor -%}</ul>
+  <ul><li class="info">{{ site.data.translate.about.programming.others.memo[page.lang] }}</li></ul>
 </li>
 </ul>
