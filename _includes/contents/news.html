@@ -9,7 +9,7 @@
   <table id="news-table"><tbody>
     <tr><th>{{ site.data.translate.news.date[page.lang] }}</th><th>{{ site.data.translate.news.description[page.lang] }}</th></tr>
     {% for item in site.data.news %}
-      <tr><td>{{ item.date }}</td><td>{{ item.description }}</td></tr>
+      <tr><td>{{ item.date }}</td><td>{{ item.description[page.lang] }}</td></tr>
     {% endfor %}
   </tbody></table>
 </div>

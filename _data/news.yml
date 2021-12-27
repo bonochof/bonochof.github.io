@@ -1,24 +1,152 @@
-- date: 2020-01-01
-  description: hogehoge
-- date: 2020-01-01
-  description: hogehoge
-- date: 2020-01-01
-  description: hogehoge
-- date: 2020-01-01
-  description: hogehoge
-- date: 2020-01-01
-  description: hogehoge
-- date: 2020-01-01
-  description: hogehoge
-- date: 2020-01-01
-  description: hogehoge
-- date: 2020-01-01
-  description: hogehoge
-- date: 2020-01-01
-  description: hogehoge
-- date: 2020-01-01
-  description: hogehoge
-- date: 2020-01-01
-  description: hogehoge
-- date: 2020-01-01
-  description: hogehoge
+- date: 2021.12.23
+  description:
+    en: He received an <span style="color:maroon;font-weight:bold">Outstanding Achievement Award</span> at Shizuoka University and was exempted from paying tuition for the second semester. The article is <a href="https://www.shizuoka.ac.jp/news/detail.html?CN=7777" target="_blank">here</a>.
+    ja: 静岡大学における<span style="color:maroon;font-weight:bold">成績優秀者賞</span>を受賞し，後期授業料が全額免除．記事は<a href="https://www.shizuoka.ac.jp/news/detail.html?CN=7777" target="_blank">こちら</a>．
+- date: 2021.09.03-2021.09.05
+  description:
+    en: Oral presentation (online) at the 38th Annual Meeting of the Japanese Cognitive Science Society.
+    ja: 日本認知科学会第38回大会にて口頭発表（オンライン）．
+- date: 2021.06.08-2021.06.11
+  description:
+    en: Oral presentation (online) at the 35th Annual Conference of the Japanese Society for Artificial Intelligence.
+    ja: 第35回人工知能学会全国大会にて口頭発表（オンライン）．
+- date: 2021.03.17-2021.05.28
+  description:
+    en: The work passed the first screening (idea solicitation), the second screening (work submission), and won the <span style="color:maroon;font-weight:bold">Special Jury Award</span> at the final judging session of the toio Do! contest. The award-winning work is <a href="https://protopedia.net/prototype/2249" target="_blank">here</a>. And <a href="https://www.youtube.com/watch?v=cExEaZXYN9M&t=5262" target="_blank">here</a> is the judging process.
+    ja: toioの「Do!コン」にて，第一次審査（アイデア公募），第二次審査（作品応募）を通過し，最終審査会で<span style="color:maroon;font-weight:bold">審査員特別賞</span>を受賞．受賞した作品は<a href="https://protopedia.net/prototype/2249" target="_blank">こちら</a>．審査の様子は<a href="https://www.youtube.com/watch?v=cExEaZXYN9M&t=5262" target="_blank">こちら</a>．
+- date: 2021.03.09-2021.03.10
+  description:
+    en: Oral presentation (online) at the HAI Symposium 2021. And He received the <span style="color:maroon;font-weight:bold">Student Encouragement Award</span>.
+    ja: HAIシンポジウム2021にて口頭発表（オンライン）．<span style="color:maroon;font-weight:bold">Student Encouragement Award</span>を受賞．
+- date: 2020.12.03
+  description:
+    en: He won the <span style="color:maroon;font-weight:bold">Special Jury Award</span> for his YouTube video in the "Let's Do Robots! toio & Unity Movie Contest." The winning video is <a href="https://youtu.be/K_u8gzbbgoA" target="_blank">here</a>.
+    ja: ロボットやろうぜ！ - toio & Unity 作品動画コンテスト -にて，YouTubeに投稿した動画が<span style="color:maroon;font-weight:bold">審査員特別賞</span>を受賞．受賞した動画は<a href="https://youtu.be/K_u8gzbbgoA" target="_blank">こちら</a>．
+- date: 2020.11.07
+  description:
+    en: Participated in the 3rd Shizuoka Tech Plan Grand Prix with the HAI-NE team. The team won the <span style="color:maroon;font-weight:bold">Grand Prize</span> (300,000 yen), the <span style="color:maroon;font-weight:bold">Yamaha Motor Prize</span> (100,000 yen), and the <span style="color:maroon;font-weight:bold">Hamamatsu Iwata Shinkin Bank Prize</span> (100,000 yen). The article is <a href="https://www.inf.shizuoka.ac.jp/news/detail.html?CN=154496" target="_blank">here</a>.
+    ja: 第3回静岡テックプラングランプリにHAI-NE（ハイネ）チームで出場．<span style="color:maroon;font-weight:bold">最優秀賞</span>（賞金30万円），<span style="color:maroon;font-weight:bold">ヤマハ発動機賞</span>（賞金10万円），<span style="color:maroon;font-weight:bold">浜松いわた信用金庫賞</span>（賞金10万円）のトリプル受賞．記事は<a href="https://www.inf.shizuoka.ac.jp/news/detail.html?CN=154496" target="_blank">こちら</a>．
+- date: 2020.10.17-2020.10.18
+  description:
+    en: Oral presentation (online) at Human Interface Cyber Colloquium. Received the <span style="color:maroon;font-weight:bold">Best Presentation Award</span>.
+    ja: ヒューマンインタフェースサイバーコロキウムにて口頭発表（オンライン）．<span style="color:maroon;font-weight:bold">優秀発表賞</span>を受賞．
+- date: 2020.09.17-2020.09.19
+  description:
+    en: Poster presentation (online) at the 37th Annual Meeting of the Japanese Cognitive Science Society.
+    ja: 日本認知科学会第37回大会にてポスター発表（オンライン）．
+- date: 2020.06.09-2020.06.12
+  description:
+    en: Poster presentation (online) at the 34th Annual Conference of the Japanese Society for Artificial Intelligence.
+    ja: 第34回人工知能学会全国大会にてポスター発表（オンライン）．
+- date: 2020.03.06-2020.03.07
+  description:
+    en: Oral presentation at the HAI Symposium 2020 (this meeting was cancelled due to the COVID-19, and the presentation was made at an online meeting by volunteers).
+    ja: HAIシンポジウム2020にて口頭発表（新型コロナウイルスの影響で本大会は中止，有志によるオンライン発表会で発表）．
+- date: 2020.02.29-2020.03.01
+  description:
+    en: Oral presentation as a finalist at the 9th Science Intercollegiate Meeting (this meeting was cancelled due to the COVID-19, and the presentation was made at an online meeting by volunteers).
+    ja: 第9回サイエンス・インカレにてファイナリストとして口頭発表（新型コロナウイルスの影響で本大会は中止，有志によるオンライン発表会で発表）．
+- date: 2019.12.12
+  description:
+    en: He received an <span style="color:maroon;font-weight:bold">Outstanding Achievement Award</span> at Shizuoka University and was exempted from paying tuition for the second semester. The article is <a href="https://www.shizuoka.ac.jp/news/detail.html?CN=6136" target="_blank">here</a>.
+    ja: 静岡大学における<span style="color:maroon;font-weight:bold">成績優秀者賞</span>を受賞し，後期授業料が全額免除．記事は<a href="https://www.shizuoka.ac.jp/news/detail.html?CN=6136" target="_blank">こちら</a>．
+- date: 2019.10.06-2019.10.10
+  description:
+    en: Oral and poster presentations at the international conference HAI2019.
+    ja: 国際会議HAI2019にて口頭発表及びポスター発表．
+- date: 2019.08.21
+  description:
+    en: Participated in Hack U 2019 NAGOYA, a student hackathon organized by Yahoo! JAPAN.
+    ja: Yahoo! JAPAN主催の学生ハッカソン Hack U 2019 NAGOYA に参加．
+- date: 2019.03.02-2019.03.03
+  description:
+    en: Oral presentation as a finalist at the 8th Science Intercollegiate. And received the <span style="color:maroon;font-weight:bold">Special Jury Award</span> (50,000 yen). The article is <a href="http://www.inf.shizuoka.ac.jp/news/detail.html?CN=154274" target="_blank">here</a>.
+    ja: 第8回サイエンス・インカレにてファイナリストとして口頭発表．<span style="color:maroon;font-weight:bold">審査員特別賞</span>（賞金5万円）を受賞．記事は<a href="http://www.inf.shizuoka.ac.jp/news/detail.html?CN=154274" target="_blank">こちら</a>．
+- date: 2018.12.15
+  description:
+    en: Participated in the "Regional Development in Shizuoka - Realization of Regional Development through Apps" Hackathon. Won the <span style="color:maroon;font-weight:bold">Special Jury Award</span>. The article is <a href="http://www.inf.shizuoka.ac.jp/news/detail.html?CN=154258" target="_blank">here</a>.
+    ja: 地域づくりin静岡～アプリで実現する地方創生～ハッカソンに参加．<span style="color:maroon;font-weight:bold">審査員特別賞</span>を受賞．記事は<a href="http://www.inf.shizuoka.ac.jp/news/detail.html?CN=154258" target="_blank">こちら</a>．
+- date: 2018.09.29
+  description:
+    en: Participated in the "Regional Development in Shizuoka - Realization of Regional Development through Apps" ideathon. Won the <span style="color:maroon;font-weight:bold">Unique Idea Award</span>. The article is <a href="http://www.inf.shizuoka.ac.jp/news/detail.html?CN=154235" target="_blank">here</a>.
+    ja: 地域づくりin静岡～アプリで実現する地方創生～アイデアソンに参加．<span style="color:maroon;font-weight:bold">ユニーク・アイデア賞</span>を受賞．記事は<a href="http://www.inf.shizuoka.ac.jp/news/detail.html?CN=154235" target="_blank">こちら</a>．
+- date: 2018.03.16
+  description:
+    en: At the graduation ceremony of National Institute of Technology, Matsue College, he recieved <span style="color:maroon;font-weight:bold">The Institute of Electrical and Information Engineers Award</span>, the <span style="color:maroon;font-weight:bold">Distinguished Service Award</span>, the <span style="color:maroon;font-weight:bold">Outstanding Achievement Award</span>, and the <span style="color:maroon;font-weight:bold">Outstanding Graduate Student Award</span>.
+    ja: 松江高専卒業式にて，<span style="color:maroon;font-weight:bold">電気情報学会賞</span>，<span style="color:maroon;font-weight:bold">功労賞</span>，<span style="color:maroon;font-weight:bold">優秀成績賞</span>，及び<span style="color:maroon;font-weight:bold">優秀卒業学生表彰</span>．
+- date: 2018.03.02-2018.03.03
+  description:
+    en: Oral presentation at the 39th Annual Conference on Game Informatics. Received the <span style="color:maroon;font-weight:bold">Young Scientist Encouragement Award</span>. The article is <a href="http://www.matsue-ct.jp/it/index.php/48-topics/topics2017b/311-topics20180327" target="_blank">here</a>.
+    ja: 第39回ゲーム情報学研究会にて口頭発表．<span style="color:maroon;font-weight:bold">若手奨励賞</span>を受賞．記事は<a href="http://www.matsue-ct.jp/it/index.php/48-topics/topics2017b/311-topics20180327" target="_blank">こちら</a>．
+- date: 2017.03.25
+  description:
+    en: Talked with Matz and Ayaka Ikezawa at the talk session of the 2nd Smalruby Programming Koshien.
+    ja: 第2回スモウルビー・プログラミング甲子園のトークセッションにて，まつもとゆきひろさん，池澤あやかさんと対談．
+- date: 2017.01.06-2017.01.08
+  description:
+    en: Poster presentation at the 58th Programming Symposium.
+    ja: 第58回プログラミング・シンポジウムにてポスター発表．
+- date: 2016.11.26-2016.11.27
+  description:
+    en: Participated in "Challenge with RESAS-API! Hackathon for Regional Development in Shimane".
+    ja: RESAS-APIでチャレンジ！島根の地方創生ハッカソンに参加．
+- date: 2016.09.24
+  description:
+    en: Individual and group exhibits at the student zone exhibition booth at Open Source Conference 2016 Shimane.
+    ja: オープンソースカンファレンス2016 Shimaneの学生ゾーン展示ブースにて個人出展及び団体出展．
+- date: 2016.09.17
+  description:
+    en: Lectured at the Smalruby Programming Koshien Experience Seminar held at Matsue Open Source Lab.
+    ja: 松江オープンソースラボで開催されたスモウルビー・プログラミング甲子園体験セミナーにて講演．
+- date: 2016.09.10-2016.09.11
+  description:
+    en: Participated in the Hiyaoroshi GO hackathon held at the old house "Fujinbo".
+    ja: 古民家「風神坊」で開催されたひやおろしGO ハッカソンに参加．
+- date: 2016.08.29-2016.09.09
+  description:
+    en: Participated in an internship at the Network Applied Communication Laboratory.
+    ja: ネットワーク応用通信研究所のインターンシップに参加．
+- date: 2016.08.21
+  description:
+    en: He won 1st place in the 100m breaststroke and 1st place in the 200m breaststroke at the 51st National Institute of Technology Championships. He also received a <span style="color:maroon;font-weight:bold">special commendation from the National College of Technology Athletic Meet</span> for winning the 100m breaststroke for three consecutive years.
+    ja: 第51回全国高専大会にて，100m平泳ぎ1位，200m平泳ぎ1位．100m平泳ぎ3年連続優勝により<span style="color:maroon;font-weight:bold">全国高等専門学校体育大会特別表彰</span>．
+- date: 2016.03.26
+  description:
+    en: He participated in the finals of the first Smalruby Programming Koshien and <span style="color:maroon;font-weight:bold">won</span>. The article is <a href="https://www.matsue-ct.jp/it/index.php/44-topics/topics2015b/277-topics20160327" target="_blank">here</a>.
+    ja: 第1回スモウルビー・プログラミング甲子園の決勝大会に出場し，<span style="color:maroon;font-weight:bold">優勝</span>．記事は<a href="https://www.matsue-ct.jp/it/index.php/44-topics/topics2015b/277-topics20160327" target="_blank">こちら</a>．
+- date: 2016.02.29-2016.03.04
+  description:
+    en: Participated in a Ruby camp and developed and presented a game using Arduino.
+    ja: Ruby合宿に参加し，Arduinoを用いたゲームを開発・発表．
+- date: 2016.02.21
+  description:
+    en: Participated in the 164th Western Honshu Indoor Swimming Competition. Won the <span style="color:maroon;font-weight:bold">Outstanding Athlete Award</span> at the last swimming competition in high school.
+    ja: 第164回中国室内水泳競技大会に出場．高校最後の水泳大会で<span style="color:maroon;font-weight:bold">優秀選手賞</span>を受賞．
+- date: 2016.01.11
+  description:
+    en: Received the <span style="color:maroon;font-weight:bold">Outstanding Athlete Award</span> at a ceremony in Matsue City.
+    ja: 松江市の選手表彰式にて，水泳の<span style="color:maroon;font-weight:bold">優秀選手賞</span>を受賞．
+- date: 2015.08.30
+  description:
+    en: He won 1st place in 100m breaststroke and 1st place in 200m breaststroke at the 50th National Institute of Technology Championships.
+    ja: 第50回全国高専大会にて，100m平泳ぎ1位，200m平泳ぎ1位．
+- date: 2015.07.12
+  description:
+    en: He won the prefectural championships (1st place in the prefecture) in the 100m breaststroke and 200m breaststroke at the Shimane Prefectural Swimming Championships. The article is <a href="http://shimane-suiren.jp/publics/index/1/detail=1/b_id=5/r_id=129#block5-129" target="_blank">here</a>.
+    ja: 平成27年度島根県選手権水泳競技大会にて，100m平泳ぎ及び200m平泳ぎで県選手権（県内1位）を獲得．記事は<a href="http://shimane-suiren.jp/publics/index/1/detail=1/b_id=5/r_id=129#block5-129" target="_blank">こちら</a>．
+- date: 2014.08.24
+  description:
+    en: He won 1st place in 100m breaststroke, 2nd place in 200m breaststroke at the 49th National Institute of Technology Championships.
+    ja: 第49回全国高専大会にて，100m平泳ぎ1位，200m平泳ぎ2位．
+- date: 2014.07.13
+  description:
+    en: He won the prefectural championship (1st place in the prefecture) in the 100m breaststroke at the Shimane Prefectural Swimming Championships. The article is <a href="http://shimane-suiren.jp/publics/index/1/detail=1/b_id=5/r_id=90#block5-90" target="_blank">here</a>.
+    ja: 平成26年度島根県選手権水泳競技大会にて，100m平泳ぎで県選手権（県内1位）を獲得．記事は<a href="http://shimane-suiren.jp/publics/index/1/detail=1/b_id=5/r_id=90#block5-90" target="_blank">こちら</a>．
+- date: 2012.11.28
+  description:
+    en: Oral presentation as a representative of a junior high school in the Shimane Research and Study Presentation Contest, and won the <span style="color:maroon;font-weight:bold">Excellence Award</span>.
+    ja: しまね調べ学習プレゼンテーションコンテストにて中学校代表で口頭発表し，<span style="color:maroon;font-weight:bold">優秀賞</span>を受賞．
+- date: 2011.09.02
+  description:
+    en: Oral presentation as a representative of a junior high school at the 2011 Juvenile Claims Matsue Convention, and won the <span style="color:maroon;font-weight:bold">Excellence Award</span>.
+    ja: 平成23年度少年の主張 松江大会にて中学校代表で口頭発表し，<span style="color:maroon;font-weight:bold">優秀賞</span>を受賞．
