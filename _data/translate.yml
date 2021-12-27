@@ -36,15 +36,6 @@ about:
     kosen:
       en: Department of Information Engineering, National Institute of Technology, Matsue College
       ja: 松江工業高等専門学校 情報工学科（首席卒業）
-  activity:
-    en: Activity
-    ja: 活動記録
-    date:
-      en: Date
-      ja: 年月日
-    description:
-      en: Description
-      ja: 内容
   programming:
     en: Programming Skills
     ja: プログラミング
@@ -95,3 +86,14 @@ publications:
   awards:
     en: Awards
     ja: 受賞
+
+news:
+  title:
+    en: News
+    ja: 活動記録
+  date:
+    en: Date
+    ja: 年月日
+  description:
+    en: Description
+    ja: 内容

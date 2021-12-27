@@ -1,7 +1,7 @@
 function change_table(){
     // 要素抜き出し
-    var o_list_num_elm = document.getElementById('activity-view-num');
-    var o_list_table_elm = document.getElementById('activity-table');
+    var o_list_num_elm = document.getElementById('news-view-num');
+    var o_list_table_elm = document.getElementById('news-table');
 
     // 表示数取得
     var i_list_num = parseInt(o_list_num_elm.value);
