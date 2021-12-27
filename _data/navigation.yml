@@ -2,8 +2,10 @@ en:
   - index.md
   - about.md
   - publications.md
+  - news.md
 
 ja:
   - ja/index.md
   - ja/about.md
   - ja/publications.md
+  - ja/news.md
