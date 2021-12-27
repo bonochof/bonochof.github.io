@@ -1,50 +1,101 @@
-- title: 静岡大学
-  award: 成績優秀者賞
+- title:
+    en: Shizuoka University
+    ja: 静岡大学
+  award:
+    en: Outstanding Achievement Award
+    ja: 成績優秀者賞
   date: Dec. 2021
 
-- title: toioの「Do!コン」
-  award: 審査員特別賞
+- title:
+    en: The toio Do contest
+    ja: toioの「Do!コン」
+  award:
+    en: Special Jury Award
+    ja: 審査員特別賞
   date: May. 2021
 
-- title: HAIシンポジウム2021
-  award: Student Encouragement Award
+- title:
+    en: HAI Symposium 2021
+    ja: HAIシンポジウム2021
+  award:
+    en: Student Encouragement Award
+    ja: Student Encouragement Award
   date: Mar. 2021
 
-- title: ロボットやろうぜ！-toio & Unity 作品動画コンテスト-
-  award: 審査員特別賞
+- title:
+    en: The toio & Unity contest
+    ja: ロボットやろうぜ！-toio & Unity 作品動画コンテスト-
+  award:
+    en: Special Jury Award
+    ja: 審査員特別賞
   date: Dec. 2020
 
-- title: 第3回静岡テックプラングランプリ
+- title:
+    en: The 3rd Shizuoka Tech Grand Prix
+    ja: 第3回静岡テックプラングランプリ
   award:
-    - 最優秀賞
-    - ヤマハ発動機賞
-    - 浜松いわた信用金庫賞
+    en:
+      - Grand Prize
+      - Yamaha Motor Prize
+      - Hamamatsu Iwata Shinkin Bank Prize
+    ja:
+      - 最優秀賞
+      - ヤマハ発動機賞
+      - 浜松いわた信用金庫賞
   date: Nov. 2020
 
-- title: ヒューマンインタフェースサイバーコロキウム
-  award: 優秀発表賞
+- title:
+    en: Human Interface Cyber Colloquium
+    ja: ヒューマンインタフェースサイバーコロキウム
+  award:
+    en: Best Presentation Award
+    ja: 優秀発表賞
   date: Oct. 2020
 
-- title: 静岡大学
-  award: 成績優秀者賞
+- title:
+    en: Shizuoka University
+    ja: 静岡大学
+  award:
+    en: Outstanding Achievement Award
+    ja: 成績優秀者賞
   date: Dec. 2019
 
-- title: 第8回サイエンス・インカレ
-  award: 審査員特別賞
+- title:
+    en: The 8th Science Intercollegiate
+    ja: 第8回サイエンス・インカレ
+  award:
+    en: Special Jury Award
+    ja: 審査員特別賞
   date: Mar. 2019
 
-- title: 松江工業高等専門学校
+- title:
+    en: National Institute of Technology, Matsue College
+    ja: 松江工業高等専門学校
   award:
-    - 電気情報学会賞
-    - 功労賞
-    - 優秀成績賞
-    - 優秀卒業学生表彰
+    en:
+      - The Institute of Electrical and Information Engineers Award
+      - Distinguished Service Award
+      - Outstanding Achievement Award
+      - Outstanding Graduate Student Award
+    ja:
+      - 電気情報学会賞
+      - 功労賞
+      - 優秀成績賞
+      - 優秀卒業学生表彰
   date: Mar. 2018
 
-- title: 第39回情報処理学会ゲーム情報学研究会
-  award: 若手奨励賞
+- title:
+    en: The 39th IPSJ Conference on Game Informatics
+    ja: 第39回情報処理学会ゲーム情報学研究会
+  award:
+    en: Young Scientist Encouragement Award
+    ja: 若手奨励賞
   date: Mar. 2018
 
-- title: 第1回スモウルビー・プログラミング甲子園
-  award: 優勝
+- title:
+    en: The 1st Smalruby Programming Koshien
+    ja: 第1回スモウルビー・プログラミング甲子園
+  award:
+    en: Championship
+    ja: 優勝
   date: Mar. 2016

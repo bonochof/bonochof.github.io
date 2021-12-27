@@ -63,8 +63,8 @@
 
 <ul class="publications">
 {%- for data in site.data.publications.awards -%}
-  <li>{{ data.title }}
-    <ul>{%- for a in data.award -%}<li class="award">{{ a }}</li>{%- endfor -%}</ul>
+  <li>{{ data.title[page.lang] }}
+    <ul>{%- for a in data.award[page.lang] -%}<li class="award">{{ a }}</li>{%- endfor -%}</ul>
     <ul><li class="info">{{ data.date }}</li></ul>
   </li>
 {%- endfor -%}
