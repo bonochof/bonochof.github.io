@@ -1,17 +1,17 @@
 <h1>{{ site.data.translate.news.title[page.lang] }}</h1>
 
 <div class="news">
-  <select id="news-view-num" onchange="change_table();">
-    <option value="10">10</option>
-    <option value="256">All</option>
-  </select>
-
   <table id="news-table"><tbody>
     <tr><th>{{ site.data.translate.news.date[page.lang] }}</th><th>{{ site.data.translate.news.description[page.lang] }}</th></tr>
     {% for item in site.data.news %}
       <tr><td>{{ item.date }}</td><td>{{ item.description[page.lang] }}</td></tr>
     {% endfor %}
   </tbody></table>
+
+  <select id="news-view-num" onchange="change_table();">
+    <option value="10">10</option>
+    <option value="256">All</option>
+  </select>
 </div>
 
 <script type="text/javascript" src="{{ '/assets/js/main.js' | relative_url }}">
