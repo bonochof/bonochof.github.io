@@ -77,12 +77,12 @@ publications:
   invite:
     en: Invited Talks
     ja: 招待講演
-  grants:
-    en: Grants
-    ja: 研究助成
   dissertations:
     en: Dissertations
     ja: 学位論文
+  grants:
+    en: Grants
+    ja: 助成
   awards:
     en: Awards
     ja: 受賞
