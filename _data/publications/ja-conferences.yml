@@ -1,146 +1,254 @@
-- title: 立脚点の違いによって相互予測問題を解消する強化学習エージェント
+- title:
+    en: Reinforcement Learning Agents Solving the Mutual Prediction Problem through Different Standpoints
+    ja: 立脚点の違いによって相互予測問題を解消する強化学習エージェント
   author:
-    - 高田 亮介
-    - 竹内 勇剛
+    en:
+      - Ryosuke TAKATA
+      - Yugo TAKEUCHI
+    ja:
+      - 高田 亮介
+      - 竹内 勇剛
   in:
-    title: 日本認知科学会第38回大会論文集
+    title:
+      en: The 38th Annual Meeting of Japanese Cognitive Science Society
+      ja: 日本認知科学会第38回大会論文集
     pp: 51-57
     date: Sep. 2021
   refereed: true
   oral-presentation: true
 
-- title: 強化学習を用いた缶蹴りエージェントによる協調行動の獲得
+- title:
+    en: Acquiring Cooperative Behavior through Reinforcement Learning of Winning Strategy
+    ja: 強化学習を用いた缶蹴りエージェントによる協調行動の獲得
   author:
-    - 高田 亮介
-    - 坂本 孝丈
-    - 竹内 勇剛
+    en:
+      - Ryosuke TAKATA
+      - Takafumi SAKAMOTO
+      - Yugo TAKEUCHI
+    ja:
+      - 高田 亮介
+      - 坂本 孝丈
+      - 竹内 勇剛
   in:
-    title: 第35回人工知能学会全国大会論文集
+    title:
+      en: The 35th Annual Conference of the Japanese Society for Artificial Intelligence
+      ja: 第35回人工知能学会全国大会論文集
     p-no: 3I2-GS-5e-03
     date: Jun. 2021
   refereed: true
   oral-presentation: true
 
-- title: 缶蹴りにおける他者知覚を必要としない協調の実現
+- title:
+    en: Cooperation without Person Perception on Kick the Can Game
+    ja: 缶蹴りにおける他者知覚を必要としない協調の実現
   author:
-    - 高田 亮介
-    - 坂本 孝丈
-    - 竹内 勇剛
+    en:
+      - Ryosuke TAKATA
+      - Takafumi SAKAMOTO
+      - Yugo TAKEUCHI
+    ja:
+      - 高田 亮介
+      - 坂本 孝丈
+      - 竹内 勇剛
   in:
-    title: HAIシンポジウム2021
+    title:
+      en: Human-Agent Interaction Symposium 2021
+      ja: HAIシンポジウム2021
     p-no: G-20
     date: Mar. 2021
   refereed: false
   oral-presentation: true
   note: Student Encouragement Award 受賞
 
-- title: 強化学習を用いたエージェントによる缶蹴りの集団形成と振る舞い分析
+- title:
+    en: Group Formation and Behavioral Analysis of Kick the Can by Agents Using Reinforcement Learning
+    ja: 強化学習を用いたエージェントによる缶蹴りの集団形成と振る舞い分析
   author:
-    - 高田 亮介
-    - 坂本 孝丈
-    - 竹内 勇剛
+    en:
+      - Ryosuke TAKATA
+      - Takafumi SAKAMOTO
+      - Yugo TAKEUCHI
+    ja:
+      - 高田 亮介
+      - 坂本 孝丈
+      - 竹内 勇剛
   in:
-    title: ヒューマンインタフェースサイバーコロキウム論文集
+    title:
+      en: Human Interface Cyber Colloquium
+      ja: ヒューマンインタフェースサイバーコロキウム論文集
     pp: 81-88
     date: Oct. 2020
   refereed: false
   oral-presentation: true
   note: 優秀発表賞 受賞
 
-- title: 缶蹴りにおける強化学習を用いた身体的インタラクション
+- title:
+    en: Physical Interaction of Kick the Can Using Reinforcement Learning
+    ja: 缶蹴りにおける強化学習を用いた身体的インタラクション
   author:
-    - 高田 亮介
-    - 竹内 勇剛
+    en:
+      - Ryosuke TAKATA
+      - Yugo TAKEUCHI
+    ja:
+      - 高田 亮介
+      - 竹内 勇剛
   in:
-    title: 日本認知科学会第37回大会論文集
+    title:
+      en: The 37th Annual Meeting of Japanese Cognitive Science Society
+      ja: 日本認知科学会第37回大会論文集
     pp: 384-391
     date: Sep. 2020
   refereed: true
   oral-presentation: false
 
-- title: ニューロエボリューションを用いたクリーチャによる協調行動の分析
+- title:
+    en: Analysis of Cooperative Interaction between Creatures Using Neuroevolution
+    ja: ニューロエボリューションを用いたクリーチャによる協調行動の分析
   author:
-    - 高田 亮介
-    - 竹内 勇剛
+    en:
+      - Ryosuke TAKATA
+      - Yugo TAKEUCHI
+    ja:
+      - 高田 亮介
+      - 竹内 勇剛
   in:
-    title: 第34回人工知能学会全国大会論文集
+    title:
+      en: The 34th Annual Conference of the Japanese Society for Artificial Intelligence
+      ja: 第34回人工知能学会全国大会論文集
     p-no: 4Rin1-64
     date: Jun. 2020
   refereed: true
   oral-presentation: false
 
-- title: 身体的特徴が異なるエージェントにおける立位熟達過程の分析 -ニューロエボリューションによる進化的学習に注目して-
+- title:
+    en: Analysis of Process about Acquisition of Standing Skill in Agents with Different Physical Characteristics Focusing on Evolutionary Learning with Neuroevolution
+    ja: 身体的特徴が異なるエージェントにおける立位熟達過程の分析 -ニューロエボリューションによる進化的学習に注目して-
   author:
-    - 山田 雅敏
-    - 高田 亮介
-    - 坂本 孝丈
-    - 竹内 勇剛
+    en:
+      - Masatoshi YAMADA
+      - Ryosuke TAKATA
+      - Takafumi SAKAMOTO
+      - Yugo TAKEUCHI
+    ja:
+      - 山田 雅敏
+      - 高田 亮介
+      - 坂本 孝丈
+      - 竹内 勇剛
   in:
-    title: 第34回人工知能学会全国大会論文集
+    title:
+      en: The 34th Annual Conference of the Japanese Society for Artificial Intelligence
+      ja: 第34回人工知能学会全国大会論文集
     p-no: 4Rin1-19
     date: Jun. 2020
   refereed: true
   oral-presentation: false
 
-- title: 強化学習を通したクリーチャによる協調行動の自動獲得
+- title:
+    en: Automatic Acquisition of Cooperative Behavior by Creatures through Reinforcement Learning
+    ja: 強化学習を通したクリーチャによる協調行動の自動獲得
   author:
-    - 高田 亮介
-    - 竹内 勇剛
+    en:
+      - Ryosuke TAKATA
+      - Yugo TAKEUCHI
+    ja:
+      - 高田 亮介
+      - 竹内 勇剛
   in:
-    title: HAIシンポジウム2020
+    title:
+      en: Human-Agent Interaction Symposium 2020
+      ja: HAIシンポジウム2020
     p-no: G-7
     date: Mar. 2020
   refereed: false
   oral-presentation: true
 
-- title: アクションゲームAIにおける共進化と動機づけの分析～ボンバーマンを題材として～
+- title:
+    en: Analysis of Coevolution and Motivation in Action Game AI - Bomberman as a Case Study
+    ja: アクションゲームAIにおける共進化と動機づけの分析～ボンバーマンを題材として～
   author:
-    - 高田 亮介
+    en:
+      - Ryosuke TAKATA
+    ja:
+      - 高田 亮介
   in:
-    title: 第9回サイエンス・インカレ
+    title:
+      en: The 9th Science Intercollegiate
+      ja: 第9回サイエンス・インカレ
     date: Mar. 2020
   refereed: true
   oral-presentation: true
   note: COVID-19により大会中止
 
-- title: ニューロエボリューションによるエージェントの立位獲得過程に関する研究
+- title:
+    en: A Study on Standing Skill Acquisition Process of an Agent by Neuro Evolution
+    ja: ニューロエボリューションによるエージェントの立位獲得過程に関する研究
   author:
-    - 山田 雅敏
-    - 高田 亮介
-    - 竹内 勇剛
+    en:
+      - Masatoshi YAMADA
+      - Ryosuke TAKATA
+      - Yugo TAKEUCHI
+    ja:
+      - 山田 雅敏
+      - 高田 亮介
+      - 竹内 勇剛
   in:
-    title: 第8回浜松アカデミックカンファレンス
+    title:
+      en: The 8th Hamamatsu Academic Conference
+      ja: 第8回浜松アカデミックカンファレンス
     date: Feb. 2020
   refereed: false
   oral-presentation: true
 
-- title: アクションゲームの裏技を発見する自己学習手法～スーパーマリオブラザーズを題材として～
+- title:
+    en: A Self-Learning Method for Discovering the Secret Techniques of Action Games - Using Super Mario Bros. as a Case Study
+    ja: アクションゲームの裏技を発見する自己学習手法～スーパーマリオブラザーズを題材として～
   author:
-    - 高田 亮介
+    en:
+      - Ryosuke TAKATA
+    ja:
+      - 高田 亮介
   in:
-    title: 第8回サイエンス・インカレ
+    title:
+      en: The 8th Science Intercollegiate
+      ja: 第8回サイエンス・インカレ
     date: Mar. 2019
   refereed: true
   oral-presentation: true
   note: 審査員特別賞 受賞
 
-- title: 無限1UPを題材としたアクションゲームの裏技を発見する自己学習手法の提案
+- title:
+    en: Proposal of A Self Learning Method to Discover Secret Tricks Using Infinite 1-up as The Theme
+    ja: 無限1UPを題材としたアクションゲームの裏技を発見する自己学習手法の提案
   author:
-    - 高田 亮介
-    - 橋本 剛
+    en:
+      - Ryosuke TAKATA
+      - Tsuyoshi HASHIMOTO
+    ja:
+      - 高田 亮介
+      - 橋本 剛
   in:
-    title: 第39回情報処理学会ゲーム情報学研究会
+    title:
+      en: The 39th IPSJ Conference on Game Informatics
+      ja: 第39回情報処理学会ゲーム情報学研究会
     date: Mar. 2018
   refereed: false
   oral-presentation: true
   note: 若手奨励賞 受賞
 
-- title: 第1回スモウルビー甲子園優勝プログラムと将来の展望
+- title:
+    en: Introduction of Making AI Program for the 1st 'Smalruby Koshien' and its Future Prospects
+    ja: 第1回スモウルビー甲子園優勝プログラムと将来の展望
   author:
-    - 高田 亮介
-    - 加藤 聡
+    en:
+      - Ryosuke TAKATA
+      - Satoru Kato
+    ja:
+      - 高田 亮介
+      - 加藤 聡
   in:
-    title: 第58回プログラミング・シンポジウム予稿集
+    title:
+      en: The 58th Programming Symposium
+      ja: 第58回プログラミング・シンポジウム予稿集
     pp: 81-83
     date: Jan. 2017
   refereed: false

@@ -1,13 +1,27 @@
-- title: インタラクティブな強化学習を通したクリーチャとの協調行動の実現
+- title:
+    en: Cooperative Behavior with Creatures through Interactive Reinforcement Learning
+    ja: インタラクティブな強化学習を通したクリーチャとの協調行動の実現
   author:
-    - 高田 亮介
+    en:
+      - Ryosuke TAKATA
+    ja:
+      - 高田 亮介
   in:
-    title: 静岡大学 卒業論文
+    title:
+      en: Graduation Thesis, Faculty of Informatics, Shizuoka University
+      ja: 静岡大学 卒業論文
     date: May. 2020
 
-- title: 自己学習で裏技を発見するアクションゲームAIの研究
+- title:
+    en: Research on Action Game AI to Discover Secret Techniques through Self Learning
+    ja: 自己学習で裏技を発見するアクションゲームAIの研究
   author:
-    - 高田 亮介
+    en:
+      - Ryosuke TAKATA
+    ja:
+      - 高田 亮介
   in:
-    title: 松江工業高等専門学校 卒業論文
+    title:
+      en: Graduation Thesis, Department of Information Engineering, National Institute of Technology, Matsue College
+      ja: 松江工業高等専門学校 卒業論文
     date: May. 2018

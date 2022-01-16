@@ -1,11 +1,21 @@
-- title: 進化的学習を通したエージェントの立位保持に関する検討
+- title:
+    en: A Study on Standing of Agents through Evolutionary Learning
+    ja: 進化的学習を通したエージェントの立位保持に関する検討
   author:
-    - 山田 雅敏
-    - 高田 亮介
-    - 坂本 孝丈
-    - 竹内 勇剛
+    en:
+      - Masatoshi YAMADA
+      - Ryosuke TAKATA
+      - Takafumi SAKAMOTO
+      - Yugo TAKEUCHI
+    ja:
+      - 山田 雅敏
+      - 高田 亮介
+      - 坂本 孝丈
+      - 竹内 勇剛
   in:
-    title: 常葉大学 経営学部 研究紀要
+    title:
+      en: Bulletin of Faculty of Business Administration, Tokoha University
+      ja: 常葉大学 経営学部 研究紀要
     vol: 8
     no: 2
     pp: 35-41

@@ -1,6 +1,13 @@
-- title: プログラミングの楽しさを知る
+- title:
+    en: Learn the fun of programming
+    ja: プログラミングの楽しさを知る
   author:
-    - 高田 亮介
+    en:
+      - Ryosuke TAKATA
+    ja:
+      - 高田 亮介
   in:
-    title: 常葉大学 経営学部 情報学ゼミナール
+    title:
+      en: Informatics Seminar, Faculty of Business Administration, Tokoha University
+      ja: 常葉大学 経営学部 情報学ゼミナール
     date: May. 2021
