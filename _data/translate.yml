@@ -7,7 +7,10 @@ profile:
     ja: 大学院生，ソフトウェアエンジニア，水泳コーチ
 
 home:
-  title:
+  activities:
+    en: Recent Activities
+    ja: 最新の活動
+  posts:
     en: Latest Posts
     ja: 最新の投稿
 

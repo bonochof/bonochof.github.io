@@ -1,4 +1,17 @@
-<h1>{{ site.data.translate.home.title[page.lang] }}</h1>
+<h1>{{ site.data.translate.home.activities[page.lang] }}</h1>
+
+<div class="news">
+  <table id="news-table"><tbody>
+    <tr><th>{{ site.data.translate.news.date[page.lang] }}</th><th>{{ site.data.translate.news.description[page.lang] }}</th></tr>
+    {% for item in site.data.news limit: 3 %}
+      <tr><td>{{ item.date }}</td><td>{{ item.description[page.lang] }}</td></tr>
+    {% endfor %}
+  </tbody></table>
+  {%- assign news_page = site.pages | where: "path", site.data.navigation[page.lang][3] | first -%}
+  <a href="{{ news_page.url | relative_url }}"><div id="more-info">More Info</div></a>
+</div>
+
+<h1>{{ site.data.translate.home.posts[page.lang] }}</h1>
 
 <div class="wrapper-home">
   <div class="facebook">
