@@ -1,4 +1,18 @@
 - title:
+    en: Emergence of Cooperative Interaction by Multi-Agent Reinforcement Learning
+    ja: マルチエージェント強化学習による協調的インタラクションの創発
+  author:
+    en:
+      - Ryosuke TAKATA
+    ja:
+      - 高田 亮介
+  in:
+    title:
+      en: Master's Thesis, Department of Informatics, Graduate School of Integrated Science and Technology, Shizuoka University
+      ja: 静岡大学大学院 修士論文
+    date: Mar. 2022
+
+- title:
     en: Cooperative Behavior with Creatures through Interactive Reinforcement Learning
     ja: インタラクティブな強化学習を通したクリーチャとの協調行動の実現
   author:
@@ -10,7 +24,7 @@
     title:
       en: Graduation Thesis, Faculty of Informatics, Shizuoka University
       ja: 静岡大学 卒業論文
-    date: May. 2020
+    date: Mar. 2020
 
 - title:
     en: Research on Action Game AI to Discover Secret Tricks through Self Learning
@@ -24,4 +38,4 @@
     title:
       en: Graduation Thesis, Department of Information Engineering, National Institute of Technology, Matsue College
       ja: 松江工業高等専門学校 卒業論文
-    date: May. 2018
+    date: Mar. 2018
