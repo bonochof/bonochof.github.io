@@ -1,4 +1,25 @@
 - title:
+    en: Analysis of Group Organization and Dynamics through Reinforcement Learning in "Kick the Can" Game
+    ja: 缶蹴りにおける強化学習を通した集団の組織化とダイナミクスの分析
+  author:
+    en:
+      - Ryosuke TAKATA
+      - Takafumi SAKAMOTO
+      - Yugo TAKEUCHI
+    ja:
+      - 高田 亮介
+      - 坂本 孝丈
+      - 竹内 勇剛
+  in:
+    title:
+      en: Human-Agent Interaction Symposium 2022
+      ja: HAIシンポジウム2022
+    p-no: G-15
+    date: Mar. 2022
+  refereed: false
+  oral-presentation: true
+
+- title:
     en: Reinforcement Learning Agents Solving the Mutual Prediction Problem through Different Standpoints
     ja: 立脚点の違いによって相互予測問題を解消する強化学習エージェント
   author:
