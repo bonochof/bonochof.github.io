@@ -30,9 +30,12 @@ about:
     education:
       en: Education
       ja: 学校/専攻
+    doctor:
+      en: Department of Multi-Disciplinary Sciences, Graduate School of Arts and Sciences, The University of Tokyo
+      ja: 東京大学大学院総合文化研究科 広域科学専攻
     graduate:
       en: Department of Informatics, Graduate School of Integrated Science and Technology, Shizuoka University
-      ja: 静岡大学大学院総合科学技術研究科 情報学専攻（首席）
+      ja: 静岡大学大学院総合科学技術研究科 情報学専攻（首席卒業）
     undergraduate:
       en: Faculty of Informatics, Shizuoka University
       ja: 静岡大学情報学部 情報科学科（首席卒業）
