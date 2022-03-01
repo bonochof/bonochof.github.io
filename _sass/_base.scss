@@ -271,10 +271,13 @@ table {
     margin: 0;
     width: 200px;
     height: 200px;
-    border: thick double $name-font-color;
-    border-radius: 20px;
     @include media-query($on-palm) {
       position: relative;
+    }
+
+    .border {
+      border: thick double $name-font-color;
+      border-radius: 20px;
     }
   }
 
