@@ -57,8 +57,9 @@
 {%- for data in site.data.publications.dissertations -%}
   <li><span class="title">{{ data.title[page.lang] }}</span>
     {%- if page.lang == "en" and data.title["ja"] -%}<ul><li class="info"><span class="title">({{ data.title["ja"] }})</span></li></ul>{%- endif -%}
-    <ul>{%- for a in data.author[page.lang] -%}<li class="author">{{ a }}</li>{%- endfor -%}</ul>
+    <ul>{%- if data.author[page.lang] -%}<li class="author">{{ data.author[page.lang] }}</li>{%- endif -%}</ul>
     <ul>{%- if data.in.title[page.lang] -%}<li class="info">{{ data.in.title[page.lang] }}</li>{%- endif -%}{%- if data.in.date -%}<li class="info">{{ data.in.date }}</li>{%- endif -%}</ul>
+    <ul>{%- if data.supervisor -%}<li class="detail">({%- if page.lang == 'ja' -%}指導教員{%- else -%}Supervisor{%- endif -%}: {{ data.supervisor[page.lang] }})</li>{%- endif -%}</ul>
   </li>
 {%- endfor -%}
 </ul>
