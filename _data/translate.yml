@@ -42,6 +42,18 @@ about:
     kosen:
       en: Department of Information Engineering, National Institute of Technology, Matsue College
       ja: 松江工業高等専門学校 情報工学科（首席卒業）
+  society:
+    en: Academic Societies
+    ja: 所属学会
+    ipsj:
+      en: Information Processing Society of Japan
+      ja: 情報処理学会
+    jsec:
+      en: The Japanese Society for Evolutionary Computation
+      ja: 進化計算学会
+    jsai:
+      en: The Japanese Society for Artificial Intelligence
+      ja: 人工知能学会
   programming:
     en: Programming Skills
     ja: プログラミング
