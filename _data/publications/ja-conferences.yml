@@ -198,7 +198,9 @@
     date: Mar. 2020
   refereed: true
   oral-presentation: true
-  note: COVID-19により大会中止
+  note:
+    en: Presentation cancelled due to COVID-19
+    ja: COVID-19により大会中止
 
 - title:
     en: A Study on Standing Skill Acquisition Process of an Agent by Neuro Evolution
