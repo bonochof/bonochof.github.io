@@ -5,6 +5,7 @@
     en: Career Design Research Center Award
     ja: キャリアデザイン研究センター賞
   date: Mar. 2022
+  key: HIC2022
 
 - title:
     en: Shizuoka University
@@ -29,6 +30,7 @@
     en: Student Encouragement Award
     ja: Student Encouragement Award
   date: Mar. 2021
+  key: HAI2021
 
 - title:
     en: Let's Do Robots! - toio & Unity Movie Contest -
@@ -51,6 +53,7 @@
       - ヤマハ発動機賞
       - 浜松いわた信用金庫賞
   date: Nov. 2020
+  key: ShizuokaTP2020
 
 - title:
     en: Human Interface Cyber Colloquium
@@ -59,6 +62,7 @@
     en: Best Presentation Award
     ja: 優秀発表賞
   date: Oct. 2020
+  key: HICC2020
 
 - title:
     en: Shizuoka University
@@ -75,6 +79,7 @@
     en: Special Jury Award
     ja: 審査員特別賞
   date: Mar. 2019
+  key: SI2019
 
 - title:
     en: National Institute of Technology, Matsue College
@@ -99,6 +104,7 @@
     en: Young Scientist Encouragement Award
     ja: 若手奨励賞
   date: Mar. 2018
+  key: IPSJ-GI2018
 
 - title:
     en: The 1st Smalruby Programming Koshien
