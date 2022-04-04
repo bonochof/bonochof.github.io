@@ -3,8 +3,8 @@ profile:
     en: Ryosuke TAKATA
     ja: 高田亮介（たかたりょうすけ）
   description:
-    en: Graduate Student at Shizuoka University, Software Engineer, Swimming Coach
-    ja: 大学院生，ソフトウェアエンジニア，水泳コーチ
+    en: Ph.D student studying artificial life at the University of Tokyo / Software engineer
+    ja: 東京大学で人工生命を研究する博士学生 / ソフトウェアエンジニア
 
 home:
   activities:
@@ -19,8 +19,8 @@ about:
     en: About
     ja: プロフィール
   description:
-    en: Ryosuke Takata was born in 1997. He is in the Department of Informatics, Graduate School of Integrated Science and Technology at the Shizuoka University.
-    ja: 1997年4月27日生まれ．島根県松江市出身．マルチエージェント系，強化学習，人工生命，ゲーム情報学に興味を持つ．
+    en: Ryosuke Takata was born in 1997. He is a Ph.D student at Ikegami laboratory in the University of Tokyo. His main research interest is in evolutionary and learning systems for cooperative interaction.
+    ja: 1997年4月27日生まれ．島根県松江市出身．池上高志研究室所属．マルチエージェント系，強化学習，人工生命，ゲーム情報学に興味を持つ．
   education:
     en: Educational History
     ja: 学歴
@@ -31,7 +31,7 @@ about:
       en: Education
       ja: 学校/専攻
     doctor:
-      en: Department of Multi-Disciplinary Sciences, Graduate School of Arts and Sciences, The University of Tokyo
+      en: Department of Multidisciplinary Sciences, Graduate School of Arts and Sciences, The University of Tokyo
       ja: 東京大学大学院総合文化研究科 広域科学専攻
     graduate:
       en: Department of Informatics, Graduate School of Integrated Science and Technology, Shizuoka University
