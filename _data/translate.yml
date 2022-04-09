@@ -42,6 +42,42 @@ about:
     kosen:
       en: Department of Information Engineering, National Institute of Technology, Matsue College
       ja: 松江工業高等専門学校 情報工学科（首席卒業）
+  work:
+    en: Work Experience
+    ja: 職歴
+    arent:
+      en: Arent Inc.
+      ja: 株式会社 Arent
+    su-research:
+      en: Graduate School of Science and Technology, Shizuoka University
+      ja: 国立大学法人静岡大学大学院創造科学技術研究科
+    su-part:
+      en: Faculty of Informatics, Shizuoka University
+      ja: 国立大学法人静岡大学情報学部
+    green:
+      en: Hamamatsu Green Swimming Club
+      ja: 浜松グリーンスイミングクラブ
+    disco:
+      en: DISCO Corporation
+      ja: 株式会社ディスコ
+    konami:
+      en: KONAMI SPORTS CLUB Matsue
+      ja: コナミスポーツクラブ松江
+    cad:
+      en: 3D CAD software development (outsourced)
+      ja: 3次元CADソフトウェア開発（業務委託）
+    ra:
+      en: Research assistant
+      ja: 研究補佐員
+    tutor:
+      en: Part-time teaching staff
+      ja: パート教務職員
+    swim:
+      en: Swimming coach
+      ja: 水泳コーチ
+    image:
+      en: Image processing software development (outsourced)
+      ja: 画像処理ソフトウェア開発（業務委託）
   society:
     en: Academic Societies
     ja: 所属学会

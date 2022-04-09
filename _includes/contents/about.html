@@ -11,6 +11,17 @@
 |2018--2020|{{ site.data.translate.about.education.undergraduate[page.lang] }}|
 |2013--2018|{{ site.data.translate.about.education.kosen[page.lang] }}        |
 
+<h2>{{ site.data.translate.about.work[page.lang] }}</h2>
+
+<ul class="work">
+{%- for data in site.data.about.work -%}
+  {%- if data.name-key -%}<li><span class="name">{{ site.data.translate.about.work[data.name-key][page.lang] }}</span>
+    {%- if data.start -%}<ul><li class="info">{{ data.start }}{%- if page.lang == 'ja' -%}年{%- endif -%}～{%- if data.end -%}{{ data.end }}{%- if page.lang == 'ja' -%}年{%- endif -%}{%- endif -%}</li></ul>{%- endif -%}
+    {%- if data.disc-key -%}<ul><li class="info">{{ site.data.translate.about.work[data.disc-key][page.lang] }}</li></ul>{%- endif -%}
+  </li>{%- endif -%}
+{%- endfor -%}
+</ul>
+
 <h2>{{ site.data.translate.about.society[page.lang] }}</h2>
 
 <ul class="society">

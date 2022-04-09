@@ -334,6 +334,30 @@ table {
   grid-area: github;
 }
 
+.work {
+  ul {
+    &:last-child{ margin-bottom: 20px; }
+  }
+
+  li ul {
+    margin-left: 10px;
+    padding-left: 0px;
+    font-size: 90%;
+  }
+
+  .name {
+    font-weight: bold;
+  }
+
+  .info {
+    display: inline-block;
+    &:not(:last-child)::after {
+      content: ',';
+      margin-right: 8px;
+    }
+  }
+}
+
 .society {
   ul {
     &:last-child{ margin-bottom: 20px; }
