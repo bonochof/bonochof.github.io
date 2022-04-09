@@ -14,7 +14,7 @@
 <h2>{{ site.data.translate.about.society[page.lang] }}</h2>
 
 <ul class="society">
-{%- for data in site.data.society -%}
+{%- for data in site.data.about.society -%}
   {%- if data.name-key -%}<li><span class="name">{{ site.data.translate.about.society[data.name-key][page.lang] }}</span>
     {%- if data.start -%}<ul><li class="info">{{ data.start }}{%- if page.lang == 'ja' -%}年{%- endif -%}～</li></ul>{%- endif -%}
   </li>{%- endif -%}
@@ -24,7 +24,7 @@
 <h2>{{ site.data.translate.about.programming[page.lang] }}</h2>
 
 <ul class="programming">
-{%- for data in site.data.programming -%}
+{%- for data in site.data.about.programming -%}
   {%- if data.lang -%}<li><span class="lang">{{ data.lang }}</span>
     {%- if data.start -%}<ul><li class="info">{{ data.start }}{%- if page.lang == 'ja' -%}年{%- endif -%}～</li></ul>{%- endif -%}
     {%- if data.memo-key -%}<ul><li class="info">{{ site.data.translate.about.programming[data.memo-key][page.lang] }}</li></ul>{%- endif -%}
