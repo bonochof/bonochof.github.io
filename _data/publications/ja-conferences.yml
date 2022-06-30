@@ -1,4 +1,26 @@
 - title:
+    en: Emergence of organized behavior through multi-agent reinforcement learning of Kick the Can Game
+    ja: 缶蹴り遊びのマルチエージェント強化学習による組織化された振る舞いの創発
+  author:
+    en:
+      - Ryosuke TAKATA
+      - Takafumi SAKAMOTO
+      - Yugo TAKEUCHI
+      - Takashi IKEGAMI
+    ja:
+      - 高田 亮介
+      - 坂本 孝丈
+      - 竹内 勇剛
+      - 池上 高志
+  in:
+    title:
+      en: "ALife Japan Workshop #4"
+      ja: 第4回人工生命研究会
+    date: Jul. 2022
+  refereed: false
+  oral-presentation: false
+
+- title:
     en: Analysis of Group Organization and Dynamics through Reinforcement Learning in "Kick the Can" Game
     ja: 缶蹴りにおける強化学習を通した集団の組織化とダイナミクスの分析
   author:
