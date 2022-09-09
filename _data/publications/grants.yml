@@ -1,4 +1,20 @@
 - title:
+    en: Ikeda Scientific Co. Bridge Fellowship Grants
+    ja: 池田理化ブリッジフェロー
+  amount:
+    en: ¥ 200,000
+    ja: 200千円
+  date: Sep. 2022 -
+
+- title:
+    en: GCP (Google Cloud Platform) Credit Award
+    ja: GCP (Google Cloud Platform) Credit Award
+  amount:
+    en: $ 12,000
+    ja: $ 12,000
+  date: Aug. 2022 -
+
+- title:
     en: Foudation for the Fusion Of Science and Technology (FOST)
     ja: 科学技術融合振興財団（FOST）
   role:
@@ -12,9 +28,6 @@
 - title:
     en: SHIZUOKA TECH PLANTER
     ja: 静岡テックプランター
-  role:
-    en: Co-Investigator
-    ja: 研究分担者
   amount:
     en: ¥ 500,000
     ja: 500千円
