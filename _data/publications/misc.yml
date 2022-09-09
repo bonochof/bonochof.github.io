@@ -1,4 +1,20 @@
 - title:
+    en: CIF Issues and Reinforcement Learning
+    ja: CIFの課題と強化学習
+  author:
+    en:
+      - Ryosuke TAKATA
+    ja:
+      - 高田 亮介
+  in:
+    title:
+      en: Cognitive Interaction Framework Workshop 2022
+      ja: 認知的インタラクションフレームワーク研究会2022
+    date: Aug. 2022
+  refereed: false
+  oral-presentation: true
+
+- title:
     en: Development of a Cognitive Model of Thrill-Seeking
     ja: スリルを味わう認知モデルの開発
   author:
