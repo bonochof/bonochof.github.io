@@ -1,4 +1,26 @@
 - title:
+    en: Emergence of Collective Behavior through Evolution of Individuals and Interaction
+    ja: 個体の進化と相互作用による集団の創発
+  author:
+    en:
+      - Ryosuke TAKATA
+      - Hiroki KOJIMA
+      - Norihiro MARUYAMA
+      - Takashi IKEGAMI
+    ja:
+      - 高田 亮介
+      - 小島 大樹
+      - 丸山 典宏
+      - 池上 高志
+  in:
+    title:
+      en: "ALife Japan Workshop #5"
+      ja: 第5回人工生命研究会
+    date: Nov. 2022
+  refereed: false
+  oral-presentation: true
+
+- title:
     en: Emergence of Organized Behavior through Multi-Agent Reinforcement Learning of Kick the Can Game
     ja: 缶蹴り遊びのマルチエージェント強化学習による組織化された振る舞いの創発
   author:
