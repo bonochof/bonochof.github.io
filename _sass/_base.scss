@@ -303,23 +303,17 @@ table {
 .wrapper-home {
   display: grid;
   grid-template-areas:
-    "facebook twitter"
-    "youtube youtube"
-    "github github";
+    "youtube twitter"
+    "github twitter";
   grid-template-columns: 2fr 1fr;
   @include media-query($home-min-width) {
     grid-template-areas:
-      "facebook"
       "twitter"
       "youtube"
       "github";
-    grid-template-columns: 1fr;
+    grid-template-columns: 2fr;
   }
   grid-gap: 10px;
-}
-
-.facebook {
-  grid-area: facebook;
 }
 
 .twitter {
