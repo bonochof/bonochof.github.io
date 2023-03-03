@@ -1,4 +1,25 @@
 - title:
+    en: A Cognitive Model of Thrill Using Evolutionary Computation and Reinforcement Learning
+    ja: 進化計算と強化学習によるスリルのモデル化
+  author:
+    en:
+      - Ryosuke TAKATA
+      - Takafumi SAKAMOTO
+      - Yugo TAKEUCHI
+    ja:
+      - 高田 亮介
+      - 坂本 孝丈
+      - 竹内 勇剛
+  in:
+    title:
+      en: Human-Agent Interaction Symposium 2023
+      ja: HAIシンポジウム2023
+    p-no: P-54
+    date: Mar. 2023
+  refereed: false
+  oral-presentation: false
+
+- title:
     en: Emergence of Collective Behavior through Evolution of Individuals and Interaction
     ja: 個体の進化と相互作用による集団の創発
   author:
