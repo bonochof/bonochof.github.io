@@ -19,8 +19,8 @@ about:
     en: About
     ja: プロフィール
   description:
-    en: Ryosuke Takata was born in 1997. He is a Ph.D student at Ikegami laboratory in the University of Tokyo. His main research interest is in evolutionary and learning systems for interaction between agents. He loves programming and swimming.
-    ja: 1997年4月27日生まれ．島根県松江市出身．池上高志研究室所属．人工生命，マルチエージェント系，強化学習，進化計算，ゲーム情報学を研究している．プログラミングと水泳が好き．
+    en: Ryosuke Takata was born in 1997. He is a Ph.D student at <a href="https://www.sacral.c.u-tokyo.ac.jp" target="_blank">Ikegami laboratory</a> in the University of Tokyo. His main research interest is in evolutionary and learning systems for interaction between agents. He loves programming and swimming.
+    ja: 1997年4月27日生まれ．島根県松江市出身．<a href="https://www.sacral.c.u-tokyo.ac.jp" target="_blank">池上高志研究室</a>所属．人工生命，マルチエージェントシステム，強化学習，進化計算，ゲーム情報学を研究している．プログラミングと水泳が好き．
   education:
     en: Educational Background
     ja: 学歴
@@ -120,9 +120,18 @@ about:
     jsai:
       en: The Japanese Society for Artificial Intelligence
       ja: 人工知能学会
+  committee:
+    en: Committee
+    ja: 委員歴
+    jsai2023:
+      en: The 37th Annual Conference of the Japanese Society for Artificial Intelligence, 2023
+      ja: 第37回人工知能学会全国大会
+    student:
+      en: Student session committee
+      ja: 学生企画委員
   programming:
     en: Programming Skills
-    ja: プログラミング
+    ja: プログラミング歴
     c:
       en: Since my first year of technical college.
       ja: 高専1年生の授業でHello Worldした　なんでもできる
