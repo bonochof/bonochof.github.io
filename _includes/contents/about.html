@@ -55,7 +55,7 @@
 
 <h2>{{ site.data.translate.about.committee[page.lang] }}</h2>
 
-<ul class="society">
+<ul class="committee">
 {%- for data in site.data.about.committee -%}
   {%- if data.name-key -%}<li><span class="name">{{ site.data.translate.about.committee[data.name-key][page.lang] }}</span>
     {%- if data.start -%}<ul><li class="info">{{ data.start }}{%- if page.lang == 'ja' -%}年{%- endif -%}～{%- if data.end -%}{{ data.end }}{%- if page.lang == 'ja' -%}年{%- endif -%}{%- endif -%}</li></ul>{%- endif -%}

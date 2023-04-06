@@ -98,6 +98,9 @@ h1, h2 {
   font-weight: $base-font-weight;
   color: $head-font-color;
 }
+h2 {
+  margin-top: 50px;
+}
 h3, h4, h5, h6 {
   font-family: $head-font-family;
   font-weight: $base-font-weight;
@@ -356,6 +359,30 @@ table {
 }
 
 .society {
+  ul {
+    &:last-child{ margin-bottom: 20px; }
+  }
+
+  li ul {
+    margin-left: 10px;
+    padding-left: 0px;
+    font-size: 90%;
+  }
+
+  .name {
+    font-weight: bold;
+  }
+
+  .info {
+    display: inline-block;
+    &:not(:last-child)::after {
+      content: ',';
+      margin-right: 8px;
+    }
+  }
+}
+
+.committee {
   ul {
     &:last-child{ margin-bottom: 20px; }
   }
