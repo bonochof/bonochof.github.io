@@ -13,11 +13,32 @@
 
 <h2>{{ site.data.translate.about.work[page.lang] }}</h2>
 
+<h3>{{ site.data.translate.about.work.academia[page.lang] }}</h3>
 <ul class="work">
-{%- for data in site.data.about.work -%}
-  {%- if data.name-key -%}<li><span class="name">{{ site.data.translate.about.work[data.name-key][page.lang] }}</span>
+{%- for data in site.data.about.work-academia -%}
+  {%- if data.name-key -%}<li><span class="name">{{ site.data.translate.about.work.academia[data.name-key][page.lang] }}</span>
     {%- if data.start -%}<ul><li class="info">{{ data.start }}{%- if page.lang == 'ja' -%}年{%- endif -%}～{%- if data.end -%}{{ data.end }}{%- if page.lang == 'ja' -%}年{%- endif -%}{%- endif -%}</li></ul>{%- endif -%}
-    {%- if data.disc-key -%}<ul><li class="info">{{ site.data.translate.about.work[data.disc-key][page.lang] }}</li></ul>{%- endif -%}
+    {%- if data.disc-key -%}<ul><li class="info">{{ site.data.translate.about.work.academia[data.disc-key][page.lang] }}</li></ul>{%- endif -%}
+  </li>{%- endif -%}
+{%- endfor -%}
+</ul>
+
+<h3>{{ site.data.translate.about.work.programming[page.lang] }}</h3>
+<ul class="work">
+{%- for data in site.data.about.work-programming -%}
+  {%- if data.name-key -%}<li><span class="name">{{ site.data.translate.about.work.programming[data.name-key][page.lang] }}</span>
+    {%- if data.start -%}<ul><li class="info">{{ data.start }}{%- if page.lang == 'ja' -%}年{%- endif -%}～{%- if data.end -%}{{ data.end }}{%- if page.lang == 'ja' -%}年{%- endif -%}{%- endif -%}</li></ul>{%- endif -%}
+    {%- if data.disc-key -%}<ul><li class="info">{{ site.data.translate.about.work.programming[data.disc-key][page.lang] }}</li></ul>{%- endif -%}
+  </li>{%- endif -%}
+{%- endfor -%}
+</ul>
+
+<h3>{{ site.data.translate.about.work.swimming[page.lang] }}</h3>
+<ul class="work">
+{%- for data in site.data.about.work-swimming -%}
+  {%- if data.name-key -%}<li><span class="name">{{ site.data.translate.about.work.swimming[data.name-key][page.lang] }}</span>
+    {%- if data.start -%}<ul><li class="info">{{ data.start }}{%- if page.lang == 'ja' -%}年{%- endif -%}～{%- if data.end -%}{{ data.end }}{%- if page.lang == 'ja' -%}年{%- endif -%}{%- endif -%}</li></ul>{%- endif -%}
+    {%- if data.disc-key -%}<ul><li class="info">{{ site.data.translate.about.work.swimming[data.disc-key][page.lang] }}</li></ul>{%- endif -%}
   </li>{%- endif -%}
 {%- endfor -%}
 </ul>
