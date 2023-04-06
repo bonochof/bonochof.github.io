@@ -1,3 +1,11 @@
+- name-key: tk-part
+  disc-key: ptl
+  start: 2023
+
+- name-key: ut-izumi
+  disc-key: dev
+  start: 2022
+
 - name-key: su-research
   disc-key: ra
   start: 2020
