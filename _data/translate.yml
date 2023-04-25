@@ -63,9 +63,9 @@ about:
       dev:
         en: Research and development
         ja: 研究開発
-      ptl:
-        en: Part-time lecturer
-        ja: 非常勤講師
+      ptl2023:
+        en: Part-time lecturer ("Programming", "Information Literacy 1", and "Information Literacy 2")
+        ja: 非常勤講師（担当講義 『プログラミング』『情報リテラシーⅠ』『情報リテラシーⅡ』）
       ra:
         en: Research assistant
         ja: 研究補佐員
