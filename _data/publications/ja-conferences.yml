@@ -3,9 +3,9 @@
     ja: 進化計算と強化学習によるスリルのモデル化
   author:
     en:
-      - Ryosuke TAKATA
-      - Takafumi SAKAMOTO
-      - Yugo TAKEUCHI
+      - Ryosuke Takata
+      - Takafumi Sakamoto
+      - Yugo Takeuchi
     ja:
       - 高田 亮介
       - 坂本 孝丈
@@ -24,10 +24,10 @@
     ja: 個体の進化と相互作用による集団の創発
   author:
     en:
-      - Ryosuke TAKATA
-      - Hiroki KOJIMA
-      - Norihiro MARUYAMA
-      - Takashi IKEGAMI
+      - Ryosuke Takata
+      - Hiroki Kojima
+      - Norihiro Maruyama
+      - Takashi Ikegami
     ja:
       - 高田 亮介
       - 小島 大樹
@@ -46,10 +46,10 @@
     ja: 缶蹴り遊びのマルチエージェント強化学習による組織化された振る舞いの創発
   author:
     en:
-      - Ryosuke TAKATA
-      - Takafumi SAKAMOTO
-      - Yugo TAKEUCHI
-      - Takashi IKEGAMI
+      - Ryosuke Takata
+      - Takafumi Sakamoto
+      - Yugo Takeuchi
+      - Takashi Ikegami
     ja:
       - 高田 亮介
       - 坂本 孝丈
@@ -68,9 +68,9 @@
     ja: 缶蹴りにおける強化学習を通した集団の組織化とダイナミクスの分析
   author:
     en:
-      - Ryosuke TAKATA
-      - Takafumi SAKAMOTO
-      - Yugo TAKEUCHI
+      - Ryosuke Takata
+      - Takafumi Sakamoto
+      - Yugo Takeuchi
     ja:
       - 高田 亮介
       - 坂本 孝丈
@@ -89,8 +89,8 @@
     ja: 立脚点の違いによって相互予測問題を解消する強化学習エージェント
   author:
     en:
-      - Ryosuke TAKATA
-      - Yugo TAKEUCHI
+      - Ryosuke Takata
+      - Yugo Takeuchi
     ja:
       - 高田 亮介
       - 竹内 勇剛
@@ -108,9 +108,9 @@
     ja: 強化学習を用いた缶蹴りエージェントによる協調行動の獲得
   author:
     en:
-      - Ryosuke TAKATA
-      - Takafumi SAKAMOTO
-      - Yugo TAKEUCHI
+      - Ryosuke Takata
+      - Takafumi Sakamoto
+      - Yugo Takeuchi
     ja:
       - 高田 亮介
       - 坂本 孝丈
@@ -129,9 +129,9 @@
     ja: 缶蹴りにおける他者知覚を必要としない協調の実現
   author:
     en:
-      - Ryosuke TAKATA
-      - Takafumi SAKAMOTO
-      - Yugo TAKEUCHI
+      - Ryosuke Takata
+      - Takafumi Sakamoto
+      - Yugo Takeuchi
     ja:
       - 高田 亮介
       - 坂本 孝丈
@@ -151,9 +151,9 @@
     ja: 強化学習を用いたエージェントによる缶蹴りの集団形成と振る舞い分析
   author:
     en:
-      - Ryosuke TAKATA
-      - Takafumi SAKAMOTO
-      - Yugo TAKEUCHI
+      - Ryosuke Takata
+      - Takafumi Sakamoto
+      - Yugo Takeuchi
     ja:
       - 高田 亮介
       - 坂本 孝丈
@@ -173,8 +173,8 @@
     ja: 缶蹴りにおける強化学習を用いた身体的インタラクション
   author:
     en:
-      - Ryosuke TAKATA
-      - Yugo TAKEUCHI
+      - Ryosuke Takata
+      - Yugo Takeuchi
     ja:
       - 高田 亮介
       - 竹内 勇剛
@@ -192,8 +192,8 @@
     ja: ニューロエボリューションを用いたクリーチャによる協調行動の分析
   author:
     en:
-      - Ryosuke TAKATA
-      - Yugo TAKEUCHI
+      - Ryosuke Takata
+      - Yugo Takeuchi
     ja:
       - 高田 亮介
       - 竹内 勇剛
@@ -211,10 +211,10 @@
     ja: 身体的特徴が異なるエージェントにおける立位熟達過程の分析 -ニューロエボリューションによる進化的学習に注目して-
   author:
     en:
-      - Masatoshi YAMADA
-      - Ryosuke TAKATA
-      - Takafumi SAKAMOTO
-      - Yugo TAKEUCHI
+      - Masatoshi Yamada
+      - Ryosuke Takata
+      - Takafumi Sakamoto
+      - Yugo Takeuchi
     ja:
       - 山田 雅敏
       - 高田 亮介
@@ -234,8 +234,8 @@
     ja: 強化学習を通したクリーチャによる協調行動の自動獲得
   author:
     en:
-      - Ryosuke TAKATA
-      - Yugo TAKEUCHI
+      - Ryosuke Takata
+      - Yugo Takeuchi
     ja:
       - 高田 亮介
       - 竹内 勇剛
@@ -253,7 +253,7 @@
     ja: アクションゲームAIにおける共進化と動機づけの分析～ボンバーマンを題材として～
   author:
     en:
-      - Ryosuke TAKATA
+      - Ryosuke Takata
     ja:
       - 高田 亮介
   in:
@@ -272,9 +272,9 @@
     ja: ニューロエボリューションによるエージェントの立位獲得過程に関する研究
   author:
     en:
-      - Masatoshi YAMADA
-      - Ryosuke TAKATA
-      - Yugo TAKEUCHI
+      - Masatoshi Yamada
+      - Ryosuke Takata
+      - Yugo Takeuchi
     ja:
       - 山田 雅敏
       - 高田 亮介
@@ -292,7 +292,7 @@
     ja: アクションゲームの裏技を発見する自己学習手法～スーパーマリオブラザーズを題材として～
   author:
     en:
-      - Ryosuke TAKATA
+      - Ryosuke Takata
     ja:
       - 高田 亮介
   in:
@@ -309,8 +309,8 @@
     ja: 無限1UPを題材としたアクションゲームの裏技を発見する自己学習手法の提案
   author:
     en:
-      - Ryosuke TAKATA
-      - Tsuyoshi HASHIMOTO
+      - Ryosuke Takata
+      - Tsuyoshi Hashimoto
     ja:
       - 高田 亮介
       - 橋本 剛
@@ -328,7 +328,7 @@
     ja: 第1回スモウルビー甲子園優勝プログラムと将来の展望
   author:
     en:
-      - Ryosuke TAKATA
+      - Ryosuke Takata
       - Satoru Kato
     ja:
       - 高田 亮介
