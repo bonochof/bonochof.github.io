@@ -1,6 +1,9 @@
 - title:
     en: Ikeda Scientific Co. Bridge Fellowship Grants
     ja: 池田理化ブリッジフェロー
+  role:
+    en: Principal Investigator
+    ja: 研究代表者
   amount:
     en: ¥ 500,000
     ja: 500千円
@@ -9,6 +12,9 @@
 - title:
     en: GCP (Google Cloud Platform) Credit Award
     ja: GCP (Google Cloud Platform) Credit Award
+  role:
+    en: Principal Investigator
+    ja: 研究代表者
   amount:
     en: $ 12,000
     ja: $ 12,000
@@ -28,6 +34,9 @@
 - title:
     en: SHIZUOKA TECH PLANTER
     ja: 静岡テックプランター
+  role:
+    en: Co-Investigator
+    ja: 研究分担者
   amount:
     en: ¥ 500,000
     ja: 500千円
