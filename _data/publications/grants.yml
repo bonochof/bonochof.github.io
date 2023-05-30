@@ -1,6 +1,9 @@
 - title:
     en: Ikeda Scientific Co. Bridge Fellowship Grants
     ja: 池田理化ブリッジフェロー
+  theme:
+    en: Modeling Group Emergence Based on Learning in Play
+    ja: 遊びの中での学習に基づく集団創発のモデル化
   role:
     en: Principal Investigator
     ja: 研究代表者
@@ -10,8 +13,11 @@
   date: Sep. 2022 -
 
 - title:
-    en: GCP (Google Cloud Platform) Credit Award
-    ja: GCP (Google Cloud Platform) Credit Award
+    en: Google Cloud Research Credits
+    ja: Google Cloud Research Credits
+  theme:
+    en: Artificial Life Study in Simulated Environments
+    ja: Artificial Life Study in Simulated Environments
   role:
     en: Principal Investigator
     ja: 研究代表者
@@ -23,6 +29,9 @@
 - title:
     en: Foudation for the Fusion Of Science and Technology (FOST)
     ja: 科学技術融合振興財団（FOST）
+  theme:
+    en: Developing NPCs that Thrill by Combining Instinct and Learned Value Functions
+    ja: 本能と学習による価値を併せ持つことでスリルを味わうNPCの開発
   role:
     en: Principal Investigator
     ja: 研究代表者
@@ -34,6 +43,9 @@
 - title:
     en: SHIZUOKA TECH PLANTER
     ja: 静岡テックプランター
+  theme:
+    en: Interpersonal Communication Support Based on Human-Agent Interaction Design
+    ja: HAIの設計手法に基づく対人コミュニケーション支援
   role:
     en: Co-Investigator
     ja: 研究分担者

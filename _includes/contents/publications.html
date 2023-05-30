@@ -82,6 +82,7 @@
 <ul class="publications">
 {%- for data in site.data.publications.grants -%}
   <li><span class="title">{{ data.title[page.lang] }}</span>
+    {%- if data.theme -%}<ul><li class="info">"{{ data.theme[page.lang] }}"</li></ul>{%- endif -%}
     <ul><li class="info">{{ data.amount[page.lang] }}</li><li class="info">{{ data.date }}</li></ul>
     {%- if data.role -%}<ul><li class="detail">({{ data.role[page.lang] }})</li></ul>{%- endif -%}
   </li>
