@@ -38,6 +38,19 @@
 {%- endfor -%}
 </ul>
 
+<h2>{{ site.data.translate.publications.misc[page.lang] }}</h2>
+
+<ul class="publications">
+{%- for data in site.data.publications.misc -%}
+  <li><span class="title">{{ data.title[page.lang] }}</span>
+    {%- if page.lang == "en" and data.title["ja"] -%}<ul><li class="info"><span class="title">({{ data.title["ja"] }})</span></li></ul>{%- endif -%}
+    <ul>{%- for a in data.author[page.lang] -%}<li class="author">{{ a }}</li>{%- endfor -%}</ul>
+    <ul>{%- if data.in.title[page.lang] -%}<li class="info">{{ data.in.title[page.lang] }}</li>{%- endif -%}{%- if data.in.date -%}<li class="info">{{ data.in.date }}</li>{%- endif -%}</ul>
+    <ul><li class="detail">{%- if data.refereed -%}{%- if page.lang == 'ja' -%}(査読有り){%- else -%}(refereed){%- endif -%}{%- else -%}{%- if page.lang == 'ja' -%}(査読無し){%- else -%}(unrefereed){%- endif -%}{%- endif -%}</li><li class="detail">{%- if data.oral-presentation -%}{%- if page.lang == 'ja' -%}(口頭発表){%- else -%}(oral presentation){%- endif -%}{%- else -%}{%- if page.lang == 'ja' -%}(ポスター発表){%- else -%}(poster presentation){%- endif -%}{%- endif -%}</li>{%- if data.award-key -%}<li class="detail">({%- assign award-data = site.data.publications.awards | where: "key", data.award-key -%}{{ award-data.first.award[page.lang] }})</li>{%- endif -%}{%- if data.note -%}<li class="detail">({{ data.note[page.lang] }})</li>{%- endif -%}</ul>
+  </li>
+{%- endfor -%}
+</ul>
+
 <h2>{{ site.data.translate.publications.invite[page.lang] }}</h2>
 
 <ul class="publications">
@@ -64,19 +77,6 @@
 {%- endfor -%}
 </ul>
 
-<h2>{{ site.data.translate.publications.misc[page.lang] }}</h2>
-
-<ul class="publications">
-{%- for data in site.data.publications.misc -%}
-  <li><span class="title">{{ data.title[page.lang] }}</span>
-    {%- if page.lang == "en" and data.title["ja"] -%}<ul><li class="info"><span class="title">({{ data.title["ja"] }})</span></li></ul>{%- endif -%}
-    <ul>{%- for a in data.author[page.lang] -%}<li class="author">{{ a }}</li>{%- endfor -%}</ul>
-    <ul>{%- if data.in.title[page.lang] -%}<li class="info">{{ data.in.title[page.lang] }}</li>{%- endif -%}{%- if data.in.date -%}<li class="info">{{ data.in.date }}</li>{%- endif -%}</ul>
-    <ul><li class="detail">{%- if data.refereed -%}{%- if page.lang == 'ja' -%}(査読有り){%- else -%}(refereed){%- endif -%}{%- else -%}{%- if page.lang == 'ja' -%}(査読無し){%- else -%}(unrefereed){%- endif -%}{%- endif -%}</li><li class="detail">{%- if data.oral-presentation -%}{%- if page.lang == 'ja' -%}(口頭発表){%- else -%}(oral presentation){%- endif -%}{%- else -%}{%- if page.lang == 'ja' -%}(ポスター発表){%- else -%}(poster presentation){%- endif -%}{%- endif -%}</li>{%- if data.award-key -%}<li class="detail">({%- assign award-data = site.data.publications.awards | where: "key", data.award-key -%}{{ award-data.first.award[page.lang] }})</li>{%- endif -%}{%- if data.note -%}<li class="detail">({{ data.note[page.lang] }})</li>{%- endif -%}</ul>
-  </li>
-{%- endfor -%}
-</ul>
-
 <h2>{{ site.data.translate.publications.grants[page.lang] }}</h2>
 
 <ul class="publications">
@@ -95,6 +95,16 @@
 {%- for data in site.data.publications.awards -%}
   <li>{{ data.title[page.lang] }}
     <ul>{%- for a in data.award[page.lang] -%}<li class="award">{{ a }}</li>{%- endfor -%}</ul>
+    <ul><li class="info">{{ data.date }}</li></ul>
+  </li>
+{%- endfor -%}
+</ul>
+
+<h2>{{ site.data.translate.publications.organize[page.lang] }}</h2>
+
+<ul class="publications">
+{%- for data in site.data.publications.organize -%}
+  <li>{{ data.title[page.lang] }}
     <ul><li class="info">{{ data.date }}</li></ul>
   </li>
 {%- endfor -%}
