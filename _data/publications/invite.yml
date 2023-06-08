@@ -1,4 +1,18 @@
 - title:
+    en: Emergent Cooperative Interaction and Collective Intelligence through Multi-Agent Reinforcement Learning
+    ja: マルチエージェント強化学習による協調的インタラクションの創発とCollective Intelligence
+  author:
+    en:
+      - Ryosuke Takata
+    ja:
+      - 高田 亮介
+  in:
+    title:
+      en: Cognitive Communication Workshop 2022
+      ja: 第21回認知的コミュニケーションワークショップ
+    date: Sep. 2021
+
+- title:
     en: Learn the fun of programming
     ja: プログラミングの楽しさを知る
   author:
@@ -11,3 +25,35 @@
       en: Informatics Seminar, Faculty of Business Administration, Tokoha University
       ja: 常葉大学 経営学部 情報学ゼミナール
     date: May. 2021
+
+- title:
+    en: 2nd Smalruby Programming Koshien Finals, Talk Session
+    ja: 第2回スモウルビー・プログラミング甲子園決勝大会 トークセッション
+  author:
+    en:
+      - Ryosuke Takata
+      - Matz
+      - Ayaka Ikezawa
+    ja:
+      - 高田 亮介
+      - まつもとゆきひろ
+      - 池澤 あやか
+  in:
+    title:
+      en: 2nd Smalruby Programming Koshien Finals
+      ja: 第2回スモウルビー・プログラミング甲子園決勝大会
+    date: Mar. 2017
+
+- title:
+    en: Strategies in AI
+    ja: AIの戦略
+  author:
+    en:
+      - Ryosuke Takata
+    ja:
+      - 高田 亮介
+  in:
+    title:
+      en: Smalruby Programming Koshien Seminar
+      ja: スモウルビー・プログラミング甲子園セミナー
+    date: Sep. 2016
