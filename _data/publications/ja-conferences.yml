@@ -1,4 +1,24 @@
 - title:
+    en: Cognitive Modeling of Thrill-Seeking Irrational Behavior with Conflicting Adaptive Optimizations
+    ja: 相反する適応的最適化計算による非合理的なスリル行動の認知モデル
+  author:
+    en:
+      - Ryosuke Takata
+      - Takafumi Sakamoto
+      - Yugo Takeuchi
+    ja:
+      - 高田 亮介
+      - 坂本 孝丈
+      - 竹内 勇剛
+  in:
+    title:
+      en: The 40th Annual Meeting of Japanese Cognitive Science Society
+      ja: 日本認知科学会第40回大会
+    date: Sep. 2023
+  refereed: true
+  oral-presentation: false
+
+- title:
     en: A Cognitive Model of Thrill Using Evolutionary Computation and Reinforcement Learning
     ja: 進化計算と強化学習によるスリルのモデル化
   author:
