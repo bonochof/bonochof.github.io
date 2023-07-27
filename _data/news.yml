@@ -1,111 +1,115 @@
+- date: 2023.07.23-2023.07.28
+  description:
+    en: 'Poster presentation at ALIFE2023. The title is "Evolving Collective AI: Simulation of Ants Communicating via Chemicals."'
+    ja: '国際会議ALIFE2023にてポスター発表．タイトルは"Evolving Collective: AI Simulation of Ants Communicating via Chemicals"．'
 - date: 2023.06.08
   description:
     en: Organized the student session "What do people want from Artificial Intelligence" at JSAI2023.
     ja: 2023年度人工知能学会全国大会（JSAI2023）にて学生企画セッション『人は人工知能に何を求めるのか』を企画・開催．Webサイトは<a href="https://www.ai-gakkai.or.jp/jsai2023/student" target="_blank">こちら</a>．
 - date: 2023.03.05
   description:
-    en: Poster presentation at the HAI Symposium 2023.
-    ja: HAIシンポジウム2023にてポスター発表．
+    en: Poster presentation at the HAI Symposium 2023. The title is "A Cognitive Model of Thrill Using Evolutionary Computation and Reinforcement Learning."
+    ja: HAIシンポジウム2023にてポスター発表．タイトルは"進化計算と強化学習によるスリルのモデル化"．
 - date: 2023.02.17-2023.02.19
   description:
     en: He developed the VR system for the VR installation work <a href="https://mtm2.alternativemachine.co.jp" target="_blank">"Mind Time Machine II"</a>.
     ja: 体験型VRインスタレーション作品<a href="https://mtm2.alternativemachine.co.jp" target="_blank">「マインド・タイム・マシンⅡ」</a>のVRシステムを開発．
 - date: 2022.11.23
   description:
-    en: "Oral presentation at the ALife Japan Workshop #5."
-    ja: 第5回人工生命研究会（人工知能学会合同研究会2022）にて口頭発表．
+    en: 'Oral presentation at the ALife Japan Workshop #5. The title is "Emergence of Collective Behavior through Evolution of Individuals and Interaction."'
+    ja: 第5回人工生命研究会（人工知能学会合同研究会2022）にて口頭発表．タイトルは"個体の進化と相互作用による集団の創発"．
 - date: 2022.09.05
   description:
-    en: He received <span style="color:maroon;font-weight:bold">Ikeda Scientific Co. Bridge Fellowship Grants</span>.
-    ja: <span style="color:maroon;font-weight:bold">池田理化ブリッジフェロー</span>に採択．
+    en: He received <span style="color:maroon;font-weight:bold">Ikeda Scientific Co. Bridge Fellowship Grants</span>. The research theme is "Modeling Group Emergence Based on Learning in Play."
+    ja: <span style="color:maroon;font-weight:bold">池田理化ブリッジフェロー</span>に採択．採択テーマは"遊びの中での学習に基づく集団創発のモデル化"．
 - date: 2022.08.25
   description:
-    en: He received <span style="color:maroon;font-weight:bold">GCP (Google Cloud Platform) Credit Award</span> and $12,000 GCP Credits.
-    ja: <span style="color:maroon;font-weight:bold">GCP (Google Cloud Platform) Credit Award</span>を受賞し，$12,000のGCP Creditを獲得．
+    en: He received <span style="color:maroon;font-weight:bold">GCP (Google Cloud Platform) Credit Award</span> and $12,000 GCP Credits. The research theme is "Artificial Life Study in Simulated Environments."
+    ja: <span style="color:maroon;font-weight:bold">GCP (Google Cloud Platform) Credit Award</span>を受賞し，$12,000のGCP Creditを獲得．採択テーマは"Artificial Life Study in Simulated Environments"．
 - date: 2022.07.01
   description:
-    en: "Poster presentation at the ALife Japan Workshop #4."
-    ja: 第4回人工生命研究会にてポスター発表．
+    en: 'Poster presentation at the ALife Japan Workshop #4. The title is "Emergence of Organized Behavior through Multi-Agent Reinforcement Learning of Kick the Can Game."'
+    ja: 第4回人工生命研究会にてポスター発表．タイトルは"缶蹴り遊びのマルチエージェント強化学習による組織化された振る舞いの創発"．
 - date: 2022.03.17
   description:
     en: He received his degree at the Shizuoka University Degree Conferral Ceremony, representing 378 students in the master's program. He also received the <span style="color:maroon;font-weight:bold">Dean's Award of Informatics</span>, for his outstanding academic achievement. The article is <a href="https://www.inf.shizuoka.ac.jp/news/detail.html?CN=154671" target="_blank">here</a>.
     ja: 静岡大学学位記授与式にて，修士課程378人を代表して学位記受領．さらに学業成績優秀者として<span style="color:maroon;font-weight:bold">情報学専攻長賞</span>を受賞．記事は<a href="https://www.inf.shizuoka.ac.jp/news/detail.html?CN=154671" target="_blank">こちら</a>．
 - date: 2022.03.04-2022.03.05
   description:
-    en: Poster presentation at the Hyper Interdisciplinary Conference 2022. And he received the <span style="color:maroon;font-weight:bold">Career Design Research Center Award</span>.
-    ja: 超異分野学会 東京大会2022にてポスター発表．<span style="color:maroon;font-weight:bold">キャリアデザイン研究センター賞</span>を受賞．
+    en: Poster presentation at the Hyper Interdisciplinary Conference 2022. The title is "Development of a Cognitive Model of Thrill-Seeking." And he received the <span style="color:maroon;font-weight:bold">Career Design Research Center Award</span>.
+    ja: 超異分野学会 東京大会2022にてポスター発表．タイトルは"スリルを味わう認知モデルの開発"．<span style="color:maroon;font-weight:bold">キャリアデザイン研究センター賞</span>を受賞．
 - date: 2022.03.02-2022.03.03
   description:
-    en: Oral presentation at the HAI Symposium 2022.
-    ja: HAIシンポジウム2022にて口頭発表．
+    en: Oral presentation at the HAI Symposium 2022. The title is "Analysis of Group Organization and Dynamics through Reinforcement Learning in "Kick the Can" Game."
+    ja: HAIシンポジウム2022にて口頭発表．タイトルは"缶蹴りにおける強化学習を通した集団の組織化とダイナミクスの分析"．
 - date: 2021.12.23
   description:
     en: He received an <span style="color:maroon;font-weight:bold">Outstanding Achievement Award</span> at Shizuoka University and was exempted from paying tuition for the second semester. The article is <a href="https://www.shizuoka.ac.jp/news/detail.html?CN=7777" target="_blank">here</a>.
     ja: 静岡大学における<span style="color:maroon;font-weight:bold">成績優秀者賞</span>を受賞し，後期授業料が全額免除．記事は<a href="https://www.shizuoka.ac.jp/news/detail.html?CN=7777" target="_blank">こちら</a>．
 - date: 2021.12.17
   description:
-    en: He has been accepted for a research grant from the <span style="color:maroon;font-weight:bold">foudation for the Fusion Of Science and Technology (FOST)</span>. The result is <a href="http://www.fost.or.jp/images/pdf/subsidies/FOST-2021_hojo-kekka.pdf" target="_blank">here</a>.
-    ja: <span style="color:maroon;font-weight:bold">科学技術融合振興財団（FOST）</span>の研究補助金助成に採択．採択結果は<a href="http://www.fost.or.jp/images/pdf/subsidies/FOST-2021_hojo-kekka.pdf" target="_blank">こちら</a>．
+    en: He has been accepted for a research grant from the <span style="color:maroon;font-weight:bold">foudation for the Fusion Of Science and Technology (FOST)</span>. The research theme is "Developing NPCs that Thrill by Combining Instinct and Learned Value Functions." The result is <a href="http://www.fost.or.jp/images/pdf/subsidies/FOST-2021_hojo-kekka.pdf" target="_blank">here</a>.
+    ja: <span style="color:maroon;font-weight:bold">科学技術融合振興財団（FOST）</span>の研究補助金助成に採択．採択テーマは"本能と学習による価値を併せ持つことでスリルを味わうNPCの開発"．採択結果は<a href="http://www.fost.or.jp/images/pdf/subsidies/FOST-2021_hojo-kekka.pdf" target="_blank">こちら</a>．
 - date: 2021.09.03-2021.09.05
   description:
-    en: Oral presentation (online) at the 38th Annual Meeting of the Japanese Cognitive Science Society.
-    ja: 日本認知科学会第38回大会にて口頭発表（オンライン）．
+    en: Oral presentation (online) at the 38th Annual Meeting of the Japanese Cognitive Science Society. The title is "Reinforcement Learning Agents Solving the Mutual Prediction Problem through Different Standpoints."
+    ja: 日本認知科学会第38回大会にて口頭発表（オンライン）．タイトルは"立脚点の違いによって相互予測問題を解消する強化学習エージェント"．
 - date: 2021.06.08-2021.06.11
   description:
-    en: Oral presentation (online) at the 35th Annual Conference of the Japanese Society for Artificial Intelligence.
-    ja: 第35回人工知能学会全国大会にて口頭発表（オンライン）．
+    en: Oral presentation (online) at the 35th Annual Conference of the Japanese Society for Artificial Intelligence. The title is "Acquiring Cooperative Behavior through Reinforcement Learning of Winning Strategy."
+    ja: 第35回人工知能学会全国大会にて口頭発表（オンライン）．タイトルは"強化学習を用いた缶蹴りエージェントによる協調行動の獲得"．
 - date: 2021.03.17-2021.05.28
   description:
-    en: The work passed the first screening (idea solicitation), the second screening (work submission), and won the <span style="color:maroon;font-weight:bold">Special Jury Award</span> at the final judging session of the toio Do! contest. The award-winning work is <a href="https://protopedia.net/prototype/2249" target="_blank">here</a>. And <a href="https://www.youtube.com/watch?v=cExEaZXYN9M&t=5262" target="_blank">here</a> is the judging process.
-    ja: toioの「Do!コン」にて，第一次審査（アイデア公募），第二次審査（作品応募）を通過し，最終審査会で<span style="color:maroon;font-weight:bold">審査員特別賞</span>を受賞．受賞した作品は<a href="https://protopedia.net/prototype/2249" target="_blank">こちら</a>．審査の様子は<a href="https://www.youtube.com/watch?v=cExEaZXYN9M&t=5262" target="_blank">こちら</a>．
+    en: In the toio Do! contest, my work passed the first screening (idea solicitation), the second screening (work submission), and won the <span style="color:maroon;font-weight:bold">Special Jury Award</span> at the final judging session. The award-winning work is <a href="https://protopedia.net/prototype/2249" target="_blank">here</a>. And <a href="https://www.youtube.com/watch?v=cExEaZXYN9M&t=5262" target="_blank">here</a> is the judging process.
+    ja: toioの「Do!コン」にて，ロボット作品『toioで人工知能をつくろう ～ビジュアルプログラミングで強化学習～』を出展．第一次審査（アイデア公募），第二次審査（作品応募）を通過し，最終審査会で<span style="color:maroon;font-weight:bold">審査員特別賞</span>を受賞．受賞した作品は<a href="https://protopedia.net/prototype/2249" target="_blank">こちら</a>．審査の様子は<a href="https://www.youtube.com/watch?v=cExEaZXYN9M&t=5262" target="_blank">こちら</a>．
 - date: 2021.03.09-2021.03.10
   description:
-    en: Oral presentation (online) at the HAI Symposium 2021. And He received the <span style="color:maroon;font-weight:bold">Student Encouragement Award</span>.
-    ja: HAIシンポジウム2021にて口頭発表（オンライン）．<span style="color:maroon;font-weight:bold">Student Encouragement Award</span>を受賞．
+    en: Oral presentation (online) at the HAI Symposium 2021. The title is "Cooperation without Person Perception on Kick the Can Game." And He received the <span style="color:maroon;font-weight:bold">Student Encouragement Award</span>.
+    ja: HAIシンポジウム2021にて口頭発表（オンライン）．タイトルは"缶蹴りにおける他者知覚を必要としない協調の実現"．<span style="color:maroon;font-weight:bold">Student Encouragement Award</span>を受賞．
 - date: 2020.12.03
   description:
     en: He won the <span style="color:maroon;font-weight:bold">Special Jury Award</span> for his YouTube video in the "Let's Do Robots! toio & Unity Movie Contest." The winning video is <a href="https://youtu.be/K_u8gzbbgoA" target="_blank">here</a>.
     ja: ロボットやろうぜ！ - toio & Unity 作品動画コンテスト -にて，YouTubeに投稿した動画が<span style="color:maroon;font-weight:bold">審査員特別賞</span>を受賞．受賞した動画は<a href="https://youtu.be/K_u8gzbbgoA" target="_blank">こちら</a>．
 - date: 2020.11.07
   description:
-    en: Participated in the 3rd Shizuoka Tech Plan Grand Prix with the HAI-NE team. The team won the <span style="color:maroon;font-weight:bold">Grand Prize</span> (300,000 yen), the <span style="color:maroon;font-weight:bold">Yamaha Motor Prize</span> (100,000 yen), and the <span style="color:maroon;font-weight:bold">Hamamatsu Iwata Shinkin Bank Prize</span> (100,000 yen). The article is <a href="https://www.inf.shizuoka.ac.jp/news/detail.html?CN=154496" target="_blank">here</a>.
-    ja: 第3回静岡テックプラングランプリにHAI-NE（ハイネ）チームで出場．<span style="color:maroon;font-weight:bold">最優秀賞</span>（賞金30万円），<span style="color:maroon;font-weight:bold">ヤマハ発動機賞</span>（賞金10万円），<span style="color:maroon;font-weight:bold">浜松いわた信用金庫賞</span>（賞金10万円）のトリプル受賞．記事は<a href="https://www.inf.shizuoka.ac.jp/news/detail.html?CN=154496" target="_blank">こちら</a>．
+    en: Participated in the 3rd Shizuoka Tech Plan Grand Prix with the HAI-NE team. Our title is "Interpersonal communication support based on HAI design methodology." And our team won the <span style="color:maroon;font-weight:bold">Grand Prize</span> (300,000 yen), the <span style="color:maroon;font-weight:bold">Yamaha Motor Prize</span> (100,000 yen), and the <span style="color:maroon;font-weight:bold">Hamamatsu Iwata Shinkin Bank Prize</span> (100,000 yen). The article is <a href="https://www.inf.shizuoka.ac.jp/news/detail.html?CN=154496" target="_blank">here</a>.
+    ja: 第3回静岡テックプラングランプリにHAI-NE（ハイネ）チームで出場．発表タイトルは"HAIの設計手法に基づく対人コミュニケーション支援"．<span style="color:maroon;font-weight:bold">最優秀賞</span>（賞金30万円），<span style="color:maroon;font-weight:bold">ヤマハ発動機賞</span>（賞金10万円），<span style="color:maroon;font-weight:bold">浜松いわた信用金庫賞</span>（賞金10万円）のトリプル受賞．記事は<a href="https://www.inf.shizuoka.ac.jp/news/detail.html?CN=154496" target="_blank">こちら</a>．
 - date: 2020.10.17-2020.10.18
   description:
-    en: Oral presentation (online) at Human Interface Cyber Colloquium. Received the <span style="color:maroon;font-weight:bold">Best Presentation Award</span>.
-    ja: ヒューマンインタフェースサイバーコロキウムにて口頭発表（オンライン）．<span style="color:maroon;font-weight:bold">優秀発表賞</span>を受賞．
+    en: Oral presentation (online) at Human Interface Cyber Colloquium. The title is "Group Formation and Behavioral Analysis of Kick the Can by Agents Using Reinforcement Learning." Received the <span style="color:maroon;font-weight:bold">Best Presentation Award</span>.
+    ja: ヒューマンインタフェースサイバーコロキウムにて口頭発表（オンライン）．タイトルは"強化学習を用いたエージェントによる缶蹴りの集団形成と振る舞い分析"．<span style="color:maroon;font-weight:bold">優秀発表賞</span>を受賞．
 - date: 2020.09.17-2020.09.19
   description:
-    en: Poster presentation (online) at the 37th Annual Meeting of the Japanese Cognitive Science Society.
-    ja: 日本認知科学会第37回大会にてポスター発表（オンライン）．
+    en: Poster presentation (online) at the 37th Annual Meeting of the Japanese Cognitive Science Society. The title is "Physical Interaction of Kick the Can Using Reinforcement Learning."
+    ja: 日本認知科学会第37回大会にてポスター発表（オンライン）．タイトルは"缶蹴りにおける強化学習を用いた身体的インタラクション"．
 - date: 2020.06.09-2020.06.12
   description:
-    en: Poster presentation (online) at the 34th Annual Conference of the Japanese Society for Artificial Intelligence.
-    ja: 第34回人工知能学会全国大会にてポスター発表（オンライン）．
+    en: Poster presentation (online) at the 34th Annual Conference of the Japanese Society for Artificial Intelligence. The title is "Analysis of Cooperative Interaction between Creatures Using Neuroevolution."
+    ja: 第34回人工知能学会全国大会にてポスター発表（オンライン）．タイトルは"ニューロエボリューションを用いたクリーチャによる協調行動の分析"．
 - date: 2020.03.06-2020.03.07
   description:
-    en: Oral presentation at the HAI Symposium 2020 (this meeting was cancelled due to the COVID-19, and the presentation was made at an online meeting by volunteers).
-    ja: HAIシンポジウム2020にて口頭発表（新型コロナウイルスの影響で本大会は中止，有志によるオンライン発表会で発表）．
+    en: Oral presentation (online) at the HAI Symposium 2020. The title is "Automatic Acquisition of Cooperative Behavior by Creatures through Reinforcement Learning."
+    ja: HAIシンポジウム2020にて口頭発表（オンライン）．タイトルは"強化学習を通したクリーチャによる協調行動の自動獲得"．
 - date: 2020.02.29-2020.03.01
   description:
-    en: Oral presentation as a finalist at the 9th Science Intercollegiate Meeting (this meeting was cancelled due to the COVID-19, and the presentation was made at an online meeting by volunteers).
-    ja: 第9回サイエンス・インカレにてファイナリストとして口頭発表（新型コロナウイルスの影響で本大会は中止，有志によるオンライン発表会で発表）．
+    en: 'Oral presentation (online) as a finalist at the 9th Science Intercollegiate Meeting. The title is "Analysis of Coevolution and Motivation in Action Game AI: A Case Study of Bomberman."'
+    ja: 第9回サイエンス・インカレにてファイナリストとして口頭発表（オンライン）．タイトルは"アクションゲームAIにおける共進化と動機づけの分析～ボンバーマンを題材として～"．
 - date: 2019.12.12
   description:
     en: He received an <span style="color:maroon;font-weight:bold">Outstanding Achievement Award</span> at Shizuoka University and was exempted from paying tuition for the second semester. The article is <a href="https://www.shizuoka.ac.jp/news/detail.html?CN=6136" target="_blank">here</a>.
     ja: 静岡大学における<span style="color:maroon;font-weight:bold">成績優秀者賞</span>を受賞し，後期授業料が全額免除．記事は<a href="https://www.shizuoka.ac.jp/news/detail.html?CN=6136" target="_blank">こちら</a>．
 - date: 2019.10.06-2019.10.10
   description:
-    en: Oral and poster presentations at the international conference HAI2019.
-    ja: 国際会議HAI2019にて口頭発表及びポスター発表．
+    en: Oral and poster presentations at the international conference HAI2019. The title is "Design of Cooperative Interaction between Humans and AI Creatures through Reinforcement Learning."
+    ja: 国際会議HAI2019にて口頭発表及びポスター発表．タイトルは"Design of Cooperative Interaction between Humans and AI Creatures through Reinforcement Learning"．
 - date: 2019.08.21
   description:
     en: Participated in Hack U 2019 NAGOYA, a student hackathon organized by Yahoo! JAPAN.
     ja: Yahoo! JAPAN主催の学生ハッカソン Hack U 2019 NAGOYA に参加．
 - date: 2019.03.02-2019.03.03
   description:
-    en: Oral presentation as a finalist at the 8th Science Intercollegiate. And received the <span style="color:maroon;font-weight:bold">Special Jury Award</span> (50,000 yen). The article is <a href="http://www.inf.shizuoka.ac.jp/news/detail.html?CN=154274" target="_blank">here</a>.
-    ja: 第8回サイエンス・インカレにてファイナリストとして口頭発表．<span style="color:maroon;font-weight:bold">審査員特別賞</span>（賞金5万円）を受賞．記事は<a href="http://www.inf.shizuoka.ac.jp/news/detail.html?CN=154274" target="_blank">こちら</a>．
+    en: 'Oral presentation as a finalist at the 8th Science Intercollegiate. The title is "Self Learning Method for Discovering the Secret Tricks of Action Games: A Case Study of Super Mario Bros." And received the <span style="color:maroon;font-weight:bold">Special Jury Award</span> (50,000 yen). The article is <a href="http://www.inf.shizuoka.ac.jp/news/detail.html?CN=154274" target="_blank">here</a>.'
+    ja: 第8回サイエンス・インカレにてファイナリストとして口頭発表．タイトルは"アクションゲームの裏技を発見する自己学習手法～スーパーマリオブラザーズを題材として～"．<span style="color:maroon;font-weight:bold">審査員特別賞</span>（賞金5万円）を受賞．記事は<a href="http://www.inf.shizuoka.ac.jp/news/detail.html?CN=154274" target="_blank">こちら</a>．
 - date: 2018.12.15
   description:
     en: Participated in the "Regional Development in Shizuoka - Realization of Regional Development through Apps" Hackathon. Won the <span style="color:maroon;font-weight:bold">Special Jury Award</span>. The article is <a href="http://www.inf.shizuoka.ac.jp/news/detail.html?CN=154258" target="_blank">here</a>.
@@ -120,16 +124,16 @@
     ja: 松江高専卒業式にて，<span style="color:maroon;font-weight:bold">電気情報学会賞</span>，<span style="color:maroon;font-weight:bold">功労賞</span>，<span style="color:maroon;font-weight:bold">優秀成績賞</span>，及び<span style="color:maroon;font-weight:bold">優秀卒業学生表彰</span>．
 - date: 2018.03.02-2018.03.03
   description:
-    en: Oral presentation at the 39th Annual Conference on Game Informatics. Received the <span style="color:maroon;font-weight:bold">Young Scientist Encouragement Award</span>. The article is <a href="http://www.matsue-ct.jp/it/index.php/48-topics/topics2017b/311-topics20180327" target="_blank">here</a>.
-    ja: 第39回ゲーム情報学研究会にて口頭発表．<span style="color:maroon;font-weight:bold">若手奨励賞</span>を受賞．記事は<a href="http://www.matsue-ct.jp/it/index.php/48-topics/topics2017b/311-topics20180327" target="_blank">こちら</a>．
+    en: Oral presentation at the 39th Annual Conference on Game Informatics. The title is "Proposal of A Self Learning Method to Discover Secret Tricks Using Infinite 1-up as The Theme." And he eceived the <span style="color:maroon;font-weight:bold">Young Scientist Encouragement Award</span>. The article is <a href="http://www.matsue-ct.jp/it/index.php/48-topics/topics2017b/311-topics20180327" target="_blank">here</a>.
+    ja: 第39回ゲーム情報学研究会にて口頭発表．タイトルは"無限1UPを題材としたアクションゲームの裏技を発見する自己学習手法の提案"．<span style="color:maroon;font-weight:bold">若手奨励賞</span>を受賞．記事は<a href="http://www.matsue-ct.jp/it/index.php/48-topics/topics2017b/311-topics20180327" target="_blank">こちら</a>．
 - date: 2017.03.25
   description:
     en: Talked with Matz and Ayaka Ikezawa at the talk session of the 2nd Smalruby Programming Koshien.
     ja: 第2回スモウルビー・プログラミング甲子園のトークセッションにて，まつもとゆきひろさん，池澤あやかさんと対談．
 - date: 2017.01.06-2017.01.08
   description:
-    en: Poster presentation at the 58th Programming Symposium.
-    ja: 第58回プログラミング・シンポジウムにてポスター発表．
+    en: Poster presentation at the 58th Programming Symposium. The title is "Introduction of Making AI Program for the 1st 'Smalruby Koshien' and its Future Prospects."
+    ja: 第58回プログラミング・シンポジウムにてポスター発表．タイトルは"第1回スモウルビー甲子園優勝プログラムと将来の展望"．
 - date: 2016.11.26-2016.11.27
   description:
     en: Participated in "Challenge with RESAS-API! Hackathon for Regional Development in Shimane".
