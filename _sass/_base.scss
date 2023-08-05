@@ -309,14 +309,14 @@ table {
 .wrapper-home {
   display: grid;
   grid-template-areas:
-    "youtube twitter"
-    "github twitter";
+    "facebook twitter"
+    "youtube twitter";
   grid-template-columns: 2fr 1fr;
   @include media-query($home-min-width) {
     grid-template-areas:
+      "facebook"
       "twitter"
-      "youtube"
-      "github";
+      "youtube";
     grid-template-columns: 2fr;
   }
   grid-gap: 10px;
