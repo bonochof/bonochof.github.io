@@ -1,4 +1,24 @@
 - title:
+    en: 'PAMS: Platform for Artificial Market Simulations -- Python-based Platform for Artificial Market Simulations and Challenges on its Integration with Deep Learning --'
+    ja: "PAMS: Platform for Artificial Market Simulations ～Pythonベースの人工市場シミュレーションプラットフォームと深層学習との融合～"
+  author:
+    en:
+      - Masanori Hirano
+      - Ryosuke Takata
+      - Kiyoshi Izumi
+    ja:
+      - 平野 正徳
+      - 高田 亮介
+      - 和泉 潔
+  in:
+    title:
+      en: Joint Agent Workshops and Symposium 2023 (JAWS2023)
+      ja: 合同エージェントワークショップ&シンポジウム2023 (JAWS2023)
+    date: Sep. 2023
+  refereed: false
+  oral-presentation: true
+
+- title:
     en: Cognitive Modeling of Thrill-Seeking Irrational Behavior with Conflicting Adaptive Optimizations
     ja: 相反する適応的最適化計算による非合理的なスリル行動の認知モデル
   author:
@@ -12,8 +32,8 @@
       - 竹内 勇剛
   in:
     title:
-      en: The 40th Annual Meeting of Japanese Cognitive Science Society
-      ja: 日本認知科学会第40回大会
+      en: The 40th Annual Meeting of Japanese Cognitive Science Society (JCSS2023)
+      ja: 日本認知科学会第40回大会 (JCSS2023)
     date: Sep. 2023
   refereed: true
   oral-presentation: false
@@ -116,8 +136,8 @@
       - 竹内 勇剛
   in:
     title:
-      en: The 38th Annual Meeting of Japanese Cognitive Science Society
-      ja: 日本認知科学会第38回大会論文集
+      en: The 38th Annual Meeting of Japanese Cognitive Science Society (JCSS2021)
+      ja: 日本認知科学会第38回大会 (JCSS2021)
     pp: 51-57
     date: Sep. 2021
   refereed: true
@@ -137,8 +157,8 @@
       - 竹内 勇剛
   in:
     title:
-      en: The 35th Annual Conference of the Japanese Society for Artificial Intelligence
-      ja: 第35回人工知能学会全国大会論文集
+      en: The 35th Annual Conference of the Japanese Society for Artificial Intelligence (JSAI2021)
+      ja: 第35回人工知能学会全国大会 (JSAI2021)
     p-no: 3I2-GS-5e-03
     date: Jun. 2021
   refereed: true
@@ -200,8 +220,8 @@
       - 竹内 勇剛
   in:
     title:
-      en: The 37th Annual Meeting of Japanese Cognitive Science Society
-      ja: 日本認知科学会第37回大会論文集
+      en: The 37th Annual Meeting of Japanese Cognitive Science Society (JCSS2020)
+      ja: 日本認知科学会第37回大会 (JCSS2020)
     pp: 384-391
     date: Sep. 2020
   refereed: true
@@ -219,8 +239,8 @@
       - 竹内 勇剛
   in:
     title:
-      en: The 34th Annual Conference of the Japanese Society for Artificial Intelligence
-      ja: 第34回人工知能学会全国大会論文集
+      en: The 34th Annual Conference of the Japanese Society for Artificial Intelligence (JSAI2020)
+      ja: 第34回人工知能学会全国大会 (JSAI2020)
     p-no: 4Rin1-64
     date: Jun. 2020
   refereed: true
@@ -242,8 +262,8 @@
       - 竹内 勇剛
   in:
     title:
-      en: The 34th Annual Conference of the Japanese Society for Artificial Intelligence
-      ja: 第34回人工知能学会全国大会論文集
+      en: The 34th Annual Conference of the Japanese Society for Artificial Intelligence (JSAI2020)
+      ja: 第34回人工知能学会全国大会 (JSAI2020)
     p-no: 4Rin1-19
     date: Jun. 2020
   refereed: true
@@ -356,7 +376,7 @@
   in:
     title:
       en: The 58th Programming Symposium
-      ja: 第58回プログラミング・シンポジウム予稿集
+      ja: 第58回プログラミング・シンポジウム
     pp: 81-83
     date: Jan. 2017
   refereed: false
