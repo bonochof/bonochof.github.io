@@ -1,6 +1,6 @@
 - title: "Evolving Collective AI: Simulation of Ants Communicating via Chemicals"
   author:
-    - Ryosuke Takata
+    - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
     - Yujin Tang
     - Yingtao Tian
     - Norihiro Maruyama
@@ -14,7 +14,7 @@
 
 - title: Design of Cooperative Interaction between Humans and AI Creatures through Reinforcement Learning
   author:
-    - Ryosuke Takata
+    - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
     - Yugo Takeuchi
   in:
     title: Proceedings of the 7th International Conference on Human-Agent Interaction
@@ -25,7 +25,7 @@
 
 - title: Design of Cooperative Interaction between Humans and Agents through Reinforcement Learning
   author:
-    - Ryosuke Takata
+    - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
     - Yugo Takeuchi
   in:
     title: Next Generation Human-Agent Interaction Workshop
@@ -36,7 +36,7 @@
 - title: Learning Method to Discover Secret Tricks Using Reinforcement Learning
   author:
     - Tsuyoshi Hashimoto
-    - Ryosuke Takata
+    - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
   in:
     title: NIT-NUU Bilateral Academic Conference
     date: Jul. 2018

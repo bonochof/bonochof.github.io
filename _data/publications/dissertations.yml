@@ -2,8 +2,8 @@
     en: Emergence of Cooperative Interaction by Multi-Agent Reinforcement Learning
     ja: マルチエージェント強化学習による協調的インタラクションの創発
   author:
-    en: Ryosuke Takata
-    ja: 高田 亮介
+    en: <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
+    ja: <span style="font-weight:bold;text-decoration:underline">高田 亮介</span>
   supervisor:
     en: Yugo Takeuchi
     ja: 竹内 勇剛
@@ -17,8 +17,8 @@
     en: Cooperative Behavior with Creatures through Interactive Reinforcement Learning
     ja: インタラクティブな強化学習を通したクリーチャとの協調行動の実現
   author:
-    en: Ryosuke Takata
-    ja: 高田 亮介
+    en: <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
+    ja: <span style="font-weight:bold;text-decoration:underline">高田 亮介</span>
   supervisor:
     en: Yugo Takeuchi
     ja: 竹内 勇剛
@@ -32,8 +32,8 @@
     en: Research on Action Game AI to Discover Secret Tricks through Self Learning
     ja: 自己学習で裏技を発見するアクションゲームAIの研究
   author:
-    en: Ryosuke Takata
-    ja: 高田 亮介
+    en: <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
+    ja: <span style="font-weight:bold;text-decoration:underline">高田 亮介</span>
   supervisor:
     en: Tsuyoshi Hashimoto
     ja: 橋本 剛
