@@ -6,7 +6,7 @@
 <div class="news">
   <table id="news-table"><tbody>
     <tr><th>{{ site.data.translate.news.date[page.lang] }}</th><th>{{ site.data.translate.news.description[page.lang] }}</th></tr>
-    {% for item in site.data.news limit: 3 %}
+    {% for item in site.data.news limit: 5 %}
       <tr><td>{{ item.date }}</td><td>{{ item.description[page.lang] }}</td></tr>
     {% endfor %}
   </tbody></table>
