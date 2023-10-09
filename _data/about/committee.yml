@@ -2,6 +2,10 @@
   disc-key: jsai-editor-d
   start: 2023
 
+- name-key: jsai2024-student
+  disc-key: jsai2024-student-d
+  start: 2023
+
 - name-key: jsai2023-student
   disc-key: jsai2023-student-d
   start: 2022
