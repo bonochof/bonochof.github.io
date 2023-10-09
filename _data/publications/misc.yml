@@ -1,4 +1,20 @@
 - title:
+    en: Discovering Tricks by Evolving Mario AI
+    ja: 進化するマリオAIによる裏技の発見
+  author:
+    en:
+      - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
+    ja:
+      - <span style="font-weight:bold;text-decoration:underline">高田 亮介</span>
+  in:
+    title:
+      en: Annual Conference of the Japan Association for the Advancement of Science, 2023 (JAAS2023)
+      ja: 日本科学振興協会 年次大会2023
+    date: Oct. 2023
+  refereed: false
+  oral-presentation: false
+
+- title:
     en: CIF Issues and Reinforcement Learning
     ja: CIFの課題と強化学習
   author:
