@@ -13,6 +13,17 @@
 {%- endfor -%}
 </ul>
 
+<h2>{{ site.data.translate.publications.preprints[page.lang] }}</h2>
+
+<ul class="publications">
+{%- for data in site.data.publications.preprints -%}
+  <li><span class="title">{{ data.title }}</span>
+    <ul>{%- for a in data.author -%}<li class="author">{{ a }}</li>{%- endfor -%}</ul>
+    <ul>{%- if data.in.title -%}<li class="info">{{ data.in.title }}</li>{%- endif -%}{%- if data.in.date -%}<li class="info">{{ data.in.date }}</li>{%- endif -%}</ul>
+  </li>
+{%- endfor -%}
+</ul>
+
 <h2>{{ site.data.translate.publications.conferences[page.lang] }}</h2>
 
 <ul class="publications">
