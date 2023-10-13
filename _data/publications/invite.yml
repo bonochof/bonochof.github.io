@@ -1,4 +1,18 @@
 - title:
+    en: Learned and Evolving Cooperative Interactions, Swarm, and Thrills
+    ja: 学習され進化する協調的インタラクション，群れ，スリル
+  author:
+    en:
+      - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
+    ja:
+      - <span style="font-weight:bold;text-decoration:underline">高田 亮介</span>
+  in:
+    title:
+      en: Cognitive Communication Workshop 2023
+      ja: 第22回認知的コミュニケーションワークショップ
+    date: Sep. 2023
+
+- title:
     en: Emergent Cooperative Interaction and Collective Intelligence through Multi-Agent Reinforcement Learning
     ja: マルチエージェント強化学習による協調的インタラクションの創発とCollective Intelligence
   author:
