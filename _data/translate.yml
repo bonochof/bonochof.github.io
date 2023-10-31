@@ -48,6 +48,9 @@ about:
     academia:
       en: Academia
       ja: 大学勤務
+      ut-mzero:
+        en: Graduate School of Arts and Sciences, University of Tokyo
+        ja: 東京大学大学院総合文化研究科
       tk-part:
         en: Tokoha University
         ja: 常葉大学
@@ -60,6 +63,9 @@ about:
       su-part:
         en: Faculty of Informatics, Shizuoka University
         ja: 静岡大学情報学部
+      researcher:
+        en: Project Researcher
+        ja: 学術専門職員
       dev:
         en: Research and development
         ja: 研究開発
