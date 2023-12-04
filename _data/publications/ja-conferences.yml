@@ -1,4 +1,22 @@
 - title:
+    en: An Empirical Study of the Effect of Cognitive Speech Acts on the Reaction Time of Action
+    ja: 認知的な発話行為が動作の反応時間に与える影響の実証的研究
+  author:
+    en:
+      - Masatoshi Yamada
+      - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
+    ja:
+      - 山田 雅敏
+      - <span style="font-weight:bold;text-decoration:underline">高田 亮介</span>
+  in:
+    title:
+      en: Human Information Processing (HIP), Institute of Electronics, Information and Communication Engineers
+      ja: 電子情報通信学会 ヒューマン情報処理研究会（HIP）
+    date: Dec. 2023
+  refereed: false
+  oral-presentation: true
+
+- title:
     en: 'PAMS: Platform for Artificial Market Simulations -- Python-based Platform for Artificial Market Simulations and Challenges on its Integration with Deep Learning --'
     ja: "PAMS: Platform for Artificial Market Simulations ～Pythonベースの人工市場シミュレーションプラットフォームと深層学習との融合～"
   author:
