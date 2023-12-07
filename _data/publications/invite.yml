@@ -1,4 +1,18 @@
 - title:
+    en: Evolution of Swarm and Neural Network Dynamics Based on Chemotaxis
+    ja: 走化性に基づくニューラルネットワークのダイナミクスと集団行動の進化
+  author:
+    en:
+      - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
+    ja:
+      - <span style="font-weight:bold;text-decoration:underline">高田 亮介</span>
+  in:
+    title:
+      en: Doctoral Symposium, The University of Tokyo Virtual Reality Educational Research Center
+      ja: 東京大学VRセンター ドクトラルシンポジウム
+    date: Dec. 2023
+
+- title:
     en: Learned and Evolving Cooperative Interactions, Swarm, and Thrills
     ja: 学習され進化する協調的インタラクション，群れ，スリル
   author:
