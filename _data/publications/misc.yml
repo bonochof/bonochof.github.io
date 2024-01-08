@@ -1,4 +1,25 @@
 - title:
+    en: Student Session "What Do People Want from AI?"
+    ja: 特集：2023 年度人工知能学会全国大会（第37 回） 学生企画「人は人工知能に何を求めるのか」
+  author:
+    en:
+      - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
+      - Tomoya Minegishi
+    ja:
+      - <span style="font-weight:bold;text-decoration:underline">高田 亮介</span>
+      - 峯岸 朋弥
+  in:
+    title:
+      en: Journal of the Japanese Society for Artificial Intelligence
+      ja: 人工知能
+    vol: 38
+    no: 6
+    pp: 926-927
+    date: Nov. 2023
+  refereed: false
+  journal: true
+
+- title:
     en: Discovering Tricks by Evolving Mario AI
     ja: 進化するマリオAIによる裏技の発見
   author:
