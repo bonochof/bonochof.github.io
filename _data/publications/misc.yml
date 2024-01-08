@@ -1,6 +1,25 @@
 - title:
+    en: Both JSAI2023 Conference Committee Member and Student Editorial Board Member
+    ja: "特集: 編集委員 今年の抱負 2024 「全国大会委員と学生編集委員の両輪で」"
+  author:
+    en:
+      - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
+    ja:
+      - <span style="font-weight:bold;text-decoration:underline">高田 亮介</span>
+  in:
+    title:
+      en: Journal of the Japanese Society for Artificial Intelligence
+      ja: 人工知能
+    vol: 39
+    no: 1
+    pp: 48
+    date: Jan. 2024
+  refereed: false
+  journal: true
+
+- title:
     en: Student Session "What Do People Want from AI?"
-    ja: 特集：2023 年度人工知能学会全国大会（第37 回） 学生企画「人は人工知能に何を求めるのか」
+    ja: "特集: 2023 年度人工知能学会全国大会（第37 回） 学生企画「人は人工知能に何を求めるのか」"
   author:
     en:
       - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
