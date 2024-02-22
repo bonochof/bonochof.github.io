@@ -1,4 +1,22 @@
 - title:
+    en: Consideration of Language Reporting through Perceptual Response Testing with Speech Acts
+    ja: 発話行為を伴う知覚反応テストを通した言語報告の考察
+  author:
+    en:
+      - Masatoshi Yamada
+      - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
+    ja:
+      - 山田 雅敏
+      - <span style="font-weight:bold;text-decoration:underline">高田 亮介</span>
+  in:
+    title:
+      en: Kyusyu Conference, Japan Information-Culturology Society
+      ja: 情報文化学会 九州支部大会
+    date: Feb. 2024
+  refereed: false
+  oral-presentation: true
+
+- title:
     en: An Empirical Study of the Effect of Cognitive Speech Acts on the Reaction Time of Action
     ja: 認知的な発話行為が動作の反応時間に与える影響の実証的研究
   author:
