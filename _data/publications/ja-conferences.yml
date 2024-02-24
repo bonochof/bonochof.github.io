@@ -1,4 +1,25 @@
 - title:
+    en: An Informatics Study on Skills and Embodied Cognition -- Focusing on Perceptual Reaction Time and Kinesthetic Impressions --
+    ja: 技と身体性認知に関する情報学的研究〜知覚に対する反応時間と運動感覚的印象に注目して〜
+  author:
+    en:
+      - Masatoshi Yamada
+      - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
+    ja:
+      - 山田 雅敏
+      - <span style="font-weight:bold;text-decoration:underline">高田 亮介</span>
+  in:
+    title:
+      en: IEICE Technical Committee on Human Communication Science (HCS)
+      ja: 電子情報通信学会 ヒューマンコミュニケーション基礎研究会（HCS）
+    vol: 123
+    numero: 408
+    pp: 120-124
+    date: Mar. 2024
+  refereed: false
+  oral-presentation: true
+
+- title:
     en: Consideration of Language Reporting through Perceptual Response Testing with Speech Acts
     ja: 発話行為を伴う知覚反応テストを通した言語報告の考察
   author:
