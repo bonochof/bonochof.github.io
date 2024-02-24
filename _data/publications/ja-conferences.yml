@@ -1,4 +1,25 @@
 - title:
+    en: Interaction of LLM Agents Emerging Individuality from Collectivity
+    ja: 集団の中から個性を創発させるLLMエージェントのインタラクション
+  author:
+    en:
+      - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
+      - Atsushi Masumori
+      - Takashi Ikegami
+    ja:
+      - <span style="font-weight:bold;text-decoration:underline">高田 亮介</span>
+      - 升森 敦士
+      - 池上 高志
+  in:
+    title:
+      en: Human-Agent Interaction Symposium 2024
+      ja: HAIシンポジウム2024
+    p-no: O-5
+    date: Mar. 2024
+  refereed: false
+  oral-presentation: true
+
+- title:
     en: An Informatics Study on Skills and Embodied Cognition -- Focusing on Perceptual Reaction Time and Kinesthetic Impressions --
     ja: 技と身体性認知に関する情報学的研究〜知覚に対する反応時間と運動感覚的印象に注目して〜
   author:
