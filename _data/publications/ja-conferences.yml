@@ -49,8 +49,11 @@
       - <span style="font-weight:bold;text-decoration:underline">高田 亮介</span>
   in:
     title:
-      en: Human Information Processing (HIP), Institute of Electronics, Information and Communication Engineers
+      en: IEICE Technical Committee on Human Information Processing (HIP)
       ja: 電子情報通信学会 ヒューマン情報処理研究会（HIP）
+    vol: 123
+    numero: 320
+    pp: 76-78
     date: Dec. 2023
   refereed: false
   oral-presentation: true
