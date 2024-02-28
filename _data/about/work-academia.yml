@@ -1,9 +1,13 @@
+- name-key: #sn-part
+  disc-key: sn-ptl
+  start: 2024
+
 - name-key: ut-mzero
   disc-key: researcher
   start: 2023
 
 - name-key: tk-part
-  disc-key: ptl2023
+  disc-key: tk-ptl
   start: 2023
 
 - name-key: ut-izumi

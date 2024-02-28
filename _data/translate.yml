@@ -48,12 +48,15 @@ about:
     academia:
       en: Academia
       ja: 大学
+      sn-part:
+        en: School of Network and Information, Senshu University
+        ja: 専修大学ネットワーク情報学部
       ut-mzero:
         en: Graduate School of Arts and Sciences, University of Tokyo
         ja: 東京大学大学院総合文化研究科
       tk-part:
-        en: Tokoha University
-        ja: 常葉大学
+        en: Department of Business Administration, Tokoha University
+        ja: 常葉大学経営学部
       ut-izumi:
         en: School of Engineering, University of Tokyo
         ja: 東京大学大学院工学系研究科
@@ -69,9 +72,12 @@ about:
       dev:
         en: Research and development
         ja: 研究開発
-      ptl2023:
-        en: Part-time lecturer ("Programming", "Information Literacy 1", and "Information Literacy 2")
-        ja: 非常勤講師（担当講義 『プログラミング』『情報リテラシーⅠ』『情報リテラシーⅡ』）
+      sn-ptl:
+        en: Part-time lecturer ("Applied Programming 2")
+        ja: 非常勤講師（2024年度前期『応用プログラミング2』）
+      tk-ptl:
+        en: Part-time lecturer ("Programming" and "Information Literacy 1" in the first semester of FY2023, "Programming" and "Information Literacy 2" in the second semester of FY2023)
+        ja: 非常勤講師（2023年度前期『プログラミング』，2023年度前期『情報リテラシーⅠ』，2023年度後期『プログラミング』，2023年度後期『情報リテラシーⅡ』）
       ra:
         en: Research assistant
         ja: 研究補佐員
