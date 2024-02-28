@@ -88,9 +88,6 @@ li {
   }
 }
 /* 箇条書き番号スタイルここから */
-ol.all{
-  margin-left: 10px;
-}
 ol.all {
   > ul{
     counter-increment: cnt 0;
@@ -104,6 +101,7 @@ ol.all {
 ol.all {
   > ul>li:before {
     //display: marker;
+    margin-left: -26px;
     content: "[" counter(cnt) "]  ";
   }
 }
