@@ -97,7 +97,7 @@
   <li><span class="title">{{ data.title[page.lang] }}</span>
     {%- if data.theme -%}<ul><li class="info">"{{ data.theme[page.lang] }}"</li></ul>{%- endif -%}
     <ul><li class="info">{{ data.amount[page.lang] }}</li><li class="info">{{ data.date }}</li></ul>
-    {%- if data.role -%}<ul><li class="detail">({{ data.role[page.lang] }})</li></ul>{%- endif -%}
+    <ul>{%- if data.role -%}<li class="detail">({{ data.role[page.lang] }})</li>{%- endif -%}{%- if data.award-key -%}<li class="detail">({%- assign award-data = site.data.publications.awards | where: "key", data.award-key -%}{{ award-data.first.award[page.lang] }})</li>{%- endif -%}</ul>
   </li>
 {%- endfor -%}
 </ul>
