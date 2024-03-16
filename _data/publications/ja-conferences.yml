@@ -1,4 +1,23 @@
 - title:
+    en: A Study on Brain Activity during Skill Practice with Cognitive Information Processing by Visual Stimuli
+    ja: 視覚刺激による認知情報処理を伴うスキル実践時の脳活動に関する一考察
+  author:
+    en:
+      - Masatoshi Yamada
+      - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
+    ja:
+      - 山田 雅敏
+      - <span style="font-weight:bold;text-decoration:underline">高田 亮介</span>
+  in:
+    title:
+      en: The 86th National Convention of IPSJ
+      ja: 情報処理学会 第86回全国大会
+    p-no: 4B-05
+    date: Mar. 2024
+  refereed: false
+  oral-presentation: true
+
+- title:
     en: Interaction of LLM Agents Emerging Individuality from Collectivity
     ja: 集団の中から個性を創発させるLLMエージェントのインタラクション
   author:
