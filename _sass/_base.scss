@@ -491,6 +491,7 @@ table {
     font-size: 110%;
     font-weight: bold;
     display: inline-block;
+    color: maroon;
     &:not(:last-child)::after {
       content: ',';
       margin-right: 8px;
