@@ -1,4 +1,22 @@
 - title:
+    en: Consideration of Brain Activity and Rhythm when Practicing Skills
+    ja: 技を実践する際の脳活動とリズムに関する考察
+  author:
+    en:
+      - Masatoshi Yamada
+      - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
+    ja:
+      - 山田 雅敏
+      - <span style="font-weight:bold;text-decoration:underline">高田 亮介</span>
+  in:
+    title:
+      en: Hokkaido Conference, Japan Information-Culturology Society
+      ja: 情報文化学会 北海道支部大会
+    date: Mar. 2024
+  refereed: false
+  oral-presentation: true
+
+- title:
     en: A Study on Brain Activity during Skill Practice with Cognitive Information Processing by Visual Stimuli
     ja: 視覚刺激による認知情報処理を伴うスキル実践時の脳活動に関する一考察
   author:
