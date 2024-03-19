@@ -1,11 +1,12 @@
 profile:
   name:
     en: Ryosuke Takata
-    ja: 高田 亮介（たかた りょうすけ）
+    ja: <ruby>高田 亮介<rp>（</rp><rt>たかた りょうすけ</rt><rp>）</rp></ruby> / Ryosuke Takata
   description:
     en: Ph.D student studying artificial life at the University of Tokyo
-    ja: "東京大学 博士過程<br><br>研究分野: 人工生命，マルチエージェントシステム，強化学習，進化計算，ゲームAI"
-    #ja: "東京大学 博士過程 / 学振 特別研究員 (DC2)<br><br>研究分野: 人工生命，マルチエージェントシステム，強化学習，進化計算，ゲームAI"
+    #en: Ph.D student studying artificial life at the University of Tokyo<br>JSPS research fellowship DC2
+    ja: "東京大学 博士過程<br><br>研究分野: 人工生命，進化，学習，群れ，ゲームAI"
+    #ja: "東京大学 博士過程 / 学振 特別研究員 (DC2)<br><br>研究分野: 人工生命，進化，学習，群れ，ゲームAI"
 
 home:
   activities:
@@ -21,8 +22,9 @@ about:
     ja: プロフィール
   description:
     en: Ryosuke Takata was born in 1997. He is a Ph.D student at <a href="https://www.sacral.c.u-tokyo.ac.jp" target="_blank">Ikegami laboratory</a> in the University of Tokyo. His main research interest is in evolutionary and learning systems for interaction between agents. He loves programming and swimming.
-    ja: 1997年 島根県松江市出身．東京大学大学院総合文化研究科 博士後期課程（<a href="https://www.sacral.c.u-tokyo.ac.jp" target="_blank">池上高志研究室</a>）．主な研究テーマは，人工生命，マルチエージェントシステム，強化学習，進化計算，ゲームAI．好きなことは，プログラミングと水泳．
-    #ja: 1997年 島根県松江市出身．東京大学大学院総合文化研究科 博士後期課程（<a href="https://www.sacral.c.u-tokyo.ac.jp" target="_blank">池上高志研究室</a>）．日本学術振興会 特別研究員（DC2）．主な研究テーマは，人工生命，マルチエージェントシステム，強化学習，進化計算，ゲームAI．好きなことは，プログラミングと水泳．
+    #en: Ryosuke Takata was born in 1997. He is a Ph.D student at <a href="https://www.sacral.c.u-tokyo.ac.jp" target="_blank">Ikegami laboratory</a> in the University of Tokyo and JSPS research fellowship DC2. His main research interest is in evolutionary and learning systems for interaction between agents. He loves programming and swimming.
+    ja: 1997年 島根県松江市出身．東京大学大学院総合文化研究科 博士後期課程（<a href="https://www.sacral.c.u-tokyo.ac.jp" target="_blank">池上高志研究室</a>）．主な研究テーマは，人工生命，マルチエージェントシステム，強化学習，進化計算，ゲーム情報学．好きなことは，プログラミングと水泳．
+    #ja: 1997年 島根県松江市出身．東京大学大学院総合文化研究科 博士後期課程（<a href="https://www.sacral.c.u-tokyo.ac.jp" target="_blank">池上高志研究室</a>）．日本学術振興会 特別研究員（DC2）．主な研究テーマは，人工生命，マルチエージェントシステム，強化学習，進化計算，ゲーム情報学．好きなことは，プログラミングと水泳．
   education:
     en: Educational Background
     ja: 学歴
@@ -111,8 +113,8 @@ about:
       en: Swimming
       ja: スイミング
       a1:
-        en: 
-        ja: 
+        en: #Sports Club A-1
+        ja: #スポーツクラブA-1
       green:
         en: Hamamatsu Green Swimming Club
         ja: 浜松グリーンスイミングクラブ
