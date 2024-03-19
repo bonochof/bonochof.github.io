@@ -1,10 +1,11 @@
 profile:
   name:
-    en: Ryosuke TAKATA
-    ja: 高田亮介（たかたりょうすけ）
+    en: Ryosuke Takata
+    ja: 高田 亮介（たかた りょうすけ）
   description:
     en: Ph.D student studying artificial life at the University of Tokyo
-    ja: 東京大学で人工生命を研究する博士学生
+    ja: "東京大学 博士過程<br><br>研究分野: 人工生命，マルチエージェントシステム，強化学習，進化計算，ゲームAI"
+    #ja: "東京大学 博士過程 / 学振 特別研究員 (DC2)<br><br>研究分野: 人工生命，マルチエージェントシステム，強化学習，進化計算，ゲームAI"
 
 home:
   activities:
@@ -20,7 +21,8 @@ about:
     ja: プロフィール
   description:
     en: Ryosuke Takata was born in 1997. He is a Ph.D student at <a href="https://www.sacral.c.u-tokyo.ac.jp" target="_blank">Ikegami laboratory</a> in the University of Tokyo. His main research interest is in evolutionary and learning systems for interaction between agents. He loves programming and swimming.
-    ja: 1997年 島根県松江市出身．東京大学大学院総合文化研究科 博士後期課程（<a href="https://www.sacral.c.u-tokyo.ac.jp" target="_blank">池上高志研究室</a>）．主な研究テーマは，人工生命，マルチエージェントシステム，強化学習，進化計算，ゲームAI．プログラミングと水泳が好き．
+    ja: 1997年 島根県松江市出身．東京大学大学院総合文化研究科 博士後期課程（<a href="https://www.sacral.c.u-tokyo.ac.jp" target="_blank">池上高志研究室</a>）．主な研究テーマは，人工生命，マルチエージェントシステム，強化学習，進化計算，ゲームAI．好きなことは，プログラミングと水泳．
+    #ja: 1997年 島根県松江市出身．東京大学大学院総合文化研究科 博士後期課程（<a href="https://www.sacral.c.u-tokyo.ac.jp" target="_blank">池上高志研究室</a>）．日本学術振興会 特別研究員（DC2）．主な研究テーマは，人工生命，マルチエージェントシステム，強化学習，進化計算，ゲームAI．好きなことは，プログラミングと水泳．
   education:
     en: Educational Background
     ja: 学歴

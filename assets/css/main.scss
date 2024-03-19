@@ -20,9 +20,8 @@ $base-line-height: 1.5 !default;
 $head-font-family: 'Tourney', 'Yusei Magic', cursive;
 $head-font-color: $kabairo;
 
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@900&display=swap');
-$name-font-family: 'Press Start 2P', 'Zen Maru Gothic', cursive;
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Josefin+Sans:wght@700&display=swap');
+$name-font-family: 'Josefin Sans', 'Acme', 'Kosugi Maru', cursive;
 $name-font-color: $kabairo;
 
 $spacing-unit:     30px !default;

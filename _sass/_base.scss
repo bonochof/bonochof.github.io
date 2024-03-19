@@ -309,6 +309,7 @@ table {
   .fullname {
     font-family: $name-font-family;
     font-size: xx-large;
+    font-weight: bold;
     color: $name-font-color;
     margin-bottom: 20px;
     @include media-query($on-palm) {
