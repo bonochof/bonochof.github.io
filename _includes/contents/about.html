@@ -17,8 +17,8 @@
 <ul class="work">
 {%- for data in site.data.about.work-academia -%}
   {%- if data.name-key -%}<li><span class="name">{{ site.data.translate.about.work.academia[data.name-key][page.lang] }}</span>
-    {%- if data.start -%}<ul><li class="info">{{ data.start }}{%- if page.lang == 'ja' -%}年{%- endif -%}～{%- if data.end -%}{{ data.end }}{%- if page.lang == 'ja' -%}年{%- endif -%}{%- endif -%}</li></ul>{%- endif -%}
     {%- if data.disc-key -%}<ul><li class="info">{{ site.data.translate.about.work.academia[data.disc-key][page.lang] }}</li></ul>{%- endif -%}
+    {%- if data.start -%}<ul><li class="info">{{ data.start }}{%- if page.lang == 'ja' -%}年{%- endif -%}～{%- if data.end -%}{{ data.end }}{%- if page.lang == 'ja' -%}年{%- endif -%}{%- endif -%}</li></ul>{%- endif -%}
   </li>{%- endif -%}
 {%- endfor -%}
 </ul>
@@ -27,8 +27,8 @@
 <ul class="work">
 {%- for data in site.data.about.work-programming -%}
   {%- if data.name-key -%}<li><span class="name">{{ site.data.translate.about.work.programming[data.name-key][page.lang] }}</span>
-    {%- if data.start -%}<ul><li class="info">{{ data.start }}{%- if page.lang == 'ja' -%}年{%- endif -%}～{%- if data.end -%}{{ data.end }}{%- if page.lang == 'ja' -%}年{%- endif -%}{%- endif -%}</li></ul>{%- endif -%}
     {%- if data.disc-key -%}<ul><li class="info">{{ site.data.translate.about.work.programming[data.disc-key][page.lang] }}</li></ul>{%- endif -%}
+    {%- if data.start -%}<ul><li class="info">{{ data.start }}{%- if page.lang == 'ja' -%}年{%- endif -%}～{%- if data.end -%}{{ data.end }}{%- if page.lang == 'ja' -%}年{%- endif -%}{%- endif -%}</li></ul>{%- endif -%}
   </li>{%- endif -%}
 {%- endfor -%}
 </ul>
@@ -37,8 +37,8 @@
 <ul class="work">
 {%- for data in site.data.about.work-swimming -%}
   {%- if data.name-key -%}<li><span class="name">{{ site.data.translate.about.work.swimming[data.name-key][page.lang] }}</span>
-    {%- if data.start -%}<ul><li class="info">{{ data.start }}{%- if page.lang == 'ja' -%}年{%- endif -%}～{%- if data.end -%}{{ data.end }}{%- if page.lang == 'ja' -%}年{%- endif -%}{%- endif -%}</li></ul>{%- endif -%}
     {%- if data.disc-key -%}<ul><li class="info">{{ site.data.translate.about.work.swimming[data.disc-key][page.lang] }}</li></ul>{%- endif -%}
+    {%- if data.start -%}<ul><li class="info">{{ data.start }}{%- if page.lang == 'ja' -%}年{%- endif -%}～{%- if data.end -%}{{ data.end }}{%- if page.lang == 'ja' -%}年{%- endif -%}{%- endif -%}</li></ul>{%- endif -%}
   </li>{%- endif -%}
 {%- endfor -%}
 </ul>
@@ -48,8 +48,8 @@
 <ul class="committee">
 {%- for data in site.data.about.committee -%}
   {%- if data.name-key -%}<li><span class="name">{{ site.data.translate.about.committee[data.name-key][page.lang] }}</span>
-    {%- if data.start -%}<ul><li class="info">{{ data.start }}{%- if page.lang == 'ja' -%}年{%- endif -%}～{%- if data.end -%}{{ data.end }}{%- if page.lang == 'ja' -%}年{%- endif -%}{%- endif -%}</li></ul>{%- endif -%}
     {%- if data.disc-key -%}<ul><li class="info">{{ site.data.translate.about.committee[data.disc-key][page.lang] }}</li></ul>{%- endif -%}
+    {%- if data.start -%}<ul><li class="info">{{ data.start }}{%- if page.lang == 'ja' -%}年{%- endif -%}～{%- if data.end -%}{{ data.end }}{%- if page.lang == 'ja' -%}年{%- endif -%}{%- endif -%}</li></ul>{%- endif -%}
   </li>{%- endif -%}
 {%- endfor -%}
 </ul>
@@ -69,8 +69,8 @@
 <ul class="programming">
 {%- for data in site.data.about.programming -%}
   {%- if data.lang -%}<li><span class="lang">{{ data.lang }}</span>
-    {%- if data.start -%}<ul><li class="info">{{ data.start }}{%- if page.lang == 'ja' -%}年{%- endif -%}～</li></ul>{%- endif -%}
     {%- if data.memo-key -%}<ul><li class="info">{{ site.data.translate.about.programming[data.memo-key][page.lang] }}</li></ul>{%- endif -%}
+    {%- if data.start -%}<ul><li class="info">{{ data.start }}{%- if page.lang == 'ja' -%}年{%- endif -%}～</li></ul>{%- endif -%}
   </li>{%- endif -%}
 {%- endfor -%}
 <li>{{ site.data.translate.about.programming.others[page.lang] }}
