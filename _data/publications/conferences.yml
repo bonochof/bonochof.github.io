@@ -12,6 +12,23 @@
   refereed: true
   oral-presentation: false
 
+- title: "Mind Time Machine Ⅱ"
+  author:
+    - Takashi Ikegami
+    - Atsushi Masumori
+    - Norihiro Maruyama
+    - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
+    - Hiroki Sato
+    - johnsmith
+    - Hiroki Kojima
+    - Yuta Ogai
+    - Itsuki Doi
+  in:
+    title: ALIFE 2023 Workshop on Cognitive Feelings
+    date: Jul. 2023
+  refereed: true
+  oral-presentation: true
+
 - title: Design of Cooperative Interaction between Humans and AI Creatures through Reinforcement Learning
   author:
     - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
