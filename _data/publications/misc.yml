@@ -1,4 +1,25 @@
 - title:
+    en: Students Forum (122) Interview with Roy Sugimura "The Frontiers of AI International Standardization as Seen by Going Outside"
+    ja: 学生フォーラム〔第122回〕杉村領一先生インタビュー「外へ出ることで見えるAI国際標準化の最前線」
+  author:
+    en:
+      - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
+      - Hiroshi Sakuma
+    ja:
+      - <span style="font-weight:bold;text-decoration:underline">高田 亮介</span>
+      - 佐久間 洋司
+  in:
+    title:
+      en: Journal of the Japanese Society for Artificial Intelligence
+      ja: 人工知能
+    vol: 39
+    numero: 3
+    pp: 425-429
+    date: May. 2024
+  refereed: false
+  journal: true
+
+- title:
     en: Both JSAI2023 Conference Committee Member and Student Editorial Board Member
     ja: "特集: 編集委員 今年の抱負 2024 「全国大会委員と学生編集委員の両輪で」"
   author:
