@@ -13,11 +13,30 @@
   in:
     title:
       en: The 38th Annual Conference of the Japanese Society for Artificial Intelligence (JSAI2024)
-      ja: 第38回人工知能学会全国大会 (JSAI2021)
+      ja: 第38回人工知能学会全国大会 (JSAI2024)
     p-no: 2F4-GS-5-02
     date: May. 2024
   refereed: true
   oral-presentation: true
+
+- title:
+    en: A Study on the Effects of Word Usage on Responses of Physical Skills
+    ja: 言語使用が身体スキルの反応に与える影響
+  author:
+    en:
+      - Masatoshi Yamada
+      - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
+    ja:
+      - 山田 雅敏
+      - <span style="font-weight:bold;text-decoration:underline">高田 亮介</span>
+  in:
+    title:
+      en: The 38th Annual Conference of the Japanese Society for Artificial Intelligence (JSAI2024)
+      ja: 第38回人工知能学会全国大会 (JSAI2024)
+    p-no: 3Xin2-114
+    date: May. 2024
+  refereed: true
+  oral-presentation: false
 
 - title:
     en: Consideration of Brain Activity and Rhythm when Practicing Skills
