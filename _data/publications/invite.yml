@@ -1,4 +1,18 @@
 - title:
+    en: Multi-Agent Models for Emergence of Individuality from Collective Interaction
+    ja: 集団インタラクションから個性を創発させるマルチエージェントモデル
+  author:
+    en:
+      - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
+    ja:
+      - <span style="font-weight:bold;text-decoration:underline">高田 亮介</span>
+  in:
+    title:
+      en: Cognitive Communication Workshop 2024
+      ja: 第23回認知的コミュニケーションワークショップ
+    date: Aug. 2024
+
+- title:
     en: Simulation of LLM Agents Emanating Individuality from Collectivity in Virtual Reality
     ja: VRに集団の中から個性を創発させるLLMエージェントのシミュレーション
   author:
