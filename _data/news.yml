@@ -1,3 +1,7 @@
+- date: 2024.09.01
+  description:
+    en: Article published in the Journal of the Japanese Society for Artificial Intelligence. The title is "Students Forum (124) Interview with Prof. Yugo Takeuchi -- HAI in the Era of Intelligent Mass Production."
+    ja: 人工知能学会誌にて"学生フォーラム〔第124回〕竹内勇剛先生インタビュー「知的大量生産時代のHAI」"を掲載．記事は<a href="https://www.jstage.jst.go.jp/article/jjsai/39/5/39_767/_article/-char/ja/" target="_blank">こちら</a>．
 - date: 2024.05.30
   description:
     en: Oral presentation at the 38th Annual Conference of the Japanese Society for Artificial Intelligence. The title is "Emergence of New Strategies for Gaming through Collective Interaction of LLM Agents." And He received the <span style="color:maroon;font-weight:bold">JSAI Annual Conference Student Incentive Award</span>.
