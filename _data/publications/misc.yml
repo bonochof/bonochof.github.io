@@ -1,4 +1,23 @@
 - title:
+    en: Students Forum (124) Interview with Prof. Yugo Takeuchi "HAI in the Era of Intelligent Mass Production"
+    ja: 学生フォーラム〔第124回〕竹内勇剛先生インタビュー「知的大量生産時代のHAI」
+  author:
+    en:
+      - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
+    ja:
+      - <span style="font-weight:bold;text-decoration:underline">高田 亮介</span>
+  in:
+    title:
+      en: Journal of the Japanese Society for Artificial Intelligence
+      ja: 人工知能
+    vol: 39
+    numero: 5
+    pp: 767-771
+    date: Sep. 2024
+  refereed: false
+  journal: true
+
+- title:
     en: Students Forum (122) Interview with Roy Sugimura "The Frontiers of AI International Standardization as Seen by Going Outside"
     ja: 学生フォーラム〔第122回〕杉村領一先生インタビュー「外へ出ることで見えるAI国際標準化の最前線」
   author:
