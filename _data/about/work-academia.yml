@@ -5,14 +5,17 @@
 - name-key: sn-part
   disc-key: sn-ptl
   start: 2024
+  end: 2024
 
 - name-key: ut-mzero
   disc-key: researcher
   start: 2023
+  end: 2024
 
 - name-key: tk-part
   disc-key: tk-ptl
   start: 2023
+  end: 2024
 
 - name-key: ut-izumi
   disc-key: dev

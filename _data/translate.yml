@@ -83,7 +83,8 @@ about:
         ja: 特別研究員（DC2）
       tk-ptl:
         en: 'Part-time lecturer ("Programming": 1st semester of FY2023/2nd semester of FY2023/1st semester of FY2024/2nd semester of FY2024, "Information Literacy 1": 1st semester of FY2023/1st semester of FY2024, "Information Literacy 2": 2nd semester of FY2023/2nd semester of FY2024, "Information Network": 2nd semester of FY2024)'
-        ja: 非常勤講師（2023年度前期/2023年度後期/2024年度前期/2024年度後期『プログラミング』，2023年度前期/2024年度前期『情報リテラシーⅠ』，2023年度後期/2024年度後期『情報リテラシーⅡ』，2024年度後期『情報ネットワーク』）
+        #ja: 非常勤講師（2023年度前期/2023年度後期/2024年度前期/2024年度後期『プログラミング』，2023年度前期/2024年度前期『情報リテラシーⅠ』，2023年度後期/2024年度後期『情報リテラシーⅡ』，2024年度後期『情報ネットワーク』）
+        ja: 非常勤講師
       ra:
         en: Research assistant
         ja: 研究補佐員
