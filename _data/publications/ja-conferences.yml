@@ -1,4 +1,42 @@
 - title:
+    en: Personality Differentiation through Collective Interaction of LLM Agents
+    ja: LLMエージェントの集団インタラクションによる性格の分化
+  author:
+    en:
+      - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
+      - Atsushi Masumori
+      - Takashi Ikegami
+    ja:
+      - <span style="font-weight:bold;text-decoration:underline">高田 亮介</span>
+      - 升森 敦士
+      - 池上 高志
+  in:
+    title:
+      en: The 41st Annual Meeting of Japanese Cognitive Science Society (JCSS2024)
+      ja: 日本認知科学会第41回大会 (JCSS2024)
+    date: Oct. 2024
+  refereed: true
+  oral-presentation: false
+
+- title:
+    en: Why did Masters Admonish Caution in Word Usage about Skills? -- Focusing on Brain Activity in the Prefrontal Cortex --
+    ja: なぜ先達は技に対する言語使用に注意を諭したのか？～前頭前野の脳活動に注目して～
+  author:
+    en:
+      - Masatoshi Yamada
+      - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
+    ja:
+      - 山田 雅敏
+      - <span style="font-weight:bold;text-decoration:underline">高田 亮介</span>
+  in:
+    title:
+      en: The 41st Annual Meeting of Japanese Cognitive Science Society (JCSS2024)
+      ja: 日本認知科学会第41回大会 (JCSS2024)
+    date: Oct. 2024
+  refereed: true
+  oral-presentation: false
+
+- title:
     en: Emergence of New Strategies for Gaming through Collective Interaction of LLM Agents
     ja: LLMエージェントの集団インタラクションを通したゲームの新しい戦略の創発
   author:
