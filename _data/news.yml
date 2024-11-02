@@ -1,3 +1,7 @@
+- date: 2024.11.01
+  description:
+    en: 'Article published in the Journal of the Japanese Society for Artificial Intelligence. The title is "Students Forum (125) Interview with Prof. Kiyoshi Izumi -- From Complex Systems to Causal AI: Future of Financial Informatics."'
+    ja: 人工知能学会誌にて"学生フォーラム〔第125回〕和泉潔先生インタビュー「複雑系から因果AIへ：金融情報学の未来」"を掲載．記事は<a href="https://www.jstage.jst.go.jp/article/jjsai/39/6/39_977/_article/-char/ja/" target="_blank">こちら</a>．
 - date: 2024.10.14
   description:
     en: Poster presentation at the 41st Annual Meeting of Japanese Cognitive Science Society (JCSS2024). The title is "Personality Differentiation through Collective Interaction of LLM Agents."
