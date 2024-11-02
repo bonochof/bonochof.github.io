@@ -1,4 +1,25 @@
 - title:
+    en: 'Students Forum (125) Interview with Prof. Kiyoshi Izumi "From Complex Systems to Causal AI: Future of Financial Informatics"'
+    ja: 学生フォーラム〔第125回〕和泉潔先生インタビュー「複雑系から因果AIへ：金融情報学の未来」
+  author:
+    en:
+      - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
+      - Hiroshi Sakuma
+    ja:
+      - <span style="font-weight:bold;text-decoration:underline">高田 亮介</span>
+      - 佐久間 洋司
+  in:
+    title:
+      en: Journal of the Japanese Society for Artificial Intelligence
+      ja: 人工知能
+    vol: 39
+    numero: 6
+    pp: 977-981
+    date: Nov. 2024
+  refereed: false
+  journal: true
+
+- title:
     en: Students Forum (124) Interview with Prof. Yugo Takeuchi "HAI in the Era of Intelligent Mass Production"
     ja: 学生フォーラム〔第124回〕竹内勇剛先生インタビュー「知的大量生産時代のHAI」
   author:
