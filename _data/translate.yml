@@ -48,6 +48,9 @@ about:
     academia:
       en: Academia
       ja: アカデミア
+      ut-ta:
+        en: Graduate School of Arts and Sciences, University of Tokyo
+        ja: 東京大学大学院総合文化研究科
       jsps:
         en: Japan Society for the Promotion of Science (JSPS)
         ja: 日本学術振興会（学振）
@@ -91,6 +94,9 @@ about:
       tutor:
         en: Part-time teaching staff
         ja: パート教務職員
+      ta-ikeg:
+        en: 'Teaching assistant ("Complex Systems": A semester of FY2024)'
+        ja: ティーチングアシスタント（2024年度Aセメスター『複雑系科学』）
     programming:
       en: Programming
       ja: プログラミング
