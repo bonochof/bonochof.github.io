@@ -57,6 +57,7 @@
   refereed: true
   oral-presentation: true
   award-key: JSAI2024
+  doi: <a href="https://doi.org/10.11517/pjsai.JSAI2024.0_2F4GS502" target="_blank">doi:10.11517/pjsai.JSAI2024.0_2F4GS502</a>
 
 - title:
     en: A Study on the Effects of Word Usage on Responses of Physical Skills
@@ -76,6 +77,7 @@
     date: May. 2024
   refereed: true
   oral-presentation: false
+  doi: <a href="https://doi.org/10.11517/pjsai.JSAI2024.0_3Xin2114" target="_blank">doi:10.11517/pjsai.JSAI2024.0_3Xin2114</a>
 
 - title:
     en: Consideration of Brain Activity and Rhythm when Practicing Skills
@@ -362,6 +364,7 @@
     date: Jun. 2021
   refereed: true
   oral-presentation: true
+  doi: <a href="https://doi.org/10.11517/pjsai.JSAI2021.0_3I2GS5e03" target="_blank">doi:10.11517/pjsai.JSAI2021.0_3I2GS5e03</a>
 
 - title:
     en: Cooperation without Person Perception on Kick the Can Game
@@ -444,6 +447,7 @@
     date: Jun. 2020
   refereed: true
   oral-presentation: false
+  doi: <a href="https://doi.org/10.11517/pjsai.JSAI2020.0_4Rin164" target="_blank">doi:10.11517/pjsai.JSAI2020.0_4Rin164</a>
 
 - title:
     en: Analysis of Process about Acquisition of Standing Skill in Agents with Different Physical Characteristics Focusing on Evolutionary Learning with Neuroevolution
@@ -467,6 +471,7 @@
     date: Jun. 2020
   refereed: true
   oral-presentation: false
+  doi: <a href="https://doi.org/10.11517/pjsai.JSAI2020.0_4Rin119" target="_blank">doi:10.11517/pjsai.JSAI2020.0_4Rin119</a>
 
 - title:
     en: Automatic Acquisition of Cooperative Behavior by Creatures through Reinforcement Learning
