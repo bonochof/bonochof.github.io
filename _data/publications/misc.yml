@@ -1,4 +1,25 @@
 - title:
+    en: 'Student Session "The Multimodality Revolution: Exploring New Perspectives on Large-Scale Pre-trained Models"'
+    ja: "特集: 2024年度人工知能学会全国大会（第38回） 学生企画「マルチモダリティ革命─大規模事前学習済みモデルの新たな視点を探る─」"
+  author:
+    en:
+      - Motonari Kambara
+      - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
+    ja:
+      - 神原 元就
+      - <span style="font-weight:bold;text-decoration:underline">高田 亮介</span>
+  in:
+    title:
+      en: Journal of the Japanese Society for Artificial Intelligence
+      ja: 人工知能
+    vol: 39
+    numero: 6
+    pp: 927-928
+    date: Nov. 2024
+  refereed: false
+  journal: true
+
+- title:
     en: 'Students Forum (125) Interview with Prof. Kiyoshi Izumi "From Complex Systems to Causal AI: Future of Financial Informatics"'
     ja: 学生フォーラム〔第125回〕和泉潔先生インタビュー「複雑系から因果AIへ：金融情報学の未来」
   author:
@@ -80,7 +101,7 @@
 
 - title:
     en: Student Session "What Do People Want from AI?"
-    ja: "特集: 2023 年度人工知能学会全国大会（第37 回） 学生企画「人は人工知能に何を求めるのか」"
+    ja: "特集: 2023年度人工知能学会全国大会（第37回） 学生企画「人は人工知能に何を求めるのか」"
   author:
     en:
       - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
