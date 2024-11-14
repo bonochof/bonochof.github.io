@@ -1,4 +1,24 @@
 - title:
+    en: A Preliminary Study about Effects of Word Usage on the Body during Skills Practice
+    ja: 技を実践する際の言語使用が身体に及ぼす影響に関する予備的研究
+  author:
+    en:
+      - Masatoshi Yamada
+      - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
+    ja:
+      - 山田 雅敏
+      - <span style="font-weight:bold;text-decoration:underline">高田 亮介</span>
+  in:
+    title:
+      en: Bulletin of Faculty of Business Administration, Tokoha University
+      ja: 常葉大学 経営学部 研究紀要
+    vol: 12
+    numero: 1
+    pp: 25-31
+    date: Sep. 2024
+  refereed: true
+
+- title:
     en: A Study on Standing of Agents through Evolutionary Learning
     ja: 進化的学習を通したエージェントの立位保持に関する検討
   author:

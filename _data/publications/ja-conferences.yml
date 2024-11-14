@@ -1,4 +1,40 @@
 - title:
+    en: The Influence on Reaction Time by Speech Acts during Movement Focus on Go/No-go Task with Random Stimulus Presentation Intervals
+    ja: 動作中の発話行為が反応時間に及ぼす影響～ランダムな刺激提示間隔のGo/No-go課題に注目して～
+  author:
+    en:
+      - Masatoshi Yamada
+      - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
+    ja:
+      - 山田 雅敏
+      - <span style="font-weight:bold;text-decoration:underline">高田 亮介</span>
+  in:
+    title:
+      en: IEICE Human Communication Group Symposium 2024
+      ja: 電子情報通信学会 HCGシンポジウム2024
+    date: Dec. 2024
+  refereed: false
+  oral-presentation: false
+
+- title:
+    en: Considerations on Rhythm in Perceptual Reaction Test Practice
+    ja: 知覚反応テスト実践時のリズムに関する考察
+  author:
+    en:
+      - Masatoshi Yamada
+      - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
+    ja:
+      - 山田 雅敏
+      - <span style="font-weight:bold;text-decoration:underline">高田 亮介</span>
+  in:
+    title:
+      en: The 32nd Annual Meeting of Japan Information-Culturology Society
+      ja: 情報文化学会 第32回全国大会
+    date: Oct. 2024
+  refereed: false
+  oral-presentation: true
+
+- title:
     en: Personality Differentiation through Collective Interaction of LLM Agents
     ja: LLMエージェントの集団インタラクションによる性格の分化
   author:
