@@ -133,6 +133,15 @@ about:
       swim:
         en: Swimming coach
         ja: 水泳コーチ
+    other:
+      en: Other
+      ja: その他
+      nakayama:
+        en: HAYAO NAKAYAMA Foundation for Science & Technology and Culture
+        ja: 中山隼雄科学技術文化財団
+      highschool-coach:
+        en: Next neneration researcher coach
+        ja: 次世代研究者助成事業 研究コーチ
   society:
     en: Academic Societies
     ja: 所属学会

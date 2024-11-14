@@ -43,6 +43,16 @@
 {%- endfor -%}
 </ul>
 
+<h3>{{ site.data.translate.about.work.other[page.lang] }}</h3>
+<ul class="work">
+{%- for data in site.data.about.work-other -%}
+  {%- if data.name-key -%}<li><span class="name">{{ site.data.translate.about.work.other[data.name-key][page.lang] }}</span>
+    {%- if data.disc-key -%}<ul><li class="info">{{ site.data.translate.about.work.other[data.disc-key][page.lang] }}</li></ul>{%- endif -%}
+    {%- if data.start -%}<ul><li class="info">{{ data.start }}{%- if page.lang == 'ja' -%}年{%- endif -%}～{%- if data.end -%}{{ data.end }}{%- if page.lang == 'ja' -%}年{%- endif -%}{%- endif -%}</li></ul>{%- endif -%}
+  </li>{%- endif -%}
+{%- endfor -%}
+</ul>
+
 <h2>{{ site.data.translate.about.committee[page.lang] }}</h2>
 
 <ul class="committee">
