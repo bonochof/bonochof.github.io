@@ -17,6 +17,26 @@
   oral-presentation: false
 
 - title:
+    en: A Study of Structural Understanding of the Theory of Qualia Research
+    ja: 意識研究の理論に関する構造的理解の一考察
+  author:
+    en:
+      - Yoshiya Okada
+      - Masatoshi Yamada
+      - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
+    ja:
+      - 岡田 喜也
+      - 山田 雅敏
+      - <span style="font-weight:bold;text-decoration:underline">高田 亮介</span>
+  in:
+    title:
+      en: Workshop on Informatics 2024 (WiNF2024)
+      ja: 第22回情報学ワークショップ
+    date: Dec. 2024
+  refereed: false
+  oral-presentation: false
+
+- title:
     en: Considerations on Rhythm in Perceptual Reaction Test Practice
     ja: 知覚反応テスト実践時のリズムに関する考察
   author:
