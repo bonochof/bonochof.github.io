@@ -1,11 +1,16 @@
-- title: Spontaneous Emergence of Agent Individuality through Social Interactions in LLM-Based Communities
+- title: Spontaneous Emergence of Agent Individuality Through Social Interactions in Large Language Model-Based Communities
   author:
     - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
     - Atsushi Masumori
     - Takashi Ikegami
   in:
-  note: in press
+    title: Entropy
+    vol: 26
+    numero: 12
+    issue: 1092
+    date: Dec. 2024
   refereed: true
+  doi: <a href="https://doi.org/10.3390/e26121092" target="_blank">doi:10.3390/e26121092</a>
 
 - title:
     en: A Preliminary Study about Effects of Word Usage on the Body during Skills Practice
