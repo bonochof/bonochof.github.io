@@ -11,7 +11,7 @@
     date: Jul. 2023
   refereed: true
   oral-presentation: false
-  doi: <a href="https://doi.org/10.1162/isal_a_00676" target="_blank">doi:10.1162/isal_a_00676</a>
+  doi: <a href="https://doi.org/10.1162/isal_a_00676" target="_blank">https://doi.org/10.1162/isal_a_00676</a>
 
 - title: "Mind Time Machine II"
   author:
@@ -29,6 +29,7 @@
     date: Jul. 2023
   refereed: true
   oral-presentation: true
+  #doi: <a href="https://sites.google.com/view/cogfeel-alife-2023" target="_blank">https://sites.google.com/view/cogfeel-alife-2023</a>
 
 - title: Design of Cooperative Interaction between Humans and AI Creatures through Reinforcement Learning
   author:
@@ -40,7 +41,7 @@
     date: Oct. 2019
   refereed: true
   oral-presentation: false
-  doi: <a href="https://doi.org/10.1145/3349537.3352771" target="_blank">doi:10.1145/3349537.3352771</a>
+  doi: <a href="https://doi.org/10.1145/3349537.3352771" target="_blank">https://doi.org/10.1145/3349537.3352771</a>
 
 - title: Design of Cooperative Interaction between Humans and Agents through Reinforcement Learning
   author:
