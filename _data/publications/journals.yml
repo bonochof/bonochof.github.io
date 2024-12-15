@@ -10,7 +10,7 @@
     issue: 1092
     date: Dec. 2024
   refereed: true
-  doi: <a href="https://doi.org/10.3390/e26121092" target="_blank">doi:10.3390/e26121092</a>
+  doi: <a href="https://doi.org/10.3390/e26121092" target="_blank">https://doi.org/10.3390/e26121092</a>
 
 - title:
     en: A Preliminary Study about Effects of Word Usage on the Body during Skills Practice
@@ -31,6 +31,7 @@
     pp: 25-31
     date: Sep. 2024
   refereed: true
+  #doi: <a href="https://tokoha-u.repo.nii.ac.jp/records/2000319" target="_blank">https://tokoha-u.repo.nii.ac.jp/records/2000319</a>
 
 - title:
     en: A Study on Standing of Agents through Evolutionary Learning
@@ -55,4 +56,4 @@
     pp: 35-41
     date: Feb. 2021
   refereed: true
-  doi: <a href="https://doi.org/10.18894/00002100" target="_blank">doi:10.18894/00002100</a>
+  doi: <a href="https://doi.org/10.18894/00002100" target="_blank">https://doi.org/10.18894/00002100</a>

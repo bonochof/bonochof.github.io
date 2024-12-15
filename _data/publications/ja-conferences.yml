@@ -73,6 +73,7 @@
     date: Oct. 2024
   refereed: true
   oral-presentation: false
+  #doi: <a href="https://www.jcss.gr.jp/meetings/jcss2024/proceedings/P-3.html#23A" target="_blank">https://www.jcss.gr.jp/meetings/jcss2024/proceedings/P-3.html</a>
 
 - title:
     en: Why did Masters Admonish Caution in Word Usage about Skills? -- Focusing on Brain Activity in the Prefrontal Cortex --
@@ -91,6 +92,7 @@
     date: Oct. 2024
   refereed: true
   oral-presentation: false
+  #doi: <a href="https://www.jcss.gr.jp/meetings/jcss2024/proceedings/P-1.html#1" target="_blank">https://www.jcss.gr.jp/meetings/jcss2024/proceedings/P-1.html</a>
 
 - title:
     en: Emergence of New Strategies for Gaming through Collective Interaction of LLM Agents
@@ -113,7 +115,7 @@
   refereed: true
   oral-presentation: true
   award-key: JSAI2024
-  doi: <a href="https://doi.org/10.11517/pjsai.JSAI2024.0_2F4GS502" target="_blank">doi:10.11517/pjsai.JSAI2024.0_2F4GS502</a>
+  doi: <a href="https://doi.org/10.11517/pjsai.JSAI2024.0_2F4GS502" target="_blank">https://doi.org/10.11517/pjsai.JSAI2024.0_2F4GS502</a>
 
 - title:
     en: A Study on the Effects of Word Usage on Responses of Physical Skills
@@ -133,7 +135,7 @@
     date: May. 2024
   refereed: true
   oral-presentation: false
-  doi: <a href="https://doi.org/10.11517/pjsai.JSAI2024.0_3Xin2114" target="_blank">doi:10.11517/pjsai.JSAI2024.0_3Xin2114</a>
+  doi: <a href="https://doi.org/10.11517/pjsai.JSAI2024.0_3Xin2114" target="_blank">https://doi.org/10.11517/pjsai.JSAI2024.0_3Xin2114</a>
 
 - title:
     en: Consideration of Brain Activity and Rhythm when Practicing Skills
@@ -171,6 +173,7 @@
     date: Mar. 2024
   refereed: false
   oral-presentation: true
+  #doi: <a href="https://www.ipsj.or.jp/event/taikai/86/WEB/data/pdf/4B-05.html" target="_blank">https://www.ipsj.or.jp/event/taikai/86/WEB/data/pdf/4B-05.html</a>
 
 - title:
     en: Interaction of LLM Agents Emerging Individuality from Collectivity
@@ -193,6 +196,7 @@
   refereed: false
   oral-presentation: true
   award-key: HAI2024
+  #doi: <a href="https://hai-conference.net/proceedings/HAI2024/html/paper/paper-G-5.html" target="_blank">https://hai-conference.net/proceedings/HAI2024/html/paper/paper-G-5.html</a>
 
 - title:
     en: An Informatics Study on Skills and Embodied Cognition -- Focusing on Perceptual Reaction Time and Kinesthetic Impressions --
@@ -294,6 +298,7 @@
     date: Sep. 2023
   refereed: true
   oral-presentation: false
+  #doi: <a href="https://www.jcss.gr.jp/meetings/jcss2023/proceedings/P2.html#055A" target="_blank">https://www.jcss.gr.jp/meetings/jcss2023/proceedings/P2.html</a>
 
 - title:
     en: A Cognitive Model of Thrill Using Evolutionary Computation and Reinforcement Learning
@@ -315,6 +320,7 @@
     date: Mar. 2023
   refereed: false
   oral-presentation: false
+  #doi: <a href="https://hai-conference.net/proceedings/HAI2023/html/paper/paper-P-54.html" target="_blank">https://hai-conference.net/proceedings/HAI2023/html/paper/paper-P-54.html</a>
 
 - title:
     en: Emergence of Collective Behavior through Evolution of Individuals and Interaction
@@ -337,6 +343,7 @@
     date: Nov. 2022
   refereed: false
   oral-presentation: true
+  #doi: <a href="https://www.alife-japan.org/events/the-5th-artificial-life-research-meeting" target="_blank">https://www.alife-japan.org/events/the-5th-artificial-life-research-meeting</a>
 
 - title:
     en: Emergence of Organized Behavior through Multi-Agent Reinforcement Learning of Kick the Can Game
@@ -359,6 +366,7 @@
     date: Jul. 2022
   refereed: false
   oral-presentation: false
+  #doi: <a href="https://www.alife-japan.org/events/the-4th-artificial-life-research-meeting" target="_blank">https://www.alife-japan.org/events/the-4th-artificial-life-research-meeting</a>
 
 - title:
     en: Analysis of Group Organization and Dynamics through Reinforcement Learning in "Kick the Can" Game
@@ -380,6 +388,7 @@
     date: Mar. 2022
   refereed: false
   oral-presentation: true
+  #doi: <a href="https://hai-conference.net/proceedings/HAI2022/html/paper/paper-G-15.html" target="_blank">https://hai-conference.net/proceedings/HAI2022/html/paper/paper-G-15.html</a>
 
 - title:
     en: Reinforcement Learning Agents Solving the Mutual Prediction Problem through Different Standpoints
@@ -399,6 +408,7 @@
     date: Sep. 2021
   refereed: true
   oral-presentation: true
+  #doi: <a href="https://www.jcss.gr.jp/meetings/jcss2021/proceedings/O3.html#3" target="_blank">https://www.jcss.gr.jp/meetings/jcss2021/proceedings/O3.html</a>
 
 - title:
     en: Acquiring Cooperative Behavior through Reinforcement Learning of Winning Strategy
@@ -420,7 +430,7 @@
     date: Jun. 2021
   refereed: true
   oral-presentation: true
-  doi: <a href="https://doi.org/10.11517/pjsai.JSAI2021.0_3I2GS5e03" target="_blank">doi:10.11517/pjsai.JSAI2021.0_3I2GS5e03</a>
+  doi: <a href="https://doi.org/10.11517/pjsai.JSAI2021.0_3I2GS5e03" target="_blank">https://doi.org/10.11517/pjsai.JSAI2021.0_3I2GS5e03</a>
 
 - title:
     en: Cooperation without Person Perception on Kick the Can Game
@@ -443,6 +453,7 @@
   refereed: false
   oral-presentation: true
   award-key: HAI2021
+  #doi: <a href="https://hai-conference.net/proceedings/HAI2021/html/paper/paper-G-20.html" target="_blank">https://hai-conference.net/proceedings/HAI2021/html/paper/paper-G-20.html</a>
 
 - title:
     en: Group Formation and Behavioral Analysis of Kick the Can by Agents Using Reinforcement Learning
@@ -484,6 +495,7 @@
     date: Sep. 2020
   refereed: true
   oral-presentation: false
+  #doi: <a href="https://www.jcss.gr.jp/meetings/jcss2020/proceedings/P.html#57" target="_blank">https://www.jcss.gr.jp/meetings/jcss2020/proceedings/P.html</a>
 
 - title:
     en: Analysis of Cooperative Interaction between Creatures Using Neuroevolution
@@ -503,7 +515,7 @@
     date: Jun. 2020
   refereed: true
   oral-presentation: false
-  doi: <a href="https://doi.org/10.11517/pjsai.JSAI2020.0_4Rin164" target="_blank">doi:10.11517/pjsai.JSAI2020.0_4Rin164</a>
+  doi: <a href="https://doi.org/10.11517/pjsai.JSAI2020.0_4Rin164" target="_blank">https://doi.org/10.11517/pjsai.JSAI2020.0_4Rin164</a>
 
 - title:
     en: Analysis of Process about Acquisition of Standing Skill in Agents with Different Physical Characteristics Focusing on Evolutionary Learning with Neuroevolution
@@ -527,7 +539,7 @@
     date: Jun. 2020
   refereed: true
   oral-presentation: false
-  doi: <a href="https://doi.org/10.11517/pjsai.JSAI2020.0_4Rin119" target="_blank">doi:10.11517/pjsai.JSAI2020.0_4Rin119</a>
+  doi: <a href="https://doi.org/10.11517/pjsai.JSAI2020.0_4Rin119" target="_blank">https://doi.org/10.11517/pjsai.JSAI2020.0_4Rin119</a>
 
 - title:
     en: Automatic Acquisition of Cooperative Behavior by Creatures through Reinforcement Learning
@@ -547,6 +559,7 @@
     date: Mar. 2020
   refereed: false
   oral-presentation: true
+  #doi: <a href="https://hai-conference.net/proceedings/HAI2020/html/paper/paper-G-7.html" target="_blank">https://hai-conference.net/proceedings/HAI2020/html/paper/paper-G-7.html</a>
 
 - title:
     en: "Analysis of Coevolution and Motivation in Action Game AI: A Case Study of Bomberman"
