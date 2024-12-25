@@ -1,3 +1,23 @@
+- title: A Community First theory for Understanding Individuality
+  author:
+    - Takashi Ikegami
+    - Hiroki Kojima
+    - Acer Yu-Chan Chang
+    - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
+    - Atsushi Masumori
+    - Norihiro Maruyama
+    - Ilya Horiguchi
+    - Michael Crosscombe
+    - Yasuhiro Hashimoto
+    - Hiroki Sato
+    - Akiko Kashiwagi
+    - Shigeto Dobata
+  in:
+    title: 30th International Symposium on Artificial Life and Robotics (AROB 2025)
+    date: Jan. 2025
+  refereed: true
+  oral-presentation: true
+
 - title: "Evolving Collective AI: Simulation of Ants Communicating via Chemicals"
   author:
     - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
