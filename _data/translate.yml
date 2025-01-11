@@ -183,6 +183,12 @@ about:
     jsai-editor-d:
       en: Student Editor
       ja: 学生編集委員
+    jsai-expo:
+      en: Task Force for Future Academic Society, The Japanese Society for Artificial Intelligence
+      ja: 人工知能学会 未来世代学会タスクフォース
+    jsai-expo-d:
+      en: Committee Member
+      ja: 委員
   programming:
     en: Programming Skills
     ja: プログラミング歴
