@@ -1,6 +1,7 @@
-#- name-key: ut-ta
-#  disc-key: ta-ikeg
-#  start: 2024
+- name-key: ut-ta
+  disc-key: ta-ikeg
+  start: 2024
+  end: 2025
 
 - name-key: jsps
   disc-key: dc2
@@ -9,7 +10,6 @@
 - name-key: sn-part
   disc-key: sn-ptl
   start: 2024
-  end: 2024
 
 - name-key: ut-mzero
   disc-key: researcher
@@ -19,7 +19,6 @@
 - name-key: tk-part
   disc-key: tk-ptl
   start: 2023
-  end: 2024
 
 - name-key: ut-izumi
   disc-key: dev
