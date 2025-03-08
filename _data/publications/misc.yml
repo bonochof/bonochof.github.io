@@ -1,4 +1,26 @@
 - title:
+    en: "JSAI Meets AI Standardization -- Panel Discussion Report: What Personnel Are Required for the Standardization Process? --"
+    ja: 人工知能学会×AI標準化 ─「標準化のプロセスに必要な人材とは」パネル討論レポート─
+  author:
+    en:
+      - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
+      - Hiroshi Sakuma
+    ja:
+      - <span style="font-weight:bold;text-decoration:underline">高田 亮介</span>
+      - 佐久間 洋司
+  in:
+    title:
+      en: Journal of the Japanese Society for Artificial Intelligence
+      ja: 人工知能
+    vol: 40
+    numero: 2
+    pp: 221-226
+    date: Mar. 2025
+  refereed: false
+  journal: true
+  doi: <a href="https://doi.org/10.11517/jjsai.40.2_221" target="_blank">https://doi.org/10.11517/jjsai.40.2_221</a>
+
+- title:
     en: 'Student Session "The Multimodality Revolution: Exploring New Perspectives on Large-Scale Pre-trained Models"'
     ja: "特集: 2024年度人工知能学会全国大会（第38回） 学生企画「マルチモダリティ革命─大規模事前学習済みモデルの新たな視点を探る─」"
   author:
