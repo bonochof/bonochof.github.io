@@ -1,4 +1,27 @@
 - title:
+    en: A Study of Kinesthetic Impressions of Actions Accompanied by Cognitive Speech 
+    ja: 認知的発話を伴う動作に関する運動感覚的印象の一考察
+  author:
+    en:
+      - Masatoshi Yamada
+      - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
+      - Masanobu Sakamoto
+    ja:
+      - 山田 雅敏
+      - <span style="font-weight:bold;text-decoration:underline">高田 亮介</span>
+      - 坂本 勝信
+  in:
+    title:
+      en: IEICE Technical Committee on Human Communication Science (HCS)
+      ja: 電子情報通信学会 ヒューマンコミュニケーション基礎研究会（HCS）
+    vol: 124
+    numero: 434
+    pp: 13-16
+    date: Mar. 2025
+  refereed: false
+  oral-presentation: true
+
+- title:
     en: The Influence on Reaction Time by Speech Acts during Movement Focus on Go/No-go Task with Random Stimulus Presentation Intervals
     ja: 動作中の発話行為が反応時間に及ぼす影響～ランダムな刺激提示間隔のGo/No-go課題に注目して～
   author:
