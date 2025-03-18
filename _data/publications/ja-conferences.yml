@@ -1,5 +1,47 @@
 - title:
-    en: A Study of Kinesthetic Impressions of Actions Accompanied by Cognitive Speech 
+    en: Analysis of the El Farol Bar Problem by LLM Agents
+    ja: LLMエージェントによるエルファロル・バー問題の解析
+  author:
+    en:
+      - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
+      - Atsushi Masumori
+      - Takashi Ikegami
+    ja:
+      - <span style="font-weight:bold;text-decoration:underline">高田 亮介</span>
+      - 升森 敦士
+      - 池上 高志
+  in:
+    title:
+      en: The 39th Annual Conference of the Japanese Society for Artificial Intelligence (JSAI2025)
+      ja: 第39回人工知能学会全国大会 (JSAI2025)
+    p-no: 3A1-GS-10-04
+    date: May. 2025
+  refereed: true
+  oral-presentation: true
+  #doi: <a href="https://doi.org/10.11517/pjsai.JSAI2024.0_2F4GS502" target="_blank">https://doi.org/10.11517/pjsai.JSAI2024.0_2F4GS502</a>
+
+- title:
+    en: Effects of Speech Acts on Movements in Reaction to Irregular Stimulus Presentation -- Focusing on Reaction Time and Kinesthetic Impressions in Perceptual Reaction Test --
+    ja: 不規則な刺激提示に対する発話行為が動作に及ぼす影響～知覚反応テストの反応時間と運動感覚的印象に注目して～
+  author:
+    en:
+      - Masatoshi Yamada
+      - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
+    ja:
+      - 山田 雅敏
+      - <span style="font-weight:bold;text-decoration:underline">高田 亮介</span>
+  in:
+    title:
+      en: The 39th Annual Conference of the Japanese Society for Artificial Intelligence (JSAI2025)
+      ja: 第39回人工知能学会全国大会 (JSAI2025)
+    #p-no: 2F4-GS-5-02
+    date: May. 2025
+  refereed: true
+  oral-presentation: true
+  #doi: <a href="https://doi.org/10.11517/pjsai.JSAI2024.0_2F4GS502" target="_blank">https://doi.org/10.11517/pjsai.JSAI2024.0_2F4GS502</a>
+
+- title:
+    en: A Study of Kinesthetic Impressions of Actions Accompanied by Cognitive Speech
     ja: 認知的発話を伴う動作に関する運動感覚的印象の一考察
   author:
     en:
