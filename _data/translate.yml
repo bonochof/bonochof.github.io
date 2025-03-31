@@ -31,17 +31,17 @@ about:
       en: Education
       ja: 学校/専攻
     doctor:
-      en: Department of General Systems Studies, Graduate School of Arts and Sciences, The University of Tokyo
-      ja: 東京大学大学院総合文化研究科 広域科学専攻 広域システム科学系
+      en: Graduate School of Arts and Sciences, The University of Tokyo. Doctor of Philosophy.
+      ja: 東京大学大学院総合文化研究科 広域科学専攻 広域システム科学系，博士（学術）
     graduate:
-      en: Department of Informatics, Graduate School of Integrated Science and Technology, Shizuoka University
-      ja: 静岡大学大学院総合科学技術研究科 情報学専攻（首席卒業）
+      en: Graduate School of Integrated Science and Technology, Shizuoka University. Master of Informatics.
+      ja: 静岡大学大学院総合科学技術研究科 情報学専攻（首席卒業），修士（情報学）
     undergraduate:
-      en: Faculty of Informatics, Shizuoka University
-      ja: 静岡大学情報学部 情報科学科（首席卒業）
+      en: Faculty of Informatics, Shizuoka University. Bachelor of Informatics.
+      ja: 静岡大学情報学部 情報科学科（首席卒業），学士（情報学）
     kosen:
-      en: Department of Information Engineering, National Institute of Technology, Matsue College
-      ja: 松江工業高等専門学校 情報工学科（首席卒業）
+      en: National Institute of Technology, Matsue College. Associate of Engineering.
+      ja: 松江工業高等専門学校 情報工学科（首席卒業），準学士（工学）
   work:
     en: Work Experience
     ja: 職歴
