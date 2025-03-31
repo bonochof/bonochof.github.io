@@ -19,8 +19,8 @@ about:
     en: About
     ja: プロフィール
   description:
-    en: Ryosuke Takata was born in 1997. He is a Ph.D student at <a href="https://www.sacral.c.u-tokyo.ac.jp" target="_blank">Ikegami laboratory</a> in the University of Tokyo and JSPS research fellowship DC2. His main research interest is in evolutionary and learning systems for interaction between agents. He loves programming and swimming.
-    ja: 1997年 島根県松江市出身．東京大学大学院総合文化研究科 博士後期課程（<a href="https://www.sacral.c.u-tokyo.ac.jp" target="_blank">池上高志研究室</a>）．日本学術振興会 特別研究員（DC2）．主な研究テーマは，人工生命，マルチエージェントシステム，強化学習，進化計算，ゲーム情報学．好きなことは，プログラミングと水泳．
+    en: Ryosuke Takata was born in 1997. He completed graduate studies at the University of Tokyo (Takashi Ikegami Laboratory) and received a Ph.D. He is currently a JSPS Research Fellow (PD) and Project Researcher at the University of Tokyo. His main research themes include artificial life, multi-agent systems, reinforcement learning, evolutionary computation, and game informatics. He is also engaged in numerous system development projects as an engineer, including 3D CAD systems, VR systems, and reinforcement learning for collective play with small robots, while serving as a part-time lecturer at several universities. He enjoys programming and swimming.
+    ja: 1997年 島根県松江市出身．東京大学大学院総合文化研究科修了（池上高志研究室）．博士（学術）．日本学術振興会 特別研究員（PD）．東京大学工学系研究科 特任研究員．主な研究テーマは，人工生命，マルチエージェントシステム，強化学習，進化計算，ゲーム情報学．ニューラルネットワークやLLMなどの生成AIを用いたマルチエージェントモデルから創発するエージェントの個体性について研究している．また，3次元CADシステムや，VRシステム，小型ロボットによる集団遊びの強化学習など，エンジニアとして多くのシステム開発に取り組む傍ら，複数の大学で非常勤講師を務めている．好きなことは，プログラミングと水泳．
   education:
     en: Educational Background
     ja: 学歴
