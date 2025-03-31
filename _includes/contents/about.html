@@ -69,7 +69,7 @@
 <ul class="society">
 {%- for data in site.data.about.society -%}
   {%- if data.name-key -%}<li><span class="name">{{ site.data.translate.about.society[data.name-key][page.lang] }}</span>
-    {%- if data.start -%}<ul><li class="info">{{ data.start }}{%- if page.lang == 'ja' -%}年{%- endif -%}～</li></ul>{%- endif -%}
+    {%- if data.start -%}<ul><li class="info">{{ data.start }}{%- if page.lang == 'ja' -%}年{%- endif -%}～{%- if data.end -%}{{ data.end }}{%- if page.lang == 'ja' -%}年{%- endif -%}{%- endif -%}</li></ul>{%- endif -%}
   </li>{%- endif -%}
 {%- endfor -%}
 </ul>
