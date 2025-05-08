@@ -1,4 +1,18 @@
 - title:
+    en: Emergent Mechanisms of Individuality Explored in Multi-Agent Models
+    ja: マルチエージェントモデルから探る個体性の創発メカニズム
+  author:
+    en:
+      - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
+    ja:
+      - <span style="font-weight:bold;text-decoration:underline">高田 亮介</span>
+  in:
+    title:
+      en: Advanced Lecture on Systems Innovation, The University of Tokyo
+      ja: 東京大学大学院工学系研究科システム創成学特別講義1
+    date: May. 2025
+
+- title:
     en: Multi-Agent Models for Emergence of Individuality from Collective Interaction
     ja: 集団インタラクションから個性を創発させるマルチエージェントモデル
   author:
