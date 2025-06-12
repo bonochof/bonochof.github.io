@@ -4,9 +4,9 @@
     - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
   in:
     title: IEICE Transactions on Information and Systems
-    vol: E108-D
+    vol: E108.D
     numero: 6
-    #pp: 25-31
+    pp: 454-464
     date: Jun. 2025
   refereed: true
   doi: <a href="https://doi.org/10.1587/transinf.2024HCP0004" target="_blank">https://doi.org/10.1587/transinf.2024HCP0004</a>
