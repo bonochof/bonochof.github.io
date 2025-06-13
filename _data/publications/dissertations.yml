@@ -1,4 +1,21 @@
 - title:
+    en-main: True
+    en: Spontaneous Emergence of Individuality in Multi-Agent Models
+    ja: マルチエージェントモデルにおける個体性の自発的創発
+  author:
+    en: <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
+    ja: <span style="font-weight:bold;text-decoration:underline">高田 亮介</span>
+  supervisor:
+    en: Takashi Ikegami
+    ja: 池上 高志
+  in:
+    title:
+      en: Doctoral Thesis, The University of Tokyo
+      ja: 東京大学大学院 博士論文
+    date: Mar. 2025
+
+
+- title:
     en: Emergence of Cooperative Interaction by Multi-Agent Reinforcement Learning
     ja: マルチエージェント強化学習による協調的インタラクションの創発
   author:
