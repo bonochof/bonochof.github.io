@@ -82,8 +82,8 @@ about:
         en: Research and development
         ja: 研究開発
       sn-ptl:
-        en: 'Part-time lecturer ("Applied Programming 2": 1st semester of FY2024/1st semester of FY2025, "Operating System": 2nd semester of FY2025)'
-        ja: 兼任講師（2024年度前期/2025年度前期『応用プログラミング2』，2025年度後期『オペレーティングシステム』）
+        en: 'Part-time lecturer<br>　1st semester: "Applied Programming 2"<br>　2nd semester: "Operating System"'
+        ja: 兼任講師<br>　前期『応用プログラミング2』<br>　後期『オペレーティングシステム』
       dc2:
         en: Research fellow DC2
         ja: 特別研究員（DC2）
@@ -91,8 +91,8 @@ about:
         en: Research fellow PD
         ja: 特別研究員（PD）
       tk-ptl:
-        en: 'Part-time lecturer ("Programming": 1st semester of FY2023/2nd semester of FY2023/1st semester of FY2024/2nd semester of FY2024/1st semester of FY2025/2nd semester of FY2025, "Information Literacy 1": 1st semester of FY2023/1st semester of FY2024/1st semester of FY2025, "Information Literacy 2": 2nd semester of FY2023/2nd semester of FY2024/2nd semester of FY2025, "Information Network": 2nd semester of FY2024/2nd semester of FY2025)'
-        ja: 非常勤講師（2023年度前期/2023年度後期/2024年度前期/2024年度後期/2025年度前期/2025年度後期『プログラミング』，2023年度前期/2024年度前期/2025年度前期『情報リテラシーⅠ』，2023年度後期/2024年度後期/2025年度後期『情報リテラシーⅡ』，2024年度後期/2025年度後期『情報ネットワーク』）
+        en: 'Part-time lecturer<br>　1st semester: "Programming", "Information Literacy 1"<br>　2nd semester: "Programming", "Information Literacy 2", "Information Network"'
+        ja: 非常勤講師<br>　前期『プログラミング』，『情報リテラシーⅠ』<br>　後期『プログラミング』，『情報リテラシーⅡ』，『情報ネットワーク』
       ra:
         en: Research assistant
         ja: 研究補佐員
@@ -100,8 +100,8 @@ about:
         en: Part-time teaching staff
         ja: パート教務職員
       ta-ikeg:
-        en: 'Teaching assistant ("Complex Systems": A semester of FY2024)'
-        ja: ティーチングアシスタント（2024年度Aセメスター『複雑系科学』）
+        en: 'Teaching assistant<br>　A semester: "Complex Systems"'
+        ja: ティーチングアシスタント<br>　Aセメスター『複雑系科学』
     programming:
       en: Programming
       ja: プログラミング
