@@ -1,4 +1,18 @@
 - title:
+    en: Collective Interactions of LLM Agents
+    ja: LLMエージェントの集団インタラクション
+  author:
+    en:
+      - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
+    ja:
+      - <span style="font-weight:bold;text-decoration:underline">高田 亮介</span>
+  in:
+    title:
+      en: Cognitive Communication Workshop 2025
+      ja: 第24回認知的コミュニケーションワークショップ
+    date: Aug. 2025
+
+- title:
     en: Emergent Mechanisms of Individuality Explored in Multi-Agent Models
     ja: マルチエージェントモデルから探る個体性の創発メカニズム
   author:
