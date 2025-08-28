@@ -63,7 +63,7 @@
   oral-presentation: false
   doi: <a href="https://doi.org/10.1145/3349537.3352771" target="_blank">https://doi.org/10.1145/3349537.3352771</a>
 
-- title: Design of Cooperative Interaction between Humans and Agents through Reinforcement Learning
+- title: Interactive and Adaptive Cooperation by Agents
   author:
     - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
     - Yugo Takeuchi
