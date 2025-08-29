@@ -176,13 +176,19 @@ about:
       ja: 2023年度人工知能学会全国大会
     jsai2023-student-d:
       en: Conference Committee Member (Student Session)
-      ja: 大会運営委員（学生企画）
+      ja: 大会運営委員（学生企画担当）
     jsai2024-student:
       en: The 38th Annual Conference of the Japanese Society for Artificial Intelligence, 2024
       ja: 2024年度人工知能学会全国大会
     jsai2024-student-d:
       en: Conference Committee Member (Student Session)
-      ja: 大会運営委員（学生企画）
+      ja: 大会運営委員（学生企画担当）
+    jsai2026-award:
+      en: The 40th Annual Conference of the Japanese Society for Artificial Intelligence, 2026
+      ja: 2026年度人工知能学会全国大会
+    jsai2026-award-d:
+      en: Conference Committee Member (Award)
+      ja: 大会運営委員（表彰担当）
     jsai-editor:
       en: Editorial Committee, The Japanese Society for Artificial Intelligence
       ja: 人工知能学会 編集委員会
