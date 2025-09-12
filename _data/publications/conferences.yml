@@ -1,3 +1,26 @@
+- title: "Internalized Culture versus External Rules: The Emergence of Bounded Rationality in LLM Agent Societies"
+  author:
+    - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
+    - Atsushi Masumori
+    - Takashi Ikegami
+  in:
+    title: The 2025 Conference on Artificial Life
+    date: Oct. 2025
+  refereed: true
+  oral-presentation: false
+
+- title: "Strategy Extraction from Reinforcement Learning via LLM‑Guided Natural Language Annotation"
+  author:
+    - Ilya Horiguchi
+    - Michael Crosscombe
+    - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
+    - Takashi Ikegami
+  in:
+    title: The 2025 Conference on Artificial Life
+    date: Oct. 2025
+  refereed: true
+  oral-presentation: false
+
 - title: A Community First theory for Understanding Individuality
   author:
     - Takashi Ikegami
