@@ -275,6 +275,35 @@
         isRandomInterval: false,
         maxBubbleSize: 80
     };
+    
+    // ▼▼▼ 追加: メディアアンロック機能 ▼▼▼
+    let mediaUnlocked = false;
+    function unlockAllMedia() {
+        if (mediaUnlocked) return;
+        console.log("Attempting to unlock all media for iOS...");
+
+        // 全ての動画をミュートで再生し、即座に一時停止する
+        for (const movie of movies) {
+            movie.muted = true;
+            movie.play().then(() => {
+                movie.pause();
+                movie.currentTime = 0;
+                movie.muted = false; // 後で再生する時のためにミュートを解除
+            }).catch(e => {
+                console.error("Video unlock failed for " + movie.id, e);
+            });
+        }
+        // 音声も同様にアンロックを試みる
+        try {
+            const popSound = new Audio('./movie/bubble-pop-06-351337.mp3');
+            popSound.play().then(() => {
+              popSound.pause();
+            }).catch(e => {});
+        } catch (e) {}
+
+        mediaUnlocked = true;
+    }
+    // ▲▲▲ 追加 ▲▲▲
 
     function showSettings() {
         document.getElementById(`color_${settings.colorMode}`).checked = true;
@@ -385,7 +414,6 @@
             this.gameContainer = document.getElementById('gameContainer');
             this.scoreElement = document.getElementById('score');
             this.timerElement = document.getElementById('timer');
-            // ▼ 修正: popSoundは都度生成するので、コンストラクタからは削除
         }
         
         start(onEndCallback) {
@@ -508,7 +536,6 @@
         popBubble(bubbleData, clickEvent) {
             if (bubbleData.clicked) return;
             
-            // ▼ 修正: タップごとに新しいAudioオブジェクトを生成して再生
             const popSound = new Audio('./movie/bubble-pop-06-351337.mp3');
             popSound.play().catch(e => console.log("Audio play failed:", e));
             
@@ -622,13 +649,17 @@
     }
     
     async function expDrill() {
+      // ▼ 修正: 最初にアンロック処理を呼び出す
+      unlockAllMedia();
       document.getElementById('exp_id').style.display = 'none';
       worldStartTime = Date.now();
       await exp1Set();
-      downloadCSV(suffix='drill_');
+      // downloadCSV(suffix='drill_');
     }
 
     async function expPractice() {
+      // ▼ 修正: 最初にアンロック処理を呼び出す
+      unlockAllMedia();
       document.getElementById('exp_id').style.display = 'none';
       worldStartTime = Date.now();
       await playMovie(movies[0], 3.0);
@@ -642,7 +673,9 @@
     async function playMovie(movie, time) {
         document.body.style.backgroundColor = 'black';
         movie.style.display = 'block';
-        movie.play().catch(e => console.log("Video play failed:", e));
+        // ▼ 修正: 再生時にミュートを確実に解除する
+        movie.muted = false;
+        await movie.play().catch(e => console.error("Video play failed:", movie.id, e));
         await sleep(time * 1000);
         movie.pause();
         movie.currentTime = 0;
