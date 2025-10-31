@@ -227,23 +227,22 @@
   </div>
 
   <div id="circle" class="circle"></div>
-  
-  <video id="movie01" src="./movie/01_実験の開始.mp4" playsinline preload="auto"><p>Movie 01 Load Error</p></video>
-  <video id="movie02" src="./movie/02_1セット目の開始.mp4" playsinline preload="auto"><p>Movie 02 Load Error</p></video>
-  <video id="movie03" src="./movie/03_計算問題の説明.mp4" playsinline preload="auto"><p>Movie 03 Load Error</p></video>
-  <video id="movie04" src="./movie/04_3秒後に開始します.mp4" playsinline preload="auto"><p>Movie 04 Load Error</p></video>
-  <video id="movie05" src="./movie/05_3・2・1のカウント.mp4" playsinline preload="auto"><p>Movie 05 Load Error</p></video>
-  <video id="movie06" src="./movie/06_物体の中心を押す.mp4" playsinline preload="auto"><p>Movie 06 Load Error</p></video>
-  <video id="movie07" src="./movie/07_3秒後に開始します.mp4" playsinline preload="auto"><p>Movie 07 Load Error</p></video>
-  <video id="movie08" src="./movie/08_3・2・1のカウント.mp4" playsinline preload="auto"><p>Movie 08 Load Error</p></video>
-  <video id="movie09" src="./movie/09_呼吸の教示.mp4" playsinline preload="auto"><p>Movie 09 Load Error</p></video>
-  <video id="movie10" src="./movie/10_3秒後に開始します.mp4" playsinline preload="auto"><p>Movie 10 Load Error</p></video>
-  <video id="movie11" src="./movie/11_3・2・1のカウント.mp4" playsinline preload="auto"><p>Movie 11 Load Error</p></video>
-  <video id="movie12" src="./movie/12_瞑想中.mp4" playsinline preload="auto"><p>Movie 12 Load Error</p></video>
-  <video id="movie13" src="./movie/13_物体の中心を押す.mp4" playsinline preload="auto"><p>Movie 13 Load Error</p></video>
-  <video id="movie14" src="./movie/14_3秒後に開始します.mp4" playsinline preload="auto"><p>Movie 14 Load Error</p></video>
-  <video id="movie15" src="./movie/15_3・2・1のカウント.mp4" playsinline preload="auto"><p>Movie 15 Load Error</p></video>
-  <video id="movie16" src="./movie/16_2セット目の開始.mp4" playsinline preload="auto"><p>Movie 16 Load Error</p></video>
+  <video id="movie01" src="./movie/01_実験の開始.mp4"><p>Movie 01 Load Error</p></video>
+  <video id="movie02" src="./movie/02_1セット目の開始.mp4"><p>Movie 02 Load Error</p></video>
+  <video id="movie03" src="./movie/03_計算問題の説明.mp4"><p>Movie 03 Load Error</p></video>
+  <video id="movie04" src="./movie/04_3秒後に開始します.mp4"><p>Movie 04 Load Error</p></video>
+  <video id="movie05" src="./movie/05_3・2・1のカウント.mp4"><p>Movie 05 Load Error</p></video>
+  <video id="movie06" src="./movie/06_物体の中心を押す.mp4"><p>Movie 06 Load Error</p></video>
+  <video id="movie07" src="./movie/07_3秒後に開始します.mp4"><p>Movie 07 Load Error</p></video>
+  <video id="movie08" src="./movie/08_3・2・1のカウント.mp4"><p>Movie 08 Load Error</p></video>
+  <video id="movie09" src="./movie/09_呼吸の教示.mp4"><p>Movie 09 Load Error</p></video>
+  <video id="movie10" src="./movie/10_3秒後に開始します.mp4"><p>Movie 10 Load Error</p></video>
+  <video id="movie11" src="./movie/11_3・2・1のカウント.mp4"><p>Movie 11 Load Error</p></video>
+  <video id="movie12" src="./movie/12_瞑想中.mp4"><p>Movie 12 Load Error</p></video>
+  <video id="movie13" src="./movie/13_物体の中心を押す.mp4"><p>Movie 13 Load Error</p></video>
+  <video id="movie14" src="./movie/14_3秒後に開始します.mp4"><p>Movie 14 Load Error</p></video>
+  <video id="movie15" src="./movie/15_3・2・1のカウント.mp4"><p>Movie 15 Load Error</p></video>
+  <video id="movie16" src="./movie/16_2セット目の開始.mp4"><p>Movie 16 Load Error</p></video>
 
   <div id="calc-quiz-container" class="hidden">
     <div id="calc-timer">60</div>
@@ -275,49 +274,6 @@
         isRandomInterval: false,
         maxBubbleSize: 80
     };
-    
-    // ▼▼▼ 修正: メディアアンロック機能 ▼▼▼
-    let mediaUnlocked = false;
-    // async functionを追加し、Promiseを返すようにする
-    async function unlockAllMedia() {
-        if (mediaUnlocked) return;
-        console.log("Attempting to unlock all media for iOS...");
-
-        // 全ての動画のアンロック処理を並行して実行するための配列
-        const unlockPromises = [];
-
-        for (const movie of movies) {
-            movie.muted = true; // まずミュートする
-            const promise = movie.play()
-                .then(() => {
-                    movie.pause();
-                    movie.currentTime = 0;
-                })
-                .catch(e => {
-                    // エラーは無視しても良いが、デバッグのためにログを残す
-                    console.warn("Could not pre-play movie: " + movie.id);
-                });
-            unlockPromises.push(promise);
-        }
-        
-        // 音声も同様にアンロックを試みる
-        try {
-            const popSound = new Audio('./movie/bubble-pop-06-351337.mp3');
-            unlockPromises.push(
-                popSound.play().then(() => popSound.pause()).catch(e => {})
-            );
-        } catch (e) {}
-
-        // 全てのアンロック処理が終わるまで待つ
-        await Promise.allSettled(unlockPromises);
-        
-        // 念のため、全ての動画のミュートを解除
-        movies.forEach(movie => movie.muted = false);
-
-        mediaUnlocked = true;
-        console.log("Media unlock process finished.");
-    }
-    // ▲▲▲ 修正 ▲▲▲
 
     function showSettings() {
         document.getElementById(`color_${settings.colorMode}`).checked = true;
@@ -374,6 +330,8 @@
           if (timeLeft <= 0) {
             clearInterval(quizTimerInterval);
             quizContainer.classList.add('hidden');
+            // const resultRow = `calculation_task,${calcScore},,,,\n`;
+            // csv += resultRow;
             console.log(`計算タスク終了。スコア: ${calcScore}`);
             resolve();
           }
@@ -428,6 +386,7 @@
             this.gameContainer = document.getElementById('gameContainer');
             this.scoreElement = document.getElementById('score');
             this.timerElement = document.getElementById('timer');
+            this.popSound = new Audio('./movie/bubble-pop-06-351337.mp3');
         }
         
         start(onEndCallback) {
@@ -549,10 +508,8 @@
         
         popBubble(bubbleData, clickEvent) {
             if (bubbleData.clicked) return;
-            
-            const popSound = new Audio('./movie/bubble-pop-06-351337.mp3');
-            popSound.play().catch(e => console.log("Audio play failed:", e));
-            
+            this.popSound.currentTime = 0;
+            this.popSound.play().catch(e => console.log("Audio play failed:", e));
             this.recordBubbleData(bubbleData, clickEvent);
             bubbleData.clicked = true;
             bubbleData.element.classList.add('pop-animation');
@@ -663,8 +620,6 @@
     }
     
     async function expDrill() {
-      // ▼ 修正: アンロック処理が完了するのを待つ
-      await unlockAllMedia();
       document.getElementById('exp_id').style.display = 'none';
       worldStartTime = Date.now();
       await exp1Set();
@@ -672,8 +627,6 @@
     }
 
     async function expPractice() {
-      // ▼ 修正: アンロック処理が完了するのを待つ
-      await unlockAllMedia();
       document.getElementById('exp_id').style.display = 'none';
       worldStartTime = Date.now();
       await playMovie(movies[0], 3.0);
@@ -687,8 +640,7 @@
     async function playMovie(movie, time) {
         document.body.style.backgroundColor = 'black';
         movie.style.display = 'block';
-        movie.muted = false; // 再生時には必ずミュートを解除
-        await movie.play().catch(e => console.error("Video play failed:", movie.id, e));
+        movie.play().catch(e => console.log("Video play failed:", e));
         await sleep(time * 1000);
         movie.pause();
         movie.currentTime = 0;
