@@ -12,6 +12,7 @@
       background-color: black;
       color: white; /* 全体の文字色を白に */
       font-family: sans-serif;
+      overflow: hidden; /* 画面外の要素でスクロールバーが出ないように */
     }
 
     .exp_id, #settings_id {
@@ -60,9 +61,12 @@
     }
 
     [id^="movie"] {
-      display: none;
+      position: absolute;
+      top: 0;
+      left: -9999px; /* 画面外に配置 */
       width: 100%;
       height: 100%;
+      opacity: 0; 
     }
 
     .circle {
@@ -275,37 +279,31 @@
         isRandomInterval: false,
         maxBubbleSize: 80
     };
-
-    // ▼▼▼ 追加: メディアアンロック（初期化）機能 ▼▼▼
+    
     let mediaInitialized = false;
-    function initMedia() {
+    async function initMedia() {
         if (mediaInitialized) return;
-        
         console.log("Initializing media for iOS/iPadOS...");
-        
-        // 全ての動画をミュートし、再生→一時停止 してアンロック
-        movies.forEach(movie => {
-            movie.muted = true; // ミュートしないとplay()が失敗することがある
-            movie.play().catch(e => console.warn("Pre-play failed for", movie.id));
-            movie.pause();
-            movie.currentTime = 0;
-            // この時点ではまだミュートのままにしておく
-        });
 
-        // 泡タップ音のテンプレートも同様にアンロック
-        try {
-            const templateSound = new Audio('./movie/bubble-pop-06-351337.mp3');
-            templateSound.play().catch(e => {});
-            templateSound.pause();
-        } catch (e) {
-            console.warn("Audio context unlock failed.", e);
+        // ▼ 修正: 16本を同時に再生せず、1本ずつ順番に処理する
+        for (const movie of movies) {
+            movie.muted = true;
+            movie.playsInline = true;
+            try {
+                await movie.play(); // 1本の再生開始を待つ
+                movie.pause();      // 完了したらポーズ
+                movie.currentTime = 0;
+            } catch (e) {
+                console.warn("Pre-play failed for " + movie.id, e);
+            }
         }
+        
+        // ▼ 修正: 泡の音をここで再生するのはやめる
+        // (動画のアンロックでオーディオ全体がアンロックされるため)
         
         mediaInitialized = true;
         console.log("Media initialization complete.");
     }
-    // ▲▲▲ 追加 ▲▲▲
-
 
     function showSettings() {
         document.getElementById(`color_${settings.colorMode}`).checked = true;
@@ -362,6 +360,10 @@
           if (timeLeft <= 0) {
             clearInterval(quizTimerInterval);
             quizContainer.classList.add('hidden');
+            
+            const resultRow = `calculation_task,${calcScore},,,,\n`;
+            csv += resultRow;
+
             console.log(`計算タスク終了。スコア: ${calcScore}`);
             resolve();
           }
@@ -416,7 +418,7 @@
             this.gameContainer = document.getElementById('gameContainer');
             this.scoreElement = document.getElementById('score');
             this.timerElement = document.getElementById('timer');
-            // ▼ 修正: コンストラクタから this.popSound を削除
+            // ▼ 修正: this.popSound を削除
         }
         
         start(onEndCallback) {
@@ -539,7 +541,7 @@
         popBubble(bubbleData, clickEvent) {
             if (bubbleData.clicked) return;
             
-            // ▼ 修正: タップごとに新しいAudioオブジェクトを生成して再生
+            // ▼ 修正: 泡タップの都度、新しいAudioオブジェクトを生成して再生
             const popSound = new Audio('./movie/bubble-pop-06-351337.mp3');
             popSound.play().catch(e => console.log("Audio play failed:", e));
             
@@ -652,17 +654,15 @@
       await runBubbleTapTask('TT');
     }
     
-    // ▼▼▼ 追加: アンロック処理を挟むラッパー関数 ▼▼▼
     async function startDrill() {
-        initMedia(); // 最初に同期的にアンロック処理を実行
-        await expDrill(); // その後、非同期の実験プロセスを開始
+        await initMedia();
+        await expDrill();
     }
     
     async function startPractice() {
-        initMedia(); // 最初に同期的にアンロック処理を実行
-        await expPractice(); // その後、非同期の実験プロセスを開始
+        await initMedia();
+        await expPractice();
     }
-    // ▲▲▲ 追加 ▲▲▲
 
     async function expDrill() {
       document.getElementById('exp_id').style.display = 'none';
@@ -684,13 +684,19 @@
 
     async function playMovie(movie, time) {
         document.body.style.backgroundColor = 'black';
-        movie.style.display = 'block';
-        movie.muted = false; // ▼ 修正: 再生時にミュートを解除
-        await movie.play().catch(e => console.error("Video play failed:", movie.id, e)); // awaitを追加
+        
+        movie.style.left = '0';
+        movie.style.opacity = 1;
+        movie.muted = false;
+        movie.currentTime = 0; 
+        
+        await movie.play().catch(e => console.error("Video play failed:", movie.id, e));
         await sleep(time * 1000);
         movie.pause();
         movie.currentTime = 0;
-        movie.style.display = 'none';
+        
+        movie.style.left = '-9999px';
+        movie.style.opacity = 0;
     }
 
     function sleep(ms) {
