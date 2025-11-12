@@ -203,6 +203,7 @@
         <button class="button" type="button" onclick="startDrill()">練習</button>
         <button class="button" type="button" onclick="startPractice()">実験</button>
         <button class="button" type="button" onclick="showSettings()">設定</button>
+        <button id="enableAudioBtn" class="button" type="button" onclick="enableSound()">音声を有効にする</button>
     </p>
   </div>
 
@@ -232,22 +233,22 @@
 
   <div id="circle" class="circle"></div>
   
-  <video id="movie01" src="./movie/01_実験の開始.mp4" playsinline preload="auto"><p>Movie 01 Load Error</p></video>
-  <video id="movie02" src="./movie/02_1セット目の開始.mp4" playsinline preload="auto"><p>Movie 02 Load Error</p></video>
-  <video id="movie03" src="./movie/03_計算問題の説明.mp4" playsinline preload="auto"><p>Movie 03 Load Error</p></video>
-  <video id="movie04" src="./movie/04_3秒後に開始します.mp4" playsinline preload="auto"><p>Movie 04 Load Error</p></video>
-  <video id="movie05" src="./movie/05_3・2・1のカウント.mp4" playsinline preload="auto"><p>Movie 05 Load Error</p></video>
-  <video id="movie06" src="./movie/06_物体の中心を押す.mp4" playsinline preload="auto"><p>Movie 06 Load Error</p></video>
-  <video id="movie07" src="./movie/07_3秒後に開始します.mp4" playsinline preload="auto"><p>Movie 07 Load Error</p></video>
-  <video id="movie08" src="./movie/08_3・2・1のカウント.mp4" playsinline preload="auto"><p>Movie 08 Load Error</p></video>
-  <video id="movie09" src="./movie/09_呼吸の教示.mp4" playsinline preload="auto"><p>Movie 09 Load Error</p></video>
-  <video id="movie10" src="./movie/10_3秒後に開始します.mp4" playsinline preload="auto"><p>Movie 10 Load Error</p></video>
-  <video id="movie11" src="./movie/11_3・2・1のカウント.mp4" playsinline preload="auto"><p>Movie 11 Load Error</p></video>
-  <video id="movie12" src="./movie/12_瞑想中.mp4" playsinline preload="auto"><p>Movie 12 Load Error</p></video>
-  <video id="movie13" src="./movie/13_物体の中心を押す.mp4" playsinline preload="auto"><p>Movie 13 Load Error</p></video>
-  <video id="movie14" src="./movie/14_3秒後に開始します.mp4" playsinline preload="auto"><p>Movie 14 Load Error</p></video>
-  <video id="movie15" src="./movie/15_3・2・1のカウント.mp4" playsinline preload="auto"><p>Movie 15 Load Error</p></video>
-  <video id="movie16" src="./movie/16_2セット目の開始.mp4" playsinline preload="auto"><p>Movie 16 Load Error</p></video>
+  <video id="movie01" src="./movie/01_実験の開始.mp4" playsinline muted preload="auto"><p>Movie 01 Load Error</p></video>
+  <video id="movie02" src="./movie/02_1セット目の開始.mp4" playsinline muted preload="auto"><p>Movie 02 Load Error</p></video>
+  <video id="movie03" src="./movie/03_計算問題の説明.mp4" playsinline muted preload="auto"><p>Movie 03 Load Error</p></video>
+  <video id="movie04" src="./movie/04_3秒後に開始します.mp4" playsinline muted preload="auto"><p>Movie 04 Load Error</p></video>
+  <video id="movie05" src="./movie/05_3・2・1のカウント.mp4" playsinline muted preload="auto"><p>Movie 05 Load Error</p></video>
+  <video id="movie06" src="./movie/06_物体の中心を押す.mp4" playsinline muted preload="auto"><p>Movie 06 Load Error</p></video>
+  <video id="movie07" src="./movie/07_3秒後に開始します.mp4" playsinline muted preload="auto"><p>Movie 07 Load Error</p></video>
+  <video id="movie08" src="./movie/08_3・2・1のカウント.mp4" playsinline muted preload="auto"><p>Movie 08 Load Error</p></video>
+  <video id="movie09" src="./movie/09_呼吸の教示.mp4" playsinline muted preload="auto"><p>Movie 09 Load Error</p></video>
+  <video id="movie10" src="./movie/10_3秒後に開始します.mp4" playsinline muted preload="auto"><p>Movie 10 Load Error</p></video>
+  <video id="movie11" src="./movie/11_3・2・1のカウント.mp4" playsinline muted preload="auto"><p>Movie 11 Load Error</p></video>
+  <video id="movie12" src="./movie/12_瞑想中.mp4" playsinline muted preload="auto"><p>Movie 12 Load Error</p></video>
+  <video id="movie13" src="./movie/13_物体の中心を押す.mp4" playsinline muted preload="auto"><p>Movie 13 Load Error</p></video>
+  <video id="movie14" src="./movie/14_3秒後に開始します.mp4" playsinline muted preload="auto"><p>Movie 14 Load Error</p></video>
+  <video id="movie15" src="./movie/15_3・2・1のカウント.mp4" playsinline muted preload="auto"><p>Movie 15 Load Error</p></video>
+  <video id="movie16" src="./movie/16_2セット目の開始.mp4" playsinline muted preload="auto"><p>Movie 16 Load Error</p></video>
 
   <div id="calc-quiz-container" class="hidden">
     <div id="calc-timer">60</div>
@@ -279,24 +280,33 @@
         isRandomInterval: false,
         maxBubbleSize: 80
     };
+  var audioEnabled = false;
     
     let mediaInitialized = false;
     async function initMedia() {
         if (mediaInitialized) return;
         console.log("Initializing media for iOS/iPadOS...");
 
-        // ▼ 修正: 16本を同時に再生せず、1本ずつ順番に処理する
-        for (const movie of movies) {
-            movie.muted = true;
-            movie.playsInline = true;
-            try {
-                await movie.play(); // 1本の再生開始を待つ
-                movie.pause();      // 完了したらポーズ
-                movie.currentTime = 0;
-            } catch (e) {
-                console.warn("Pre-play failed for " + movie.id, e);
-            }
-        }
+    // Ensure each video is muted and marked playsInline (helps iOS autoplay rules)
+    for (const movie of movies) {
+      if (movie) {
+        movie.muted = true;
+        movie.playsInline = true;
+      }
+    }
+
+    // Try to perform a single user-gesture play on the first video only to "unlock"
+    // media playback on iOS. Playing many elements in a loop may be blocked.
+    const first = movies[0];
+    if (first) {
+      try {
+        await first.play();
+        first.pause();
+        first.currentTime = 0;
+      } catch (e) {
+        console.warn("Pre-play failed for " + first.id, e);
+      }
+    }
         
         // ▼ 修正: 泡の音をここで再生するのはやめる
         // (動画のアンロックでオーディオ全体がアンロックされるため)
@@ -304,6 +314,49 @@
         mediaInitialized = true;
         console.log("Media initialization complete.");
     }
+
+  // 音声をユーザー操作で有効にする
+  async function enableSound() {
+    if (audioEnabled) return;
+    console.log('Enabling audio by user gesture...');
+
+    // Unmute all videos
+    for (const movie of movies) {
+      if (movie) movie.muted = false;
+    }
+
+    // Try a single play/pause on the first video within the user gesture to unlock audio
+    const first = movies[0];
+    if (first) {
+      try {
+        await first.play();
+        first.pause();
+        first.currentTime = 0;
+      } catch (e) {
+        console.warn('EnableSound: play/pause failed for ' + first.id, e);
+      }
+    }
+
+    // Also, play a short silent Audio to help unlock WebAudio if needed
+    try {
+      const a = new Audio();
+      a.src = './movie/bubble-pop-06-351337.mp3';
+      a.volume = 0.0;
+      await a.play().catch(() => {});
+      a.pause();
+    } catch (e) {
+      console.warn('EnableSound: fallback audio unlock failed', e);
+    }
+
+    audioEnabled = true;
+    const btn = document.getElementById('enableAudioBtn');
+    if (btn) {
+      btn.textContent = '音声: 有効';
+      btn.disabled = true;
+      btn.style.opacity = 0.6;
+    }
+    console.log('Audio enabled');
+  }
 
     function showSettings() {
         document.getElementById(`color_${settings.colorMode}`).checked = true;
@@ -655,12 +708,20 @@
     }
     
     async function startDrill() {
-        await initMedia();
+    // startDrill is called by a user tap; if audio hasn't been enabled explicitly,
+    // enable it here so audio is unlocked during this gesture.
+    if (!audioEnabled) {
+      try { await enableSound(); } catch (e) { console.warn(e); }
+    }
+    await initMedia();
         await expDrill();
     }
     
     async function startPractice() {
-        await initMedia();
+    if (!audioEnabled) {
+      try { await enableSound(); } catch (e) { console.warn(e); }
+    }
+    await initMedia();
         await expPractice();
     }
 
@@ -687,7 +748,9 @@
         
         movie.style.left = '0';
         movie.style.opacity = 1;
-        movie.muted = false;
+    // Keep movie muted to avoid iOS blocking subsequent play() calls.
+    // If you need audio, provide a dedicated "Enable sound" button that the
+    // participant taps (a user gesture) to unmute all videos.
         movie.currentTime = 0; 
         
         await movie.play().catch(e => console.error("Video play failed:", movie.id, e));
