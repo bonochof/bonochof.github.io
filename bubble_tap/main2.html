@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: black;
+      color: white; /* 全体の文字色を白に */
+      font-family: sans-serif;
+      overflow: hidden; /* 画面外の要素でスクロールバーが出ないように */
+    }
+
+    .exp_id, #settings_id {
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+    }
+
+    .hide_cursor {
+      cursor: none !important;
+    }
+
+    .button {
+      color: #fff;
+      background-color: #a1a1a1;
+      font-size: 1.6rem;
+      font-weight: 700;
+      line-height: 1.5;
+      position: relative;
+      display: inline-block;
+      padding: 1rem 4rem;
+      cursor: pointer;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      -webkit-transition: all 0.3s;
+      transition: all 0.3s;
+      text-align: center;
+      vertical-align: middle;
+      text-decoration: none;
+      letter-spacing: 0.1em;
+      color: white;
+      border-radius: 0.5rem;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    .button:hover {
+      color: black;
+      background: #818181;
+    }
+
+    #csv_id {
+      width: 600px;
+      font-size: 64px;
+    }
+
+    [id^="movie"] {
+      position: absolute;
+      top: 0;
+      left: -9999px; /* 画面外に配置 */
+      width: 100%;
+      height: 100%;
+      opacity: 0; 
+    }
+
+    .circle {
+      display: none;
+      width: 100%;
+      height: 100%;
+      max-width: 500px;
+      max-height: 500px;
+      border-radius: 50%;
+    }
+    
+    .hidden {
+      display: none;
+    }
+
+    /* ▼▼▼ 設定画面用のスタイル ▼▼▼ */
+    #settings_id {
+        background-color: #222;
+        padding: 30px;
+        border-radius: 10px;
+        width: 600px;
+    }
+    .setting-item {
+        margin-bottom: 25px;
+        font-size: 1.5em;
+        text-align: left;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .setting-item label {
+        margin-right: 20px;
+    }
+    .setting-item input[type="number"], .setting-item input[type="checkbox"] {
+        transform: scale(1.5);
+        margin-right: 10px;
+    }
+    .setting-item .radio-group {
+        display: inline-block;
+    }
+    
+    /* ▼▼▼ 計算クイズ用のスタイル ▼▼▼ */
+    #calc-quiz-container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 90%;
+      max-width: 600px;
+      text-align: center;
+    }
+    #calc-timer {
+      font-size: 3em;
+      font-weight: bold;
+      color: #d9534f;
+    }
+    #calc-question {
+      font-size: 4em;
+      margin: 30px 0;
+    }
+    #calc-choices {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+    .calc-choice-btn {
+      padding: 20px;
+      font-size: 2em;
+      cursor: pointer;
+      border: 2px solid #ccc;
+      border-radius: 5px;
+      background-color: #333;
+      color: white;
+      transition: background-color 0.2s;
+    }
+    .calc-choice-btn:hover {
+      background-color: #555;
+    }
+    
+    /* ▼▼▼ 泡ゲーム用のスタイル ▼▼▼ */
+    #gameContainer { 
+        position: relative; 
+        width: 100vw; 
+        height: 100vh; 
+        background: black;
+        overflow: hidden;
+    }
+    .bubble {
+        position: absolute;
+        border-radius: 50%;
+        background: radial-gradient(circle at 30% 30%, rgba(255, 100, 100, 0.8), rgba(220, 20, 60, 0.4));
+        border: 2px solid rgba(220, 20, 60, 0.6);
+        cursor: pointer;
+        box-shadow: 0 0 20px rgba(220, 20, 60, 0.3);
+        transform: translate(-50%, -50%);
+    }
+    .bubble.bubble-blue {
+        background: radial-gradient(circle at 30% 30%, rgba(100, 149, 237, 0.8), rgba(65, 105, 225, 0.4));
+        border: 2px solid rgba(65, 105, 225, 0.6);
+        box-shadow: 0 0 20px rgba(65, 105, 225, 0.3);
+    }
+    #ui { 
+        position: absolute; 
+        top: 20px; 
+        left: 20px; 
+        color: white;
+        font-size: 24px; 
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.1); 
+        z-index: 100;
+        pointer-events: none;
+    }
+    #gameOver {
+        position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+        background: rgba(0, 0, 0, 0.8); color: white; padding: 40px; border-radius: 20px;
+        text-align: center; z-index: 200;
+    }
+    #gameOver button {
+        background: #4CAF50; color: white; border: none; padding: 15px 30px;
+        font-size: 18px; border-radius: 10px; cursor: pointer; margin-top: 20px;
+        transition: background 0.3s;
+    }
+    .pop-animation { animation: pop 0.3s ease-out forwards; }
+    @keyframes pop {
+        0% { transform: translate(-50%, -50%) scale(1); opacity: 1; }
+        50% { transform: translate(-50%, -50%) scale(1.3); opacity: 0.8; }
+        100% { transform: translate(-50%, -50%) scale(0); opacity: 0; }
+    }
+  </style>
+</head>
+<body>
+  <div id="exp_id" class="exp_id">
+    <input id="csv_id" type="text" placeholder="参加者IDを入力" />
+    <p>
+        <button class="button" type="button" onclick="startDrill()">練習</button>
+        <button class="button" type="button" onclick="startPractice()">実験</button>
+  <button class="button" type="button" onclick="showSettings()">設定</button>
+    </p>
+  </div>
+
+  <div id="settings_id" class="hidden">
+    <h2>設定</h2>
+    <div class="setting-item">
+      <label>泡の色:</label>
+      <div class="radio-group">
+          <input type="radio" id="color_red_only" name="bubbleColor" value="red_only" checked><label for="color_red_only">赤のみ</label>
+          <input type="radio" id="color_red_blue" name="bubbleColor" value="red_blue"><label for="color_red_blue">赤と青</label>
+      </div>
+    </div>
+    <div class="setting-item">
+      <label for="bubble_count">泡の数 (30秒間):</label>
+      <input type="number" id="bubble_count" value="30" min="1">
+    </div>
+    <div class="setting-item">
+      <label for="is_random_interval">ランダムな時間間隔で生成:</label>
+      <input type="checkbox" id="is_random_interval">
+    </div>
+    <div class="setting-item">
+      <label for="max_bubble_size">泡の最大サイズ (px):</label>
+      <input type="number" id="max_bubble_size" value="80" min="20">
+    </div>
+    <button class="button" onclick="saveSettings()">完了</button>
+  </div>
+
+  <div id="circle" class="circle"></div>
+  
+  <video id="movie01" src="./movie/01_実験の開始.mp4" playsinline muted preload="auto"><p>Movie 01 Load Error</p></video>
+  <video id="movie02" src="./movie/02_1セット目の開始.mp4" playsinline muted preload="auto"><p>Movie 02 Load Error</p></video>
+  <video id="movie03" src="./movie/03_計算問題の説明.mp4" playsinline muted preload="auto"><p>Movie 03 Load Error</p></video>
+  <video id="movie04" src="./movie/04_3秒後に開始します.mp4" playsinline muted preload="auto"><p>Movie 04 Load Error</p></video>
+  <video id="movie05" src="./movie/05_3・2・1のカウント.mp4" playsinline muted preload="auto"><p>Movie 05 Load Error</p></video>
+  <video id="movie06" src="./movie/06_物体の中心を押す.mp4" playsinline muted preload="auto"><p>Movie 06 Load Error</p></video>
+  <video id="movie07" src="./movie/07_3秒後に開始します.mp4" playsinline muted preload="auto"><p>Movie 07 Load Error</p></video>
+  <video id="movie08" src="./movie/08_3・2・1のカウント.mp4" playsinline muted preload="auto"><p>Movie 08 Load Error</p></video>
+  <video id="movie09" src="./movie/09_呼吸の教示.mp4" playsinline muted preload="auto"><p>Movie 09 Load Error</p></video>
+  <video id="movie10" src="./movie/10_3秒後に開始します.mp4" playsinline muted preload="auto"><p>Movie 10 Load Error</p></video>
+  <video id="movie11" src="./movie/11_3・2・1のカウント.mp4" playsinline muted preload="auto"><p>Movie 11 Load Error</p></video>
+  <video id="movie12" src="./movie/12_瞑想中.mp4" playsinline muted preload="auto"><p>Movie 12 Load Error</p></video>
+  <video id="movie13" src="./movie/13_物体の中心を押す.mp4" playsinline muted preload="auto"><p>Movie 13 Load Error</p></video>
+  <video id="movie14" src="./movie/14_3秒後に開始します.mp4" playsinline muted preload="auto"><p>Movie 14 Load Error</p></video>
+  <video id="movie15" src="./movie/15_3・2・1のカウント.mp4" playsinline muted preload="auto"><p>Movie 15 Load Error</p></video>
+  <video id="movie16" src="./movie/16_2セット目の開始.mp4" playsinline muted preload="auto"><p>Movie 16 Load Error</p></video>
+
+  <div id="calc-quiz-container" class="hidden">
+    <div id="calc-timer">60</div>
+    <div id="calc-question"></div>
+    <div id="calc-choices"></div>
+  </div>
+
+  <div id="gameContainer" class="hidden">
+    <div id="ui"><div>消した泡: <span id="score">0</span>個</div><div>時間: <span id="timer">30</span>秒</div></div>
+    <div id="gameOver" class="hidden"><h2>ゲーム終了！</h2><p>消した泡の数: <span id="finalScore">0</span>個</p><button id="restartButton">OK</button></div>
+  </div>
+
+  <script>
+    var state;
+    var worldStartTime;
+    var responseTime;
+    var isCorrect;
+    var isRandom;
+    var done = false;
+    var csv = 'task_type,appearance_time_from_task_start,center_x,center_y,color,reaction_time,click_distance_from_center\n';
+    var movies = [];
+    for (var i = 0; i < 16; i++) {
+      movies[i] = document.getElementById(`movie${String(i + 1).padStart(2, '0')}`);
+    }
+
+    var settings = {
+        colorMode: 'red_only',
+        bubbleCount: 30,
+        isRandomInterval: false,
+        maxBubbleSize: 80
+    };
+  var audioEnabled = false;
+    
+    let mediaInitialized = false;
+    async function initMedia() {
+        if (mediaInitialized) return;
+        console.log("Initializing media for iOS/iPadOS...");
+
+    // Ensure each video is muted and marked playsInline (helps iOS autoplay rules)
+    for (const movie of movies) {
+      if (movie) {
+        movie.muted = true;
+        movie.playsInline = true;
+      }
+    }
+
+    // Try to perform a single user-gesture play on the first video only to "unlock"
+    // media playback on iOS. Playing many elements in a loop may be blocked.
+    const first = movies[0];
+    if (first) {
+      try {
+        await first.play();
+        first.pause();
+        first.currentTime = 0;
+      } catch (e) {
+        console.warn("Pre-play failed for " + first.id, e);
+      }
+    }
+        
+        // ▼ 修正: 泡の音をここで再生するのはやめる
+        // (動画のアンロックでオーディオ全体がアンロックされるため)
+        
+        mediaInitialized = true;
+        console.log("Media initialization complete.");
+    }
+
+  // 音声をユーザー操作で有効にする（同期的に再生要求を発行してアンロックする）
+  function enableSound() {
+    if (audioEnabled) return;
+    console.log('Enabling audio by user gesture...');
+
+    // Ensure first video is playable in this gesture: play() while still muted,
+    // then pause and unmute all videos, then try a second play() to allow audio.
+    const first = movies[0];
+
+    try {
+      if (first) {
+        // ensure it's muted for the initial play
+        first.muted = true;
+        // start playback request (returns a Promise but it's initiated synchronously)
+        const p = first.play();
+        // don't await here — keep within gesture
+        if (p && typeof p.then === 'function') {
+          p.catch(() => {});
+        }
+        // immediately pause and reset
+        first.pause();
+        first.currentTime = 0;
+      }
+    } catch (e) {
+      console.warn('enableSound: initial play failed', e);
+    }
+
+    // Unmute all videos now
+    for (const movie of movies) {
+      if (movie) movie.muted = false;
+    }
+
+    try {
+      if (first) {
+        // try a second play to actually start audio (initiated in the same gesture)
+        const p2 = first.play();
+        if (p2 && typeof p2.then === 'function') p2.catch(() => {});
+        // pause immediately to keep UI controlled
+        first.pause();
+        first.currentTime = 0;
+      }
+    } catch (e) {
+      console.warn('enableSound: second play failed', e);
+    }
+
+    // Try to resume AudioContext to be safe for WebAudio usage
+    try {
+      const AC = window.AudioContext || window.webkitAudioContext;
+      if (AC) {
+        const ac = new AC();
+        if (ac && ac.state === 'suspended' && typeof ac.resume === 'function') {
+          ac.resume().then(() => console.log('AudioContext resumed')).catch(() => {});
+        }
+      }
+    } catch (e) {
+      console.warn('enableSound: AudioContext resume failed', e);
+    }
+
+    audioEnabled = true;
+    console.log('Audio enabled');
+  }
+
+    function showSettings() {
+        document.getElementById(`color_${settings.colorMode}`).checked = true;
+        document.getElementById('bubble_count').value = settings.bubbleCount;
+        document.getElementById('is_random_interval').checked = settings.isRandomInterval;
+        document.getElementById('max_bubble_size').value = settings.maxBubbleSize;
+        document.getElementById('exp_id').classList.add('hidden');
+        document.getElementById('settings_id').classList.remove('hidden');
+    }
+
+    function saveSettings() {
+        settings.colorMode = document.querySelector('input[name="bubbleColor"]:checked').value;
+        settings.bubbleCount = parseInt(document.getElementById('bubble_count').value, 10) || 30;
+        settings.isRandomInterval = document.getElementById('is_random_interval').checked;
+        settings.maxBubbleSize = parseInt(document.getElementById('max_bubble_size').value, 10) || 80;
+        document.getElementById('settings_id').classList.add('hidden');
+        document.getElementById('exp_id').classList.remove('hidden');
+    }
+
+    function runCalculationTask() {
+      return new Promise(resolve => {
+        const quizContainer = document.getElementById('calc-quiz-container');
+        const timerEl = document.getElementById('calc-timer');
+        const questionEl = document.getElementById('calc-question');
+        const choicesEl = document.getElementById('calc-choices');
+        let calcScore = 0;
+        let timeLeft = 60;
+        let quizTimerInterval = null;
+
+        function displayNewCalcQuiz() {
+          const quiz = generateMathQuiz();
+          questionEl.textContent = quiz.question;
+          choicesEl.innerHTML = '';
+          quiz.choices.forEach(choice => {
+            const button = document.createElement('button');
+            button.className = 'calc-choice-btn';
+            button.textContent = choice;
+            button.onclick = () => {
+              if (choice === quiz.correctAnswer) {
+                calcScore++;
+              }
+              displayNewCalcQuiz();
+            };
+            choicesEl.appendChild(button);
+          });
+        }
+        quizContainer.classList.remove('hidden');
+        displayNewCalcQuiz();
+        timerEl.textContent = timeLeft;
+
+        quizTimerInterval = setInterval(() => {
+          timeLeft--;
+          timerEl.textContent = timeLeft;
+          if (timeLeft <= 0) {
+            clearInterval(quizTimerInterval);
+            quizContainer.classList.add('hidden');
+            
+            const resultRow = `calculation_task,${calcScore},,,,\n`;
+            csv += resultRow;
+
+            console.log(`計算タスク終了。スコア: ${calcScore}`);
+            resolve();
+          }
+        }, 1000);
+      });
+    }
+
+    function generateMathQuiz() {
+        const operators = ['+', '-', '*', '/'];
+        let question, correctAnswer;
+        do {
+            const num1 = Math.floor(Math.random() * 9) + 1;
+            const num2 = Math.floor(Math.random() * 9) + 1;
+            const num3 = Math.floor(Math.random() * 9) + 1;
+            const op1 = operators[Math.floor(Math.random() * 4)];
+            const op2 = operators[Math.floor(Math.random() * 4)];
+            question = `${num1} ${op1} ${num2} ${op2} ${num3}`;
+            try {
+                correctAnswer = eval(question);
+            } catch (e) {
+                correctAnswer = NaN; 
+            }
+        } while (!Number.isInteger(correctAnswer) || correctAnswer < 0);
+        
+        const choices = new Set([correctAnswer]);
+        while (choices.size < 4) {
+            const delta = Math.floor(Math.random() * 10) + 1;
+            const dummyAnswer = correctAnswer + (Math.random() > 0.5 ? delta : -delta);
+            if (dummyAnswer >= 0 && Number.isInteger(dummyAnswer)) {
+                choices.add(dummyAnswer);
+            }
+        }
+        const shuffledChoices = Array.from(choices).sort(() => Math.random() - 0.5);
+        return {
+            question: question.replace(/\//g, '÷').replace(/\*/g, '×'),
+            choices: shuffledChoices,
+            correctAnswer: correctAnswer
+        };
+    }
+
+    class BubbleGame {
+        constructor(taskSetName, duration = 30) {
+            this.taskSetName = taskSetName;
+            this.gameDuration = duration;
+            this.score = 0;
+            this.gameActive = false;
+            this.bubbles = [];
+            this.onEndCallback = null;
+            this.taskStartTime = 0;
+            this.uiTimer = null;
+            this.logicTimer = null;
+            this.gameContainer = document.getElementById('gameContainer');
+            this.scoreElement = document.getElementById('score');
+            this.timerElement = document.getElementById('timer');
+            // ▼ 修正: this.popSound を削除
+        }
+        
+        start(onEndCallback) {
+            this.onEndCallback = onEndCallback;
+            this.taskStartTime = Date.now();
+            this.score = 0;
+            this.gameTime = this.gameDuration;
+            this.gameActive = true;
+            this.bubbles = [];
+            document.getElementById('gameOver').classList.add('hidden');
+            this.gameContainer.classList.remove('hidden');
+            this.updateUI();
+            this.clearBubbles();
+
+            this.uiTimer = setInterval(() => {
+                this.gameTime--;
+                this.updateUI();
+                if (this.gameTime < 0) {
+                    clearInterval(this.uiTimer);
+                }
+            }, 1000);
+            
+            const events = [];
+
+            if (settings.isRandomInterval) {
+                const spawnWindow = this.gameDuration * 1000;
+                for (let i = 0; i < settings.bubbleCount; i++) {
+                    events.push({ time: Math.random() * spawnWindow, type: 'bubble' });
+                }
+            } else {
+                const interval = (this.gameDuration * 1000) / settings.bubbleCount;
+                for (let i = 0; i < settings.bubbleCount; i++) {
+                    events.push({ time: i * interval, type: 'bubble' });
+                }
+            }
+
+            events.push({ time: this.gameDuration * 1000, type: 'end' });
+            events.sort((a, b) => a.time - b.time);
+
+            let eventIndex = 0;
+            const processNextEvent = () => {
+                if (eventIndex >= events.length || !this.gameActive) return;
+
+                const event = events[eventIndex];
+                const delay = event.time - (Date.now() - this.taskStartTime);
+
+                this.logicTimer = setTimeout(() => {
+                    if (!this.gameActive) return;
+
+                    if (event.type === 'bubble') {
+                        this.createBubble();
+                    } else if (event.type === 'end') {
+                        this.endGame();
+                        return;
+                    }
+
+                    eventIndex++;
+                    processNextEvent();
+                }, Math.max(0, delay));
+            };
+
+            processNextEvent();
+        }
+        
+        createBubble() {
+            const bubble = document.createElement('div');
+            bubble.className = 'bubble';
+            let color = 'red';
+            if (settings.colorMode === 'red_blue' && Math.random() < 0.5) {
+                bubble.classList.add('bubble-blue');
+                color = 'blue';
+            }
+
+            const x = Math.random() * (window.innerWidth - 100) + 50;
+            const y = Math.random() * (window.innerHeight - 100) + 50;
+            bubble.style.left = x + 'px';
+            bubble.style.top = y + 'px';
+            bubble.style.width = '20px';
+            bubble.style.height = '20px';
+            this.gameContainer.appendChild(bubble);
+
+            const bubbleData = { 
+                element: bubble, 
+                startTime: Date.now(), 
+                clicked: false,
+                initialX: x,
+                initialY: y,
+                appearanceTime: (Date.now() - this.taskStartTime) / 1000,
+                color: color
+            };
+            this.bubbles.push(bubbleData);
+            
+            bubble.addEventListener('click', (e) => {
+                e.stopPropagation();
+                this.popBubble(bubbleData, e);
+            });
+            this.animateBubble(bubbleData);
+        }
+        
+        animateBubble(bubbleData) {
+            const animate = () => {
+                if (!bubbleData.clicked && this.gameActive) {
+                    const elapsed = Date.now() - bubbleData.startTime;
+                    const progress = Math.min(elapsed / 3000, 1);
+                    if (progress >= 1) {
+                        this.recordBubbleData(bubbleData, null); 
+                        this.removeBubble(bubbleData);
+                        return;
+                    }
+                    const growth = settings.maxBubbleSize - 20;
+                    const size = 20 + (progress * growth);
+                    bubbleData.element.style.width = size + 'px';
+                    bubbleData.element.style.height = size + 'px';
+                    requestAnimationFrame(animate);
+                }
+            };
+            animate();
+        }
+        
+        popBubble(bubbleData, clickEvent) {
+            if (bubbleData.clicked) return;
+            
+            // ▼ 修正: 泡タップの都度、新しいAudioオブジェクトを生成して再生
+            const popSound = new Audio('./movie/bubble-pop-06-351337.mp3');
+            popSound.play().catch(e => console.log("Audio play failed:", e));
+            
+            this.recordBubbleData(bubbleData, clickEvent);
+            bubbleData.clicked = true;
+            bubbleData.element.classList.add('pop-animation');
+            this.score += 1;
+            this.updateUI();
+            setTimeout(() => { this.removeBubble(bubbleData); }, 300);
+        }
+        
+        recordBubbleData(bubbleData, clickEvent) {
+            let reactionTime = -1;
+            let clickDistance = -1;
+            const centerX = bubbleData.initialX + 10;
+            const centerY = bubbleData.initialY + 10;
+
+            if (clickEvent) {
+                reactionTime = (Date.now() - bubbleData.startTime) / 1000;
+                const clickX = clickEvent.clientX;
+                const clickY = clickEvent.clientY;
+                clickDistance = Math.sqrt(Math.pow(clickX - centerX, 2) + Math.pow(clickY - centerY, 2));
+            }
+
+            const newRow = [
+                this.taskSetName,
+                bubbleData.appearanceTime.toFixed(3),
+                centerX.toFixed(2),
+                centerY.toFixed(2),
+                bubbleData.color,
+                reactionTime === -1 ? -1 : reactionTime.toFixed(3),
+                clickDistance === -1 ? -1 : clickDistance.toFixed(2)
+            ].join(',');
+            
+            csv += newRow + '\n';
+        }
+        
+        removeBubble(bubbleData) {
+            const index = this.bubbles.indexOf(bubbleData);
+            if (index > -1) {
+                this.bubbles.splice(index, 1);
+                if (bubbleData.element.parentNode) {
+                    bubbleData.element.parentNode.removeChild(bubbleData.element);
+                }
+            }
+        }
+
+        clearBubbles() {
+            this.bubbles.forEach(bubbleData => {
+                if (bubbleData.element.parentNode) {
+                    bubbleData.element.parentNode.removeChild(bubbleData.element);
+                }
+            });
+            this.bubbles = [];
+        }
+        
+        updateUI() {
+            this.scoreElement.textContent = this.score;
+            this.timerElement.textContent = Math.max(0, this.gameTime);
+        }
+        
+        endGame() {
+            if (!this.gameActive) return;
+            this.gameActive = false;
+            
+            clearInterval(this.uiTimer);
+            clearTimeout(this.logicTimer);
+            
+            const remainingBubbles = [...this.bubbles];
+            for (const bubbleData of remainingBubbles) {
+                if (!bubbleData.clicked) {
+                    this.recordBubbleData(bubbleData, null);
+                }
+            }
+
+            this.clearBubbles();
+
+            if (this.onEndCallback) {
+                this.onEndCallback(this.score);
+            }
+        }
+    }
+
+    function runBubbleTapTask(taskSetName, duration = 30) {
+      return new Promise(resolve => {
+        const bubbleGame = new BubbleGame(taskSetName, duration);
+        bubbleGame.start((finalScore) => {
+          document.getElementById('gameContainer').classList.add('hidden');
+          resolve();
+        });
+      });
+    }
+
+    async function exp1Set() {
+      await playMovie(movies[2], 8.0);
+      await playMovie(movies[3], 4.0);
+      await playMovie(movies[4], 3.0);
+      await runCalculationTask();
+      await playMovie(movies[5], 8.0);
+      await playMovie(movies[6], 4.0);
+      await playMovie(movies[7], 3.0);
+      await runBubbleTapTask('CT');
+      await playMovie(movies[8], 8.0);
+      await playMovie(movies[9], 4.0);
+      await playMovie(movies[10], 3.0);
+      await playMovie(movies[11], 60.0);
+      await playMovie(movies[12], 8.0);
+      await playMovie(movies[13], 4.0);
+      await playMovie(movies[14], 3.0);
+      await runBubbleTapTask('TT');
+    }
+    
+    async function startDrill() {
+    // startDrill is called by a user tap; enable audio within this gesture so
+    // subsequent programmatic plays are allowed on iOS.
+    if (!audioEnabled) {
+      try { enableSound(); } catch (e) { console.warn(e); }
+    }
+    await initMedia();
+        await expDrill();
+    }
+    
+    async function startPractice() {
+    if (!audioEnabled) {
+      try { enableSound(); } catch (e) { console.warn(e); }
+    }
+    await initMedia();
+        await expPractice();
+    }
+
+    async function expDrill() {
+      document.getElementById('exp_id').style.display = 'none';
+      worldStartTime = Date.now();
+      await exp1Set();
+      downloadCSV(suffix='drill_');
+    }
+
+    async function expPractice() {
+      document.getElementById('exp_id').style.display = 'none';
+      worldStartTime = Date.now();
+      await playMovie(movies[0], 3.0);
+      await playMovie(movies[1], 2.0);
+      await exp1Set();
+      await playMovie(movies[15], 2.0);
+      await exp1Set();
+      downloadCSV(suffix='practice_');
+    }
+
+    async function playMovie(movie, time) {
+        document.body.style.backgroundColor = 'black';
+        
+        movie.style.left = '0';
+        movie.style.opacity = 1;
+    // Keep movie muted to avoid iOS blocking subsequent play() calls.
+    // If you need audio, provide a dedicated "Enable sound" button that the
+    // participant taps (a user gesture) to unmute all videos.
+        movie.currentTime = 0; 
+        
+        await movie.play().catch(e => console.error("Video play failed:", movie.id, e));
+        await sleep(time * 1000);
+        movie.pause();
+        movie.currentTime = 0;
+        
+        movie.style.left = '-9999px';
+        movie.style.opacity = 0;
+    }
+
+    function sleep(ms) {
+      return new Promise(resolve => setTimeout(resolve, ms));
+    }
+    
+    function downloadCSV(suffix='') {
+      var csv_name = suffix + document.getElementById('csv_id').value + '.csv';
+      var element = document.createElement('a');
+      element.setAttribute('href', 'data:text/csv;charset=utf-8,' + encodeURIComponent(csv));
+      element.setAttribute('download', csv_name);
+      element.style.display = 'none';
+      document.body.appendChild(element);
+      element.click();
+      document.body.removeChild(element);
+    }
+    
+    var hideCursorTimer;
+    window.addEventListener('mousemove', function() {
+      document.body.classList.remove("hide_cursor");
+      clearTimeout(hideCursorTimer);
+      hideCursorTimer = setTimeout(function() {
+        document.body.classList.add("hide_cursor");
+      }, 1000);
+    });
+  </script>
+</body>
+</html>
