@@ -1,3 +1,14 @@
+- title: "Emergence from Emergence: Financial Market Simulation via Learning with Heterogeneous Preferences"
+  author:
+    - Ryuji Hashimoto
+    - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
+    - Masahiro Suzuki
+    - Yuki Tanaka
+    - Kiyoshi Izumi
+  in:
+    title: <a href="https://arxiv.org/abs/2511.05207" target="_blank">arXiv:2511.05207</a>
+    date: Nov. 2025
+
 - title: Emergent Social Dynamics of LLM Agents in the El Farol Bar Problem
   author:
     - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
