@@ -46,8 +46,8 @@ about:
     en: Work Experience
     ja: 職歴
     academia:
-      en: Academia
-      ja: アカデミア
+      en: Academic
+      ja: 学術/研究
       ut-ta:
         en: Graduate School of Arts and Sciences, University of Tokyo
         ja: 東京大学大学院総合文化研究科
@@ -103,8 +103,8 @@ about:
         en: 'Teaching assistant<br>　A semester: "Complex Systems"'
         ja: ティーチングアシスタント<br>　Aセメスター『複雑系科学』
     programming:
-      en: Programming
-      ja: プログラミング
+      en: Engineering
+      ja: 開発/技術
       am:
         en: Alternative Machine Inc.
         ja: 株式会社オルタナティヴ・マシン
@@ -125,7 +125,7 @@ about:
         ja: 画像処理ソフトウェア開発（業務委託）
     swimming:
       en: Swimming
-      ja: スイミング
+      ja: 水泳/指導
       a1:
         en: Sports Club A-1 Sasazuka
         ja: スポーツクラブA-1笹塚
