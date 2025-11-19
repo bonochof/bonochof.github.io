@@ -25,7 +25,7 @@
 - date: 2025.03.24
   description:
     en: Completed graduate school at the University of Tokyo and received a Doctor of Philosophy (Ph.D.) degree.
-    ja: 東京大学大学院を修了し，博士号を取得．
+    ja: 東京大学大学院を修了し，博士号（学術）を取得．
 - date: 2025.03.01
   description:
     en: 'Article published in the Journal of the Japanese Society for Artificial Intelligence. The title is "JSAI Meets AI Standardization -- Panel Discussion Report: What Personnel Are Required for the Standardization Process? --"'
@@ -86,6 +86,10 @@
   description:
     en: Lecture at the University of Tokyo VR Center Doctoral Symposium. The title is "Evolution of Swarm and Neural Network Dynamics Based on Chemotaxis."
     ja: 東京大学VR教育研究センター主催 ドクトラルシンポジウムにて講演．講演タイトルは"走化性に基づくニューラルネットワークのダイナミクスと集団行動の進化"．記事は<a href="https://vr.u-tokyo.ac.jp/2023/12/30/開催報告-先端vrドクトラルシンポ" target="_blank">こちら</a>．
+- date: 2023.09.19
+  description:
+    en: 'Preprint published. The title is "PAMS: Platform for Artificial Market Simulations." <a href="https://arxiv.org/abs/2309.10729" target="_blank">arXiv:2309.10729</a>'
+    ja: 'プレプリントを掲載．タイトルは"PAMS: Platform for Artificial Market Simulations"．<a href="https://arxiv.org/abs/2309.10729" target="_blank">arXiv:2309.10729</a>'
 - date: 2023.09.07-2023.09.09
   description:
     en: Poster presentation at the 40th Annual Meeting of the Japanese Cognitive Science Society. The title is "Cognitive Modeling of Thrill-Seeking Irrational Behavior with Conflicting Adaptive Optimizations."
