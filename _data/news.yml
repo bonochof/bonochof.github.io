@@ -1,3 +1,7 @@
+- date: 2025.12.18
+  description:
+    en: 'Oral presentation at the Complex Systems Conference. The title is "LLM Multi-Agent Simulation: Emerging Individuality and Strategies from Collective Interaction."'
+    ja: 複雑系研究会にて口頭発表．タイトルは"LLMマルチエージェントシミュレーション〜集団から創発する個性と戦略〜"．
 - date: 2025.11.07
   description:
     en: 'Preprint published. The title is "Emergence from Emergence: Financial Market Simulation via Learning with Heterogeneous Preferences." <a href="https://arxiv.org/abs/2511.05207" target="_blank">arXiv:2511.05207</a>'
