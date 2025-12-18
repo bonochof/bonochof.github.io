@@ -1,4 +1,20 @@
 - title:
+    en: LLM Multi-Agent Simulation: Emerging Individuality and Strategies from Collective Interaction
+    ja: LLMマルチエージェントシミュレーション〜集団から創発する個性と戦略〜
+  author:
+    en:
+      - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
+    ja:
+      - <span style="font-weight:bold;text-decoration:underline">高田 亮介</span>
+  in:
+    title:
+      en: Complex Systems
+      ja: 複雑系研究会
+    date: Dec. 2025
+  refereed: false
+  oral-presentation: true
+
+- title:
     en: Analysis of the El Farol Bar Problem by LLM Agents
     ja: LLMエージェントによるエルファロル・バー問題の解析
   author:
