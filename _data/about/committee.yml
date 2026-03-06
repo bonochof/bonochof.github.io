@@ -1,3 +1,11 @@
+- name-key: jsai-editor
+  disc-key: jsai-editor-d
+  start: 2026
+
+- name-key: ieice2026
+  disc-key: ieice2026-d
+  start: 2025
+
 - name-key: jsai2026-award
   disc-key: jsai2026-award-d
   start: 2025
@@ -11,9 +19,9 @@
   start: 2024
 
 - name-key: jsai-editor
-  #disc-key: jsai-editor-d
+  disc-key: jsai-editor-student-d
   start: 2023
-  #end: 2025
+  end: 2026
 
 - name-key: jsai2024-student
   disc-key: jsai2024-student-d

@@ -193,6 +193,9 @@ about:
       en: Editorial Committee, The Japanese Society for Artificial Intelligence
       ja: 人工知能学会 編集委員会
     jsai-editor-d:
+      en: Editor
+      ja: 編集委員
+    jsai-editor-student-d:
       en: Student Editor
       ja: 学生編集委員
     jsai-expo:
@@ -205,8 +208,14 @@ about:
       en: The Institute of Electronics, Information and Communication Engineers
       ja: 電子情報通信学会
     ieice-hcs-d:
-      en: HCS expert committee member
+      en: HCS Committee Member
       ja: HCS専門委員
+    ieice2026:
+      en: The Institute of Electronics, Information and Communication Engineers General Conference
+      ja: 2026年電子情報通信学会総合大会
+    ieice2026-d:
+      en: Program Committee Member
+      ja: プログラム編成委員
   programming:
     en: Programming Skills
     ja: プログラミング歴
