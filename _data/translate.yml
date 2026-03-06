@@ -47,7 +47,7 @@ about:
     ja: 職歴
     academia:
       en: Academic
-      ja: 学術/研究
+      ja: アカデミア
       ut-ta:
         en: Graduate School of Arts and Sciences, University of Tokyo
         ja: 東京大学大学院総合文化研究科
@@ -105,6 +105,9 @@ about:
     programming:
       en: Engineering
       ja: 開発/技術
+      simulacra:
+        en: Simulacra Inc.
+        ja: 株式会社Simulacra
       am:
         en: Alternative Machine Inc.
         ja: 株式会社オルタナティヴ・マシン
@@ -114,9 +117,15 @@ about:
       disco:
         en: DISCO Corporation
         ja: 株式会社ディスコ
+      appliedresearcher:
+        en: Applied researcher (founding member)
+        ja: 研究員（創業メンバー）
+      researcher:
+        en: Researcher
+        ja: 研究員
       mtm2:
-        en: Software development<br>VR development of the installation work <a href="https://mtm2.alternativemachine.co.jp" target="_blank">"Mind Time Machine II"</a>
-        ja: ソフトウェア開発<br>体験型VRインスタレーション作品<a href="https://mtm2.alternativemachine.co.jp" target="_blank">「マインド・タイム・マシンⅡ」</a>VRシステム開発
+        en: VR development of the installation work <a href="https://mtm2.alternativemachine.co.jp" target="_blank">"Mind Time Machine II"</a> (outsourced)
+        ja: 体験型VRインスタレーション作品<a href="https://mtm2.alternativemachine.co.jp" target="_blank">「マインド・タイム・マシンⅡ」</a>VRシステム開発（業務委託）
       cad:
         en: 3D CAD software development (outsourced)
         ja: 3次元CADソフトウェア開発（業務委託）

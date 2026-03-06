@@ -1,6 +1,15 @@
+- name-key: simulacra
+  disc-key: appliedresearcher
+  start: 2025
+
+- name-key: am
+  disc-key: researcher
+  start: 2025
+
 - name-key: am
   disc-key: mtm2
   start: 2023
+  end: 2023
 
 - name-key: arent
   disc-key: cad
