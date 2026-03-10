@@ -1,6 +1,6 @@
 - title:
-    en: Grant-in-Aid for JSPS Fellows
-    ja: 日本学術振興会（JSPS） 科研費 若手研究
+    en: Grant-in-Aid for Young Scientists
+    ja: 日本学術振興会（JSPS）科研費 若手研究
   theme:
     en: Multi-Agent Language Emergence Based on Functional Requirements and Elucidation of Structuring Principles
     ja: 機能的要請に基づくマルチエージェント言語創発とその構造化原理の解明
@@ -42,7 +42,7 @@
 
 - title:
     en: Grant-in-Aid for JSPS Fellows
-    ja: 日本学術振興会（JSPS） 科研費 特別研究員奨励費
+    ja: 日本学術振興会（JSPS）科研費 特別研究員奨励費
   theme:
     en: Adaptive Swarm Emergence Model Using Evolutionary Computation and Reinforcement Learning
     ja: 進化計算と強化学習による適応的な群れの創発モデル
