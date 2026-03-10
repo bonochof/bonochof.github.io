@@ -2,8 +2,8 @@
 
 <ol class="all">
 
-<h2>{{ site.data.translate.publications.journals[page.lang] }}</h2>
-
+<details open>
+<summary><h2>{{ site.data.translate.publications.journals[page.lang] }}</h2></summary>
 <ul class="publications">
 {%- for data in site.data.publications.journals -%}
   <li><span class="title">{%- if data.title.ja -%}{{ data.title[page.lang] }}{%- else -%}{{ data.title }}{%- endif -%}</span>
@@ -15,9 +15,10 @@
   </li>
 {%- endfor -%}
 </ul>
+</details>
 
-<h2>{{ site.data.translate.publications.preprints[page.lang] }}</h2>
-
+<details open>
+<summary><h2>{{ site.data.translate.publications.preprints[page.lang] }}</h2></summary>
 <ul class="publications">
 {%- for data in site.data.publications.preprints -%}
   <li><span class="title">{{ data.title }}</span>
@@ -26,9 +27,10 @@
   </li>
 {%- endfor -%}
 </ul>
+</details>
 
-<h2>{{ site.data.translate.publications.conferences[page.lang] }}</h2>
-
+<details open>
+<summary><h2>{{ site.data.translate.publications.conferences[page.lang] }}</h2></summary>
 <ul class="publications">
 {%- for data in site.data.publications.conferences -%}
   <li><span class="title">{{ data.title }}</span>
@@ -39,11 +41,12 @@
   </li>
 {%- endfor -%}
 </ul>
+</details>
 
-<h2>{{ site.data.translate.publications.ja-conferences[page.lang] }}</h2>
-
+<details open>
+<summary><h2>{{ site.data.translate.publications['ja-conferences'][page.lang] }}</h2></summary>
 <ul class="publications">
-{%- for data in site.data.publications.ja-conferences -%}
+{%- for data in site.data.publications['ja-conferences'] -%}
   <li><span class="title">{{ data.title[page.lang] }}</span>
     {%- if page.lang == "en" and data.title["ja"] -%}<ul><li class="info"><span class="title">({{ data.title["ja"] }})</span></li></ul>{%- endif -%}
     <ul>{%- for a in data.author[page.lang] -%}<li class="author">{{ a }}</li>{%- endfor -%}</ul>
@@ -53,9 +56,10 @@
   </li>
 {%- endfor -%}
 </ul>
+</details>
 
-<h2>{{ site.data.translate.publications.misc[page.lang] }}</h2>
-
+<details open>
+<summary><h2>{{ site.data.translate.publications.misc[page.lang] }}</h2></summary>
 <ul class="publications">
 {%- for data in site.data.publications.misc -%}
   <li><span class="title">{{ data.title[page.lang] }}</span>
@@ -67,9 +71,10 @@
   </li>
 {%- endfor -%}
 </ul>
+</details>
 
-<h2>{{ site.data.translate.publications.invite[page.lang] }}</h2>
-
+<details open>
+<summary><h2>{{ site.data.translate.publications.invite[page.lang] }}</h2></summary>
 <ul class="publications">
 {%- for data in site.data.publications.invite -%}
   <li><span class="title">{{ data.title[page.lang] }}</span>
@@ -80,9 +85,10 @@
   </li>
 {%- endfor -%}
 </ul>
+</details>
 
-<h2>{{ site.data.translate.publications.dissertations[page.lang] }}</h2>
-
+<details open>
+<summary><h2>{{ site.data.translate.publications.dissertations[page.lang] }}</h2></summary>
 <ul class="publications">
 {%- for data in site.data.publications.dissertations -%}
   <li><span class="title">{%- if data.title.en-main -%}{{ data.title["en"] }}{%- else -%}{{ data.title[page.lang] }}{%- endif -%}</span>
@@ -93,9 +99,10 @@
   </li>
 {%- endfor -%}
 </ul>
+</details>
 
-<h2>{{ site.data.translate.publications.grants[page.lang] }}</h2>
-
+<details open>
+<summary><h2>{{ site.data.translate.publications.grants[page.lang] }}</h2></summary>
 <ul class="publications">
 {%- for data in site.data.publications.grants -%}
   <li><span class="title">{{ data.title[page.lang] }}</span>
@@ -105,9 +112,10 @@
   </li>
 {%- endfor -%}
 </ul>
+</details>
 
-<h2>{{ site.data.translate.publications.awards[page.lang] }}</h2>
-
+<details open>
+<summary><h2>{{ site.data.translate.publications.awards[page.lang] }}</h2></summary>
 <ul class="publications">
 {%- for data in site.data.publications.awards -%}
   <li>{{ data.title[page.lang] }}
@@ -116,9 +124,10 @@
   </li>
 {%- endfor -%}
 </ul>
+</details>
 
-<h2>{{ site.data.translate.publications.organize[page.lang] }}</h2>
-
+<details open>
+<summary><h2>{{ site.data.translate.publications.organize[page.lang] }}</h2></summary>
 <ul class="publications">
 {%- for data in site.data.publications.organize -%}
   <li>{{ data.title[page.lang] }}
@@ -126,5 +135,8 @@
   </li>
 {%- endfor -%}
 </ul>
+</details>
 
 </ol>
+
+<script src="{{ "/assets/js/main.js" | relative_url }}"></script>

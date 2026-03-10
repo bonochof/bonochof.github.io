@@ -253,3 +253,37 @@
     }
   }
 }
+
+details {
+  margin-top: 50px;
+}
+
+details:first-of-type {
+  margin-top: 0;
+}
+
+summary {
+  cursor: pointer;
+  outline: none;
+  list-style: none; /* Hide default marker */
+}
+
+summary::-webkit-details-marker {
+  display: none; /* Hide default marker for Safari */
+}
+
+summary h2 {
+  display: inline-block;
+  margin: 0; /* Reset margin for h2 inside summary */
+}
+
+summary::before {
+  content: '▶';
+  margin-right: 10px;
+  color: $kabairo;
+  font-family: sans-serif;
+}
+
+details[open] > summary::before {
+  content: '▼';
+}
