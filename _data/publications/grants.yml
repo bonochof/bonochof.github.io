@@ -1,4 +1,32 @@
 - title:
+    en: Grant-in-Aid for JSPS Fellows
+    ja: 日本学術振興会（JSPS） 科研費 若手研究
+  theme:
+    en: Multi-Agent Language Emergence Based on Functional Requirements and Elucidation of Structuring Principles
+    ja: 機能的要請に基づくマルチエージェント言語創発とその構造化原理の解明
+  role:
+    en: Principal Investigator
+    ja: 研究代表者
+  amount:
+    en: ¥ 3,100,000
+    ja: 3,100千円
+  date: Apr. 2026 - Mar. 2029
+
+- title:
+    en: Support Center for Advanced Telecommunications Technology Research (SCAT)
+    ja: テレコム先端技術研究支援センター（SCAT）
+  theme:
+    en: Constructive Dialogue Support System Using Discourse Space Maps and Intellectually Curious Agents
+    ja: 言説空間マップと知的好奇心エージェントによる建設的対話支援システム
+  role:
+    en: Principal Investigator
+    ja: 研究代表者
+  amount:
+    en: ¥ 2,500,000
+    ja: 2,500千円
+  date: Apr. 2026 - Mar. 2029
+
+- title:
     en: Foudation for the Fusion Of Science and Technology (FOST)
     ja: 科学技術融合振興財団（FOST）
   theme:
@@ -14,7 +42,7 @@
 
 - title:
     en: Grant-in-Aid for JSPS Fellows
-    ja: 日本学術振興会 特別研究員奨励費
+    ja: 日本学術振興会（JSPS） 科研費 特別研究員奨励費
   theme:
     en: Adaptive Swarm Emergence Model Using Evolutionary Computation and Reinforcement Learning
     ja: 進化計算と強化学習による適応的な群れの創発モデル
