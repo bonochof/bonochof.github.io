@@ -238,7 +238,24 @@
     var scale = 4;
     var cols, rows;
     var u, v, nextU, nextV;
-    var F = 0.037, K = 0.06;
+    // Various (F, K) presets producing distinct patterns
+    var presets = [
+      { F: 0.010, K: 0.041 },  // spots (静かなドット)
+      { F: 0.014, K: 0.054 },  // moving spots
+      { F: 0.018, K: 0.051 },  // waves / pulsing
+      { F: 0.022, K: 0.051 },  // stripes (縞模様)
+      { F: 0.026, K: 0.052 },  // long stripes
+      { F: 0.030, K: 0.055 },  // maze-like (迷路)
+      { F: 0.030, K: 0.060 },  // dots and loops
+      { F: 0.035, K: 0.065 },  // spotty chaos
+      { F: 0.039, K: 0.058 },  // worms (ワーム)
+      { F: 0.042, K: 0.059 },  // branching coral
+      { F: 0.046, K: 0.063 },  // mitosis (分裂)
+      { F: 0.054, K: 0.063 },  // solitons (泡)
+      { F: 0.058, K: 0.065 },  // flower-like
+    ];
+    var preset = presets[Math.floor(Math.random() * presets.length)];
+    var F = preset.F, K = preset.K;
     var Du = 0.21, Dv = 0.105;
 
     function resize() {
