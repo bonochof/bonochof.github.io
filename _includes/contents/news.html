@@ -1,17 +1,31 @@
 <h1>{{ site.data.translate.news.title[page.lang] }}</h1>
 
 <div class="news">
-  <table id="news-table"><tbody>
-    <tr><th>{{ site.data.translate.news.date[page.lang] }}</th><th>{{ site.data.translate.news.description[page.lang] }}</th></tr>
-    {% for item in site.data.news %}
-      <tr><td>{{ item.date }}</td><td>{{ item.description[page.lang] }}</td></tr>
-    {% endfor %}
-  </tbody></table>
-
-  <select id="news-view-num" onchange="change_table();">
-    <option value="10">10</option>
-    <option value="256">All</option>
-  </select>
+  {%- assign current_year = "" -%}
+  {%- for item in site.data.news -%}
+    {%- assign item_year = item.date | slice: 0, 4 -%}
+    {%- if item_year != current_year -%}
+      {%- if current_year != "" -%}
+        </ul></details>
+      {%- endif -%}
+      {%- assign current_year = item_year -%}
+      {%- assign year_count = 0 -%}
+      {%- for n in site.data.news -%}
+        {%- assign n_year = n.date | slice: 0, 4 -%}
+        {%- if n_year == current_year -%}
+          {%- assign year_count = year_count | plus: 1 -%}
+        {%- endif -%}
+      {%- endfor -%}
+      <details{% if forloop.first %} open{% endif %}>
+        <summary><h2>{{ current_year }} <span class="news-count">({{ year_count }})</span></h2></summary>
+        <ul class="news-list">
+    {%- endif -%}
+    <li class="news-item">
+      <span class="news-date">{{ item.date }}</span>
+      <span class="news-desc">{{ item.description[page.lang] }}</span>
+    </li>
+  {%- endfor -%}
+  {%- if current_year != "" -%}
+    </ul></details>
+  {%- endif -%}
 </div>
-
-<script type="text/javascript" src="{{ '/assets/js/main.js' | relative_url }}">

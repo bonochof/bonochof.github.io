@@ -4,12 +4,14 @@
 <h1>{{ site.data.translate.home.activities[page.lang] }}</h1>
 
 <div class="news">
-  <table id="news-table"><tbody>
-    <tr><th>{{ site.data.translate.news.date[page.lang] }}</th><th>{{ site.data.translate.news.description[page.lang] }}</th></tr>
+  <ul class="news-list">
     {% for item in site.data.news limit: 5 %}
-      <tr><td>{{ item.date }}</td><td>{{ item.description[page.lang] }}</td></tr>
+    <li class="news-item">
+      <span class="news-date">{{ item.date }}</span>
+      <span class="news-desc">{{ item.description[page.lang] }}</span>
+    </li>
     {% endfor %}
-  </tbody></table>
+  </ul>
   {%- assign news_page = site.pages | where: "path", site.data.navigation[page.lang][3] | first -%}
   <a href="{{ news_page.url | relative_url }}"><div id="more-info">More Info</div></a>
 </div>
@@ -26,7 +28,7 @@
   </div>
 
   <div class="twitter">
-    <a class="twitter-timeline" data-width="250" data-height="1050" data-theme="light" href="https://twitter.com/bonochof?ref_src=twsrc%5Etfw">Tweets by bonochof</a>
+    <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">科研費、採択された！良かった〜</p>&mdash; тасата (@bonochof) <a href="https://twitter.com/bonochof/status/2027265371343065419?ref_src=twsrc%5Etfw">February 27, 2026</a></blockquote>
     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   </div>
 </div>

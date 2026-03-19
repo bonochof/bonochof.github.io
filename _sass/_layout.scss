@@ -278,12 +278,15 @@ summary h2 {
 }
 
 summary::before {
-  content: '▶';
+  content: '\25B6';
   margin-right: 10px;
   color: $kabairo;
   font-family: sans-serif;
+  font-size: 0.8em;
+  display: inline-block;
+  transition: transform 0.25s ease;
 }
 
 details[open] > summary::before {
-  content: '▼';
+  transform: rotate(90deg);
 }

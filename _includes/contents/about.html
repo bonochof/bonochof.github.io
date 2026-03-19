@@ -4,87 +4,128 @@
 
 <h2>{{ site.data.translate.about.education[page.lang] }}</h2>
 
-|{{ site.data.translate.about.education.year[page.lang] }}|{{ site.data.translate.about.education.education[page.lang] }}|
-|----------|------------------------------------------------------------------|
-|2013--2018|{{ site.data.translate.about.education.kosen[page.lang] }}        |
-|2018--2020|{{ site.data.translate.about.education.undergraduate[page.lang] }}|
-|2020--2022|{{ site.data.translate.about.education.graduate[page.lang] }}     |
-|2022--2025|{{ site.data.translate.about.education.doctor[page.lang] }}     |
+<div class="gantt">
+  <div class="gantt-row" data-start="2022" data-end="2025">
+    <div class="gantt-label">{{ site.data.translate.about.education.doctor[page.lang] }}</div>
+    <div class="gantt-track"><div class="gantt-bar"></div></div>
+  </div>
+  <div class="gantt-row" data-start="2020" data-end="2022">
+    <div class="gantt-label">{{ site.data.translate.about.education.graduate[page.lang] }}</div>
+    <div class="gantt-track"><div class="gantt-bar"></div></div>
+  </div>
+  <div class="gantt-row" data-start="2018" data-end="2020">
+    <div class="gantt-label">{{ site.data.translate.about.education.undergraduate[page.lang] }}</div>
+    <div class="gantt-track"><div class="gantt-bar"></div></div>
+  </div>
+  <div class="gantt-row" data-start="2013" data-end="2018">
+    <div class="gantt-label">{{ site.data.translate.about.education.kosen[page.lang] }}</div>
+    <div class="gantt-track"><div class="gantt-bar"></div></div>
+  </div>
+  <div class="gantt-scale"></div>
+</div>
 
 <h2>{{ site.data.translate.about.work[page.lang] }}</h2>
 
 <h3>{{ site.data.translate.about.work.academia[page.lang] }}</h3>
-<ul class="work">
+<div class="gantt">
 {%- for data in site.data.about.work-academia -%}
-  {%- if data.name-key -%}<li><span class="name">{{ site.data.translate.about.work.academia[data.name-key][page.lang] }}</span>
-    {%- if data.disc-key -%}<ul><li class="info">{{ site.data.translate.about.work.academia[data.disc-key][page.lang] }}</li></ul>{%- endif -%}
-    {%- if data.start -%}<ul><li class="info">{{ data.start }}{%- if page.lang == 'ja' -%}年{%- endif -%}～{%- if data.end -%}{{ data.end }}{%- if page.lang == 'ja' -%}年{%- endif -%}{%- endif -%}</li></ul>{%- endif -%}
-  </li>{%- endif -%}
+  {%- if data.name-key -%}
+  <div class="gantt-row" data-start="{{ data.start }}" {% if data.end %}data-end="{{ data.end }}"{% endif %}>
+    <div class="gantt-label">{{ site.data.translate.about.work.academia[data.name-key][page.lang] }}{%- if data.disc-key -%}<span class="gantt-sub">{{ site.data.translate.about.work.academia[data.disc-key][page.lang] }}</span>{%- endif -%}</div>
+    <div class="gantt-track"><div class="gantt-bar"></div></div>
+  </div>
+  {%- endif -%}
 {%- endfor -%}
-</ul>
+  <div class="gantt-scale"></div>
+</div>
 
 <h3>{{ site.data.translate.about.work.programming[page.lang] }}</h3>
-<ul class="work">
+<div class="gantt">
 {%- for data in site.data.about.work-programming -%}
-  {%- if data.name-key -%}<li><span class="name">{{ site.data.translate.about.work.programming[data.name-key][page.lang] }}</span>
-    {%- if data.disc-key -%}<ul><li class="info">{{ site.data.translate.about.work.programming[data.disc-key][page.lang] }}</li></ul>{%- endif -%}
-    {%- if data.start -%}<ul><li class="info">{{ data.start }}{%- if page.lang == 'ja' -%}年{%- endif -%}～{%- if data.end -%}{{ data.end }}{%- if page.lang == 'ja' -%}年{%- endif -%}{%- endif -%}</li></ul>{%- endif -%}
-  </li>{%- endif -%}
+  {%- if data.name-key -%}
+  <div class="gantt-row" data-start="{{ data.start }}" {% if data.end %}data-end="{{ data.end }}"{% endif %}>
+    <div class="gantt-label">{{ site.data.translate.about.work.programming[data.name-key][page.lang] }}{%- if data.disc-key -%}<span class="gantt-sub">{{ site.data.translate.about.work.programming[data.disc-key][page.lang] }}</span>{%- endif -%}</div>
+    <div class="gantt-track"><div class="gantt-bar"></div></div>
+  </div>
+  {%- endif -%}
 {%- endfor -%}
-</ul>
+  <div class="gantt-scale"></div>
+</div>
 
 <h3>{{ site.data.translate.about.work.swimming[page.lang] }}</h3>
-<ul class="work">
+<div class="gantt">
 {%- for data in site.data.about.work-swimming -%}
-  {%- if data.name-key -%}<li><span class="name">{{ site.data.translate.about.work.swimming[data.name-key][page.lang] }}</span>
-    {%- if data.disc-key -%}<ul><li class="info">{{ site.data.translate.about.work.swimming[data.disc-key][page.lang] }}</li></ul>{%- endif -%}
-    {%- if data.start -%}<ul><li class="info">{{ data.start }}{%- if page.lang == 'ja' -%}年{%- endif -%}～{%- if data.end -%}{{ data.end }}{%- if page.lang == 'ja' -%}年{%- endif -%}{%- endif -%}</li></ul>{%- endif -%}
-  </li>{%- endif -%}
+  {%- if data.name-key -%}
+  <div class="gantt-row" data-start="{{ data.start }}" {% if data.end %}data-end="{{ data.end }}"{% endif %}>
+    <div class="gantt-label">{{ site.data.translate.about.work.swimming[data.name-key][page.lang] }}{%- if data.disc-key -%}<span class="gantt-sub">{{ site.data.translate.about.work.swimming[data.disc-key][page.lang] }}</span>{%- endif -%}</div>
+    <div class="gantt-track"><div class="gantt-bar"></div></div>
+  </div>
+  {%- endif -%}
 {%- endfor -%}
-</ul>
+  <div class="gantt-scale"></div>
+</div>
 
 <h3>{{ site.data.translate.about.work.other[page.lang] }}</h3>
-<ul class="work">
+<div class="gantt">
 {%- for data in site.data.about.work-other -%}
-  {%- if data.name-key -%}<li><span class="name">{{ site.data.translate.about.work.other[data.name-key][page.lang] }}</span>
-    {%- if data.disc-key -%}<ul><li class="info">{{ site.data.translate.about.work.other[data.disc-key][page.lang] }}</li></ul>{%- endif -%}
-    {%- if data.start -%}<ul><li class="info">{{ data.start }}{%- if page.lang == 'ja' -%}年{%- endif -%}～{%- if data.end -%}{{ data.end }}{%- if page.lang == 'ja' -%}年{%- endif -%}{%- endif -%}</li></ul>{%- endif -%}
-  </li>{%- endif -%}
+  {%- if data.name-key -%}
+  <div class="gantt-row" data-start="{{ data.start }}" {% if data.end %}data-end="{{ data.end }}"{% endif %}>
+    <div class="gantt-label">{{ site.data.translate.about.work.other[data.name-key][page.lang] }}{%- if data.disc-key -%}<span class="gantt-sub">{{ site.data.translate.about.work.other[data.disc-key][page.lang] }}</span>{%- endif -%}</div>
+    <div class="gantt-track"><div class="gantt-bar"></div></div>
+  </div>
+  {%- endif -%}
 {%- endfor -%}
-</ul>
+  <div class="gantt-scale"></div>
+</div>
 
 <h2>{{ site.data.translate.about.committee[page.lang] }}</h2>
 
-<ul class="committee">
+<div class="gantt">
 {%- for data in site.data.about.committee -%}
-  {%- if data.name-key -%}<li><span class="name">{{ site.data.translate.about.committee[data.name-key][page.lang] }}</span>
-    {%- if data.disc-key -%}<ul><li class="info">{{ site.data.translate.about.committee[data.disc-key][page.lang] }}</li></ul>{%- endif -%}
-    {%- if data.start -%}<ul><li class="info">{{ data.start }}{%- if page.lang == 'ja' -%}年{%- endif -%}～{%- if data.end -%}{{ data.end }}{%- if page.lang == 'ja' -%}年{%- endif -%}{%- endif -%}</li></ul>{%- endif -%}
-  </li>{%- endif -%}
+  {%- if data.name-key -%}
+  <div class="gantt-row" data-start="{{ data.start }}" {% if data.end %}data-end="{{ data.end }}"{% endif %}>
+    <div class="gantt-label">{{ site.data.translate.about.committee[data.name-key][page.lang] }}{%- if data.disc-key -%}<span class="gantt-sub">{{ site.data.translate.about.committee[data.disc-key][page.lang] }}</span>{%- endif -%}</div>
+    <div class="gantt-track"><div class="gantt-bar"></div></div>
+  </div>
+  {%- endif -%}
 {%- endfor -%}
-</ul>
+  <div class="gantt-scale"></div>
+</div>
 
 <h2>{{ site.data.translate.about.society[page.lang] }}</h2>
 
-<ul class="society">
+<div class="gantt">
 {%- for data in site.data.about.society -%}
-  {%- if data.name-key -%}<li><span class="name">{{ site.data.translate.about.society[data.name-key][page.lang] }}</span>
-    {%- if data.start -%}<ul><li class="info">{{ data.start }}{%- if page.lang == 'ja' -%}年{%- endif -%}～{%- if data.end -%}{{ data.end }}{%- if page.lang == 'ja' -%}年{%- endif -%}{%- endif -%}</li></ul>{%- endif -%}
-  </li>{%- endif -%}
+  {%- if data.name-key -%}
+  <div class="gantt-row" data-start="{{ data.start }}" {% if data.end %}data-end="{{ data.end }}"{% endif %}>
+    <div class="gantt-label">{{ site.data.translate.about.society[data.name-key][page.lang] }}</div>
+    <div class="gantt-track"><div class="gantt-bar"></div></div>
+  </div>
+  {%- endif -%}
 {%- endfor -%}
-</ul>
+  <div class="gantt-scale"></div>
+</div>
 
 <h2>{{ site.data.translate.about.programming[page.lang] }}</h2>
 
-<ul class="programming">
+<div class="gantt">
 {%- for data in site.data.about.programming -%}
-  {%- if data.lang -%}<li><span class="lang">{{ data.lang }}</span>
-    {%- if data.memo-key -%}<ul><li class="info">{{ site.data.translate.about.programming[data.memo-key][page.lang] }}</li></ul>{%- endif -%}
-    {%- if data.start -%}<ul><li class="info">{{ data.start }}{%- if page.lang == 'ja' -%}年{%- endif -%}～</li></ul>{%- endif -%}
-  </li>{%- endif -%}
+  {%- if data.lang -%}
+  <div class="gantt-row" data-start="{{ data.start }}">
+    <div class="gantt-label"><strong>{{ data.lang }}</strong>{%- if data.memo-key -%}<span class="gantt-sub">{{ site.data.translate.about.programming[data.memo-key][page.lang] }}</span>{%- endif -%}</div>
+    <div class="gantt-track"><div class="gantt-bar"></div></div>
+  </div>
+  {%- endif -%}
 {%- endfor -%}
-<li>{{ site.data.translate.about.programming.others[page.lang] }}
-  <ul>{%- for data in site.data.about.programming.last.others -%}<li class="info"><span class="lang">{{ data }}</span></li>{%- endfor -%}</ul>
-  <ul><li class="info">{{ site.data.translate.about.programming.others.memo[page.lang] }}</li></ul>
-</li>
-</ul>
+  <div class="gantt-scale"></div>
+</div>
+
+<div class="lang-others">
+  <div class="lang-others-title">{{ site.data.translate.about.programming.others[page.lang] }}</div>
+  <div class="lang-others-chips">
+    {%- for data in site.data.about.programming.last.others -%}
+    <span class="lang-chip">{{ data }}</span>
+    {%- endfor -%}
+  </div>
+  <div class="lang-others-note">{{ site.data.translate.about.programming.others.memo[page.lang] }}</div>
+</div>

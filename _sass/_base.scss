@@ -133,6 +133,10 @@ h3, h4, h5, h6 {
   font-family: $head-font-family;
   font-weight: $base-font-weight;
 }
+h3 {
+  padding-left: 10px;
+  border-left: 3px solid $kabairo;
+}
 
 
 /**
@@ -464,6 +468,41 @@ table {
   }
 }
 
+.lang-others {
+  margin-top: 16px;
+
+  .lang-others-title {
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+
+  .lang-others-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px 0;
+    margin-bottom: 8px;
+    align-items: center;
+  }
+
+  .lang-chip {
+    display: inline-block;
+    font-size: 14px;
+    color: $text-color;
+    padding: 0 4px;
+
+    &:not(:last-child)::after {
+      content: '/';
+      margin-left: 10px;
+      color: $grey-color-light;
+    }
+  }
+
+  .lang-others-note {
+    font-size: $small-font-size;
+    color: $grey-color;
+  }
+}
+
 .publications {
   li ul {
     margin-left: 10px;
@@ -514,9 +553,51 @@ table {
   }
 }
 
-#news-view-num {
-  margin-top: -25px;
-  float: right;
+.news-list {
+  list-style: none;
+  margin-left: 0;
+  margin-bottom: $spacing-unit / 2;
+}
+
+.news-item {
+  display: flex;
+  align-items: baseline;
+  padding: 8px 0;
+  border-bottom: 1px solid rgba($grey-color-light, 0.5);
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.news-date {
+  flex-shrink: 0;
+  width: 90px;
+  font-family: $name-font-family;
+  font-size: $small-font-size;
+  color: $kabairo;
+}
+
+.news-desc {
+  flex: 1;
+  font-size: $base-font-size;
+  line-height: 1.5;
+}
+
+.news-count {
+  font-family: $base-font-family;
+  font-size: $small-font-size;
+  color: $grey-color;
+  font-weight: normal;
+}
+
+.news {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  margin-bottom: 20px;
 }
 
 #more-info {
@@ -525,6 +606,107 @@ table {
   border-style: double;
   border-color: $kabairo;
   border-radius: 6px;
-  margin-top: -25px;
+  margin-top: 5px;
   float: right;
 }
+
+/**
+ * Gantt chart timeline
+ */
+.gantt {
+  margin: 10px 0 30px;
+
+  .gantt-row {
+    margin-bottom: 12px;
+  }
+
+  .gantt-label {
+    font-size: $base-font-size;
+    line-height: 1.4;
+    color: $text-color;
+    margin-bottom: 3px;
+  }
+
+  .gantt-sub {
+    display: block;
+    font-size: $small-font-size;
+    color: $grey-color;
+  }
+
+  .gantt-track {
+    width: 100%;
+    height: 18px;
+    position: relative;
+    background: rgba($grey-color-light, 0.25);
+    border-radius: 3px;
+  }
+
+  .gantt-bar {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    background-color: $kabairo;
+    border-radius: 3px;
+    opacity: 0.6;
+
+    &.ongoing {
+      border-right: 2px dashed darken($kabairo, 10%);
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+  }
+
+  .gantt-bar-year {
+    position: absolute;
+    top: 1px;
+    left: 6px;
+    font-size: 12px;
+    font-family: $name-font-family;
+    color: white;
+    line-height: 16px;
+    white-space: nowrap;
+    pointer-events: none;
+  }
+
+  .gantt-scale {
+    position: relative;
+    height: 22px;
+    margin-top: 2px;
+
+    span {
+      position: absolute;
+      font-size: 12px;
+      color: $grey-color;
+      transform: translateX(-50%);
+      white-space: nowrap;
+
+      &::before {
+        content: '';
+        position: absolute;
+        top: -4px;
+        left: 50%;
+        width: 1px;
+        height: 4px;
+        background-color: $grey-color-light;
+      }
+    }
+  }
+
+  .gantt-grid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+
+    span {
+      position: absolute;
+      top: 0;
+      width: 1px;
+      height: 100%;
+      background-color: rgba($grey-color-light, 0.45);
+    }
+  }
+}
+

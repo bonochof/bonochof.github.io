@@ -1,22 +1,22 @@
-- lang: C
-  start: 2013
-  memo-key: c
-
-- lang: Ruby
-  start: 2015
-  memo-key: ruby
-
-- lang: Python
-  start: 2016
-  memo-key: python
+- lang: C#
+  start: 2018
+  memo-key: cs
 
 - lang: Java
   start: 2016
   memo-key: java
 
-- lang: C#
-  start: 2018
-  memo-key: cs
+- lang: Python
+  start: 2016
+  memo-key: python
+
+- lang: Ruby
+  start: 2015
+  memo-key: ruby
+
+- lang: C
+  start: 2013
+  memo-key: c
 
 - others:
   - JavaScript
