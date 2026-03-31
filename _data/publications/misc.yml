@@ -1,4 +1,20 @@
 - title:
+    en: Agent Language Space Project
+    ja: エージェント言語空間構想
+  author:
+    en:
+      - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
+    ja:
+      - <span style="font-weight:bold;text-decoration:underline">高田 亮介</span>
+  in:
+    title:
+      en: <a href="https://sites.google.com/view/ikegamilabsimposium" target="_blank">Ikegami Lab Symposium</a>
+      ja: <a href="https://sites.google.com/view/ikegamilabsimposium" target="_blank">〜池上高志退官記念〜 少年の心を持ち続ければ学は成るシンポジウム</a>
+    date: Mar. 2026
+  refereed: false
+  journal: false
+
+- title:
     en: "JSAI Meets AI Standardization -- Panel Discussion Report: What Personnel Are Required for the Standardization Process? --"
     ja: 人工知能学会×AI標準化 ─「標準化のプロセスに必要な人材とは」パネル討論レポート─
   author:
@@ -158,11 +174,27 @@
       - <span style="font-weight:bold;text-decoration:underline">高田 亮介</span>
   in:
     title:
-      en: Annual Conference of the Japan Association for the Advancement of Science, 2023 (JAAS2023)
-      ja: 日本科学振興協会 年次大会2023 (JAAS2023)
+      en: <a href="https://meetings.jaas.science" target="_blank">Annual Conference of the Japan Association for the Advancement of Science, 2023 (JAAS2023)</a>
+      ja: <a href="https://meetings.jaas.science" target="_blank">日本科学振興協会 年次大会2023 (JAAS2023) 会いに行ける科学者フェス</a>
     date: Oct. 2023
   refereed: false
   oral-presentation: false
+
+- title:
+    en: PhD Idol Project Final Audition
+    ja: 博士アイドル化計画 最終オーディション
+  author:
+    en:
+      - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
+    ja:
+      - <span style="font-weight:bold;text-decoration:underline">高田 亮介</span>
+  in:
+    title:
+      en: <a href="https://meetings.jaas.science" target="_blank">Annual Conference of the Japan Association for the Advancement of Science, 2023 (JAAS2023)</a>
+      ja: <a href="https://meetings.jaas.science" target="_blank">日本科学振興協会 年次大会2023 (JAAS2023) 会いに行ける科学者フェス</a>
+    date: Oct. 2023
+  refereed: false
+  oral-presentation: true
 
 - title:
     en: CIF Issues and Reinforcement Learning
@@ -190,8 +222,8 @@
       - <span style="font-weight:bold;text-decoration:underline">高田 亮介</span>
   in:
     title:
-      en: Hyper Interdisciplinary Conference 2022
-      ja: 超異分野学会 東京大会2022
+      en: <a href="https://hic.lne.st/archive/tokyo2022" target="_blank">Hyper Interdisciplinary Conference 2022</a>
+      ja: <a href="https://hic.lne.st/archive/tokyo2022" target="_blank">超異分野学会 東京大会2022</a>
     date: Mar. 2022
   refereed: false
   oral-presentation: false
@@ -207,8 +239,8 @@
       - <span style="font-weight:bold;text-decoration:underline">高田 亮介</span>
   in:
     title:
-      en: MEET UP Shizuoka
-      ja: MEET UP 静岡
+      en: <a href="https://ld.lne.st/event/meetup_shizuoka" target="_blank">MEET UP Shizuoka</a>
+      ja: <a href="https://ld.lne.st/event/meetup_shizuoka" target="_blank">MEET UP 静岡</a>
     date: Jan. 2022
   refereed: false
   oral-presentation: false

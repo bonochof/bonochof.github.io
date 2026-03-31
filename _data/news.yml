@@ -1,3 +1,15 @@
+- date: 2026.03.10
+  description:
+    en: 'Oral presentation at the Ikegami Lab Symposium. The title is "Agent Language Space Project."'
+    ja: 池上研シンポジウムにて口頭発表．タイトルは"エージェント言語空間構想"．
+- date: 2026.03.09
+  description:
+    en: Accepted for a research grant from the <span style="color:maroon;font-weight:bold">Support Center for Advanced Telecommunications Technology Research (SCAT)</span>. The research theme is "Constructive Dialogue Support System Using Discourse Space Maps and Intellectually Curious Agents."
+    ja: <span style="color:maroon;font-weight:bold">テレコム先端技術研究支援センター（SCAT）</span>に採択．採択テーマは"言説空間マップと知的好奇心エージェントによる建設的対話支援システム"．
+- date: 2026.02.27
+  description:
+    en: Accepted for a research grant from the <span style="color:maroon;font-weight:bold">Grant-in-Aid for Young Scientists</span>. The research theme is "Multi-Agent Language Emergence Based on Functional Requirements and Elucidation of Structuring Principles."
+    ja: <span style="color:maroon;font-weight:bold">科研費（若手研究）</span>に採択．採択テーマは"機能的要請に基づくマルチエージェント言語創発とその構造化原理の解明"．
 - date: 2025.12.18
   description:
     en: 'Oral presentation at the Complex Systems Conference. The title is "LLM Multi-Agent Simulation: Emerging Individuality and Strategies from Collective Interaction."'
@@ -90,6 +102,10 @@
   description:
     en: Lecture at the University of Tokyo VR Center Doctoral Symposium. The title is "Evolution of Swarm and Neural Network Dynamics Based on Chemotaxis."
     ja: 東京大学VR教育研究センター主催 ドクトラルシンポジウムにて講演．講演タイトルは"走化性に基づくニューラルネットワークのダイナミクスと集団行動の進化"．記事は<a href="https://vr.u-tokyo.ac.jp/2023/12/30/開催報告-先端vrドクトラルシンポ" target="_blank">こちら</a>．
+- date: 2023.10.08
+  description:
+    en: Presentation at the final audition of the PhD Idol Project.
+    ja: 博士アイドル化計画 最終オーディションにて発表．
 - date: 2023.09.19
   description:
     en: 'Preprint published. The title is "PAMS: Platform for Artificial Market Simulations." <a href="https://arxiv.org/abs/2309.10729" target="_blank">arXiv:2309.10729</a>'
