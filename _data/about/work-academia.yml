@@ -1,10 +1,11 @@
-- name-key: jsps
-  disc-key: pd
-  start: 2025
-
 - name-key: ut-izumi
   disc-key: proj
   start: 2025
+
+- name-key: jsps
+  disc-key: pd
+  start: 2025
+  end: 2026
 
 - name-key: ut-ta
   disc-key: ta-ikeg
