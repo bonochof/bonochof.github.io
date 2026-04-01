@@ -12,7 +12,7 @@
       ja: <a href="https://sites.google.com/view/ikegamilabsimposium" target="_blank">〜池上高志退官記念〜 少年の心を持ち続ければ学は成るシンポジウム</a>
     date: Mar. 2026
   refereed: false
-  journal: false
+  oral-presentation: true
 
 - title:
     en: "JSAI Meets AI Standardization -- Panel Discussion Report: What Personnel Are Required for the Standardization Process? --"
