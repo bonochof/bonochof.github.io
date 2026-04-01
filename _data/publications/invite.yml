@@ -1,4 +1,20 @@
 - title:
+    en: Agent Language Space Project
+    ja: エージェント言語空間構想
+  author:
+    en:
+      - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
+    ja:
+      - <span style="font-weight:bold;text-decoration:underline">高田 亮介</span>
+  in:
+    title:
+      en: <a href="https://sites.google.com/view/ikegamilabsimposium" target="_blank">Ikegami Lab Symposium</a>
+      ja: <a href="https://sites.google.com/view/ikegamilabsimposium" target="_blank">〜池上高志退官記念〜 少年の心を持ち続ければ学は成るシンポジウム</a>
+    date: Mar. 2026
+  refereed: false
+  oral-presentation: true
+
+- title:
     en: Collective Interactions of LLM Agents
     ja: LLMエージェントの集団インタラクション
   author:
@@ -8,8 +24,8 @@
       - <span style="font-weight:bold;text-decoration:underline">高田 亮介</span>
   in:
     title:
-      en: Cognitive Communication Workshop 2025
-      ja: 第24回認知的コミュニケーションワークショップ
+      en: <a href="https://sites.google.com/sapientia.inf.shizuoka.ac.jp/ccws2025" target="_blank">Cognitive Communication Workshop 2025</a>
+      ja: <a href="https://sites.google.com/sapientia.inf.shizuoka.ac.jp/ccws2025" target="_blank">第24回認知的コミュニケーションワークショップ</a>
     date: Aug. 2025
 
 - title:
@@ -36,8 +52,8 @@
       - <span style="font-weight:bold;text-decoration:underline">高田 亮介</span>
   in:
     title:
-      en: Cognitive Communication Workshop 2024
-      ja: 第23回認知的コミュニケーションワークショップ
+      en: <a href="https://sites.google.com/sapientia.inf.shizuoka.ac.jp/ccws2024" target="_blank">Cognitive Communication Workshop 2024</a>
+      ja: <a href="https://sites.google.com/sapientia.inf.shizuoka.ac.jp/ccws2024" target="_blank">第23回認知的コミュニケーションワークショップ</a>
     date: Aug. 2024
 
 - title:
@@ -64,8 +80,8 @@
       - <span style="font-weight:bold;text-decoration:underline">高田 亮介</span>
   in:
     title:
-      en: Doctoral Symposium, The University of Tokyo Virtual Reality Educational Research Center
-      ja: 東京大学VR教育研究センター ドクトラルシンポジウム
+      en: <a href="https://vr.u-tokyo.ac.jp/2023/11/30/drsymp2023" target="_blank">Doctoral Symposium, The University of Tokyo Virtual Reality Educational Research Center</a>
+      ja: <a href="https://vr.u-tokyo.ac.jp/2023/11/30/drsymp2023" target="_blank">東京大学VR教育研究センター ドクトラルシンポジウム</a>
     date: Dec. 2023
 
 - title:
@@ -78,8 +94,8 @@
       - <span style="font-weight:bold;text-decoration:underline">高田 亮介</span>
   in:
     title:
-      en: Cognitive Communication Workshop 2023
-      ja: 第22回認知的コミュニケーションワークショップ
+      en: <a href="https://sites.google.com/sapientia.inf.shizuoka.ac.jp/ccws2023" target="_blank">Cognitive Communication Workshop 2023</a>
+      ja: <a href="https://sites.google.com/sapientia.inf.shizuoka.ac.jp/ccws2023" target="_blank">第22回認知的コミュニケーションワークショップ</a>
     date: Sep. 2023
 
 - title:
@@ -92,8 +108,8 @@
       - <span style="font-weight:bold;text-decoration:underline">高田 亮介</span>
   in:
     title:
-      en: Cognitive Communication Workshop 2022
-      ja: 第21回認知的コミュニケーションワークショップ
+      en: <a href="https://sites.google.com/sapientia.inf.shizuoka.ac.jp/ccws2022" target="_blank">Cognitive Communication Workshop 2022</a>
+      ja: <a href="https://sites.google.com/sapientia.inf.shizuoka.ac.jp/ccws2022" target="_blank">第21回認知的コミュニケーションワークショップ</a>
     date: Sep. 2022
 
 - title:

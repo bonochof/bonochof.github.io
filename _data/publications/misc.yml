@@ -1,20 +1,4 @@
 - title:
-    en: Agent Language Space Project
-    ja: エージェント言語空間構想
-  author:
-    en:
-      - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
-    ja:
-      - <span style="font-weight:bold;text-decoration:underline">高田 亮介</span>
-  in:
-    title:
-      en: <a href="https://sites.google.com/view/ikegamilabsimposium" target="_blank">Ikegami Lab Symposium</a>
-      ja: <a href="https://sites.google.com/view/ikegamilabsimposium" target="_blank">〜池上高志退官記念〜 少年の心を持ち続ければ学は成るシンポジウム</a>
-    date: Mar. 2026
-  refereed: false
-  oral-presentation: true
-
-- title:
     en: "JSAI Meets AI Standardization -- Panel Discussion Report: What Personnel Are Required for the Standardization Process? --"
     ja: 人工知能学会×AI標準化 ─「標準化のプロセスに必要な人材とは」パネル討論レポート─
   author:
