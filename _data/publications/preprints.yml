@@ -1,3 +1,14 @@
+- title: "From Heard to Lived Opinions: Simulating Opinion Dynamics with Grounded LLM Agents in Economic Environments"
+  author:
+    - Ryuji Hashimoto
+    - Masahiro Kaneko
+    - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
+    - Takehiro Takayanagi
+    - Kiyoshi Izumi
+  in:
+    title: <a href="https://arxiv.org/abs/2603.26701" target="_blank">arXiv:2603.26701</a>
+    date: Mar. 2026
+
 - title: "Emergence from Emergence: Financial Market Simulation via Learning with Heterogeneous Preferences"
   author:
     - Ryuji Hashimoto

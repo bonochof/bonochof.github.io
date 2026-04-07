@@ -1,3 +1,16 @@
+- title: "From Heard to Lived Opinions: Simulating Opinion Dynamics with Grounded LLM Agents in Economic Environments"
+  author:
+    - Ryuji Hashimoto
+    - Masahiro Kaneko
+    - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
+    - Takehiro Takayanagi
+    - Kiyoshi Izumi
+  in:
+    title: The 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026)
+    date: Jul. 2026
+  refereed: true
+  oral-presentation: true
+
 - title: "Internalized Culture versus External Rules: The Emergence of Bounded Rationality in LLM Agent Societies"
   author:
     - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
