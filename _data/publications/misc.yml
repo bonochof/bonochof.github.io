@@ -1,4 +1,26 @@
 - title:
+    en: 'Analysys on the Journal’s "Whole Contents" (Vol. 1-10)'
+    ja: 学会誌「全目次」分析（1〜10巻）
+  author:
+    en:
+      - Yusuke Mori
+      - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
+    ja:
+      - 森 友亮
+      - <span style="font-weight:bold;text-decoration:underline">高田 亮介</span>
+  in:
+    title:
+      en: Journal of the Japanese Society for Artificial Intelligence
+      ja: 人工知能
+    vol: 41
+    numero: 3
+    pp: 348-356
+    date: May. 2026
+  refereed: false
+  journal: true
+  doi: <a href="https://doi.org/10.11517/jjsai.41.3_348" target="_blank">https://doi.org/10.11517/jjsai.41.3_348</a>
+
+- title:
     en: '[An Article Iʼve Found in Journal of the Japanese Society for Artificial Intelligence] Shun-ichi AMARI, "Past, Present and Future of Neural Network Researches"（1989, Vol. 4, No. 2)'
     ja: 【私が見つけたこの一本】甘利俊一『ニューラルネットワーク研究の過去，現在，将来』（1989年，4巻，2号）
   author:
@@ -17,7 +39,6 @@
   refereed: false
   journal: true
   doi: <a href="https://doi.org/10.11517/jjsai.41.3_339" target="_blank">https://doi.org/10.11517/jjsai.41.3_339</a>
-
 
 - title:
     en: 'The Overview of "An Article I’ve Found in Journal of the Japanese Society for Artificial Intelligence"'
