@@ -1,4 +1,108 @@
 - title:
+    en: Implementation of Inner Speech in LLM Persona Agents and Verification of Social Coordination Capabilities
+    ja: LLMペルソナエージェントにおける内的発話の導入と社会的調整能力の検証
+  author:
+    en:
+      - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
+      - Momoka Okayama
+      - Kiyoshi Izumi
+    ja:
+      - <span style="font-weight:bold;text-decoration:underline">高田 亮介</span>
+      - 岡山 桃果
+      - 和泉 潔
+  in:
+    title:
+      en: The 40th Annual Conference of the Japanese Society for Artificial Intelligence (JSAI2026)
+      ja: 第40回人工知能学会全国大会 (JSAI2026)
+    p-no: 2Yin-B-22
+    date: Jun. 2026
+  refereed: true
+  oral-presentation: false
+  #doi: <a href="https://doi.org/10.11517/pjsai.JSAI2024.0_2F4GS502" target="_blank">https://doi.org/10.11517/pjsai.JSAI2024.0_2F4GS502</a>
+
+- title:
+    en: Simulating Opinion Dynamics with Grounded LLM Agents in Economic Environments
+    ja: 経済環境に接地したLLMエージェントによる意見ダイナミクスのシミュレーション
+  author:
+    en:
+      - Ryuji Hashimoto
+      - Masahiro Kaneko
+      - Takehiro Takayanagi
+      - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
+      - Kiyoshi Izumi
+    ja:
+      - 橋本 龍二
+      - 金子 正弘
+      - 高柳 剛弘
+      - <span style="font-weight:bold;text-decoration:underline">高田 亮介</span>
+      - 和泉 潔
+  in:
+    title:
+      en: The 40th Annual Conference of the Japanese Society for Artificial Intelligence (JSAI2026)
+      ja: 第40回人工知能学会全国大会 (JSAI2026)
+    p-no: 4Yin-A-10
+    date: Jun. 2026
+  refereed: true
+  oral-presentation: false
+  #doi: <a href="https://doi.org/10.11517/pjsai.JSAI2024.0_2F4GS502" target="_blank">https://doi.org/10.11517/pjsai.JSAI2024.0_2F4GS502</a>
+
+- title:
+    en: Spatial Pricing Strategies of LLM Agents under Heterogeneous Customer Distributions
+    ja: 不均一な顧客分布下におけるLLMエージェントの空間的価格競争戦略
+  author:
+    en:
+      - Akio Ikegami
+      - Takehiro Takayanagi
+      - Ryuji Hashimoto
+      - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
+      - Kiyoshi Izumi
+    ja:
+      - 池上 暁雄
+      - 高柳 剛弘
+      - 橋本 龍二
+      - <span style="font-weight:bold;text-decoration:underline">高田 亮介</span>
+      - 和泉 潔
+  in:
+    title:
+      en: The 40th Annual Conference of the Japanese Society for Artificial Intelligence (JSAI2026)
+      ja: 第40回人工知能学会全国大会 (JSAI2026)
+    p-no: 4Yin-A-19
+    date: Jun. 2026
+  refereed: true
+  oral-presentation: false
+  #doi: <a href="https://doi.org/10.11517/pjsai.JSAI2024.0_2F4GS502" target="_blank">https://doi.org/10.11517/pjsai.JSAI2024.0_2F4GS502</a>
+
+- title:
+    en: 'LLM Multi-Agent Simulation: Emerging Individuality and Strategies from Collective Interaction'
+    ja: 任意参加型公共財ゲームにおける大規模言語モデルと人間の協力行動の比較
+  author:
+    en:
+      - Ilya Horiguchi
+      - Ryutaro Mori
+      - Keno Harada
+      - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
+      - Takeshi Kojima
+      - Yusuke Iwasawa
+      - Tutaka Matsuo
+    ja:
+      - 堀口 維里優
+      - 森 隆太郎
+      - 原田 憲旺
+      - <span style="font-weight:bold;text-decoration:underline">高田 亮介</span>
+      - 小島 武
+      - 岩澤 有祐
+      - 松尾 豊
+  in:
+    title:
+      en: The 40th Annual Conference of the Japanese Society for Artificial Intelligence (JSAI2026)
+      ja: 第40回人工知能学会全国大会 (JSAI2026)
+    p-no: 1E5-OS-39c-05
+    date: Jun. 2026
+  refereed: true
+  oral-presentation: true
+  #doi: <a href="https://doi.org/10.11517/pjsai.JSAI2024.0_2F4GS502" target="_blank">https://doi.org/10.11517/pjsai.JSAI2024.0_2F4GS502</a>
+
+- title:
     en: 'LLM Multi-Agent Simulation: Emerging Individuality and Strategies from Collective Interaction'
     ja: LLMマルチエージェントシミュレーション〜集団から創発する個性と戦略〜
   author:
