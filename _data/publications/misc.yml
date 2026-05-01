@@ -1,4 +1,75 @@
 - title:
+    en: '[An Article Iʼve Found in Journal of the Japanese Society for Artificial Intelligence] Shun-ichi AMARI, "Past, Present and Future of Neural Network Researches"（1989, Vol. 4, No. 2)'
+    ja: 【私が見つけたこの一本】甘利俊一『ニューラルネットワーク研究の過去，現在，将来』（1989年，4巻，2号）
+  author:
+    en:
+      - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
+    ja:
+      - <span style="font-weight:bold;text-decoration:underline">高田 亮介</span>
+  in:
+    title:
+      en: Journal of the Japanese Society for Artificial Intelligence
+      ja: 人工知能
+    vol: 41
+    numero: 3
+    pp: 339-347
+    date: May. 2026
+  refereed: false
+  journal: true
+  doi: <a href="https://doi.org/10.11517/jjsai.41.3_339" target="_blank">https://doi.org/10.11517/jjsai.41.3_339</a>
+
+
+- title:
+    en: 'The Overview of "An Article I’ve Found in Journal of the Japanese Society for Artificial Intelligence"'
+    ja: 【私が見つけたこの一本】企画の概要について
+  author:
+    en:
+      - Yusuke Mori
+      - Kenichi Shibata
+      - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
+    ja:
+      - 森 友亮
+      - 柴田 健一
+      - <span style="font-weight:bold;text-decoration:underline">高田 亮介</span>
+  in:
+    title:
+      en: Journal of the Japanese Society for Artificial Intelligence
+      ja: 人工知能
+    vol: 41
+    numero: 3
+    pp: 327-328
+    date: May. 2026
+  refereed: false
+  journal: true
+  doi: <a href="https://doi.org/10.11517/jjsai.41.3_327" target="_blank">https://doi.org/10.11517/jjsai.41.3_327</a>
+
+- title:
+    en: 'Editors’ Introduction to "The 40th Anniversary of the Journal of the Japanese Society for Artificial Intelligence"'
+    ja: 特集「学会誌40周年記念特集」にあたって
+  author:
+    en:
+      - Yusuke Mori
+      - Kenichi Shibata
+      - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
+      - Youichiro Miyake
+    ja:
+      - 森 友亮
+      - 柴田 健一      
+      - <span style="font-weight:bold;text-decoration:underline">高田 亮介</span>
+      - 三宅 陽一郎
+  in:
+    title:
+      en: Journal of the Japanese Society for Artificial Intelligence
+      ja: 人工知能
+    vol: 41
+    numero: 3
+    pp: 325-326
+    date: May. 2026
+  refereed: false
+  journal: true
+  doi: <a href="https://doi.org/10.11517/jjsai.41.3_325" target="_blank">https://doi.org/10.11517/jjsai.41.3_325</a>
+
+- title:
     en: "JSAI Meets AI Standardization -- Panel Discussion Report: What Personnel Are Required for the Standardization Process? --"
     ja: 人工知能学会×AI標準化 ─「標準化のプロセスに必要な人材とは」パネル討論レポート─
   author:
