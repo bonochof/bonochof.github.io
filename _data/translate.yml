@@ -54,6 +54,9 @@ about:
       jsps:
         en: Japan Society for the Promotion of Science (JSPS)
         ja: 日本学術振興会（学振）
+      teu:
+        en: Tokyo University of Technology
+        ja: 東京工科大学
       sn-part:
         en: School of Network and Information, Senshu University
         ja: 専修大学ネットワーク情報学部
@@ -78,6 +81,9 @@ about:
       proj:
         en: Project researcher
         ja: 特任研究員
+      vr:
+        en: Visiting researcher
+        ja: 客員研究員
       dev:
         en: Research and development
         ja: 研究開発
