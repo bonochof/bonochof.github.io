@@ -5,7 +5,7 @@
 - date: 2026.05.12
   description:
     en: Accepted for a research grant from <span style="color:maroon;font-weight:bold">The Nippon Foundation HUMAI Program</span>. The research theme is "Emergence Mechanisms of Irrational Play Interactions in AI Agents."
-    ja: 日本財団HUMAIプログラム奨励金Bに採択．採択テーマは"AIエージェントにおける非合理な遊びのインタラクション創発メカニズムの解明"．
+    ja: <span style="color:maroon;font-weight:bold">日本財団HUMAIプログラム奨励金B</span>に採択．採択テーマは"AIエージェントにおける非合理な遊びのインタラクション創発メカニズムの解明"．
 - date: 2026.04.06
   description:
     en: 'Co-authored paper accepted at ACL2026. The title is "From Heard to Lived Opinions: Simulating Opinion Dynamics with Grounded LLM Agents in Economic Environments."'
@@ -13,7 +13,7 @@
 - date: 2026.03.10
   description:
     en: 'Oral presentation at the Ikegami Lab Symposium. The title is "Agent Language Space Project."'
-    ja: 池上研シンポジウムにて口頭発表．タイトルは"エージェント言語空間構想"．
+    ja: 〜池上高志退官記念〜 少年の心を持ち続ければ学は成るシンポジウム：生と死と死なない子供 にて口頭発表．タイトルは"エージェント言語空間構想"．
 - date: 2026.03.09
   description:
     en: Accepted for a research grant from the <span style="color:maroon;font-weight:bold">Support Center for Advanced Telecommunications Technology Research (SCAT)</span>. The research theme is "Constructive Dialogue Support System Using Discourse Space Maps and Intellectually Curious Agents."
@@ -28,8 +28,8 @@
     ja: 複雑系研究会にて口頭発表．タイトルは"LLMマルチエージェントシミュレーション〜集団から創発する個性と戦略〜"．
 - date: 2025.11.07
   description:
-    en: 'Preprint published. The title is "Emergence from Emergence: Financial Market Simulation via Learning with Heterogeneous Preferences." <a href="https://arxiv.org/abs/2511.05207" target="_blank">arXiv:2511.05207</a>'
-    ja: 'プレプリントを掲載．タイトルは"Emergence from Emergence: Financial Market Simulation via Learning with Heterogeneous Preferences"．<a href="https://arxiv.org/abs/2511.05207" target="_blank">arXiv:2511.05207</a>'
+    en: 'Co-authored preprint published. The title is "Emergence from Emergence: Financial Market Simulation via Learning with Heterogeneous Preferences." <a href="https://arxiv.org/abs/2511.05207" target="_blank">arXiv:2511.05207</a>'
+    ja: '共著論文プレプリントを掲載．タイトルは"Emergence from Emergence: Financial Market Simulation via Learning with Heterogeneous Preferences"．<a href="https://arxiv.org/abs/2511.05207" target="_blank">arXiv:2511.05207</a>'
 - date: 2025.10.07
   description:
     en: 'Poster presentation at ALIFE2025. The title is "Internalized Culture versus External Rules: The Emergence of Bounded Rationality in LLM Agent Societies."'
@@ -37,11 +37,11 @@
 - date: 2025.09.04
   description:
     en: Preprint published. The title is "Emergent Social Dynamics of LLM Agents in the El Farol Bar Problem." <a href="https://arxiv.org/abs/2509.04537" target="_blank">arXiv:2509.04537</a>
-    ja: プレプリントを掲載．タイトルは"Emergent Social Dynamics of LLM Agents in the El Farol Bar Problem"．<a href="https://arxiv.org/abs/2509.04537" target="_blank">arXiv:2509.04537</a>
+    ja: 主著論文プレプリントを掲載．タイトルは"Emergent Social Dynamics of LLM Agents in the El Farol Bar Problem"．<a href="https://arxiv.org/abs/2509.04537" target="_blank">arXiv:2509.04537</a>
 - date: 2025.06.01
   description:
-    en: Paper is out. The title is "Effects of Color Discrimination of Perceived Objects by Cognitive Speech Acts on the Reaction Time." The paper is <a href="https://doi.org/10.1587/transinf.2024HCP0004" target="_blank">here</a>.
-    ja: 国際論文誌IEICE Transactions on Information and Systemsに論文を掲載．タイトルは"Effects of Color Discrimination of Perceived Objects by Cognitive Speech Acts on the Reaction Time"．論文は<a href="https://doi.org/10.1587/transinf.2024HCP0004" target="_blank">こちら</a>．
+    en: Co-authored paper is out. The title is "Effects of Color Discrimination of Perceived Objects by Cognitive Speech Acts on the Reaction Time." The paper is <a href="https://doi.org/10.1587/transinf.2024HCP0004" target="_blank">here</a>.
+    ja: 共著論文を国際論文誌IEICE Transactions on Information and Systemsに掲載．タイトルは"Effects of Color Discrimination of Perceived Objects by Cognitive Speech Acts on the Reaction Time"．論文は<a href="https://doi.org/10.1587/transinf.2024HCP0004" target="_blank">こちら</a>．
 - date: 2025.05.29
   description:
     en: Oral presentation at the 39th Annual Conference of the Japanese Society for Artificial Intelligence. The title is "Analysis of the El Farol Bar Problem by LLM Agents."
@@ -61,7 +61,7 @@
 - date: 2024.12.13
   description:
     en: Paper is out. The title is "Spontaneous Emergence of Agent Individuality Through Social Interactions in Large Language Model-Based Communities." The paper is <a href="https://doi.org/10.3390/e26121092" target="_blank">here</a>.
-    ja: 国際論文誌Entropyに論文を掲載．タイトルは"Spontaneous Emergence of Agent Individuality Through Social Interactions in Large Language Model-Based Communities"．論文は<a href="https://doi.org/10.3390/e26121092" target="_blank">こちら</a>．
+    ja: 主著論文を国際論文誌Entropyに掲載．タイトルは"Spontaneous Emergence of Agent Individuality Through Social Interactions in Large Language Model-Based Communities"．論文は<a href="https://doi.org/10.3390/e26121092" target="_blank">こちら</a>．
 - date: 2024.12.05
   description:
     en: The article about JSAI2024 award is posted on the website of the Graduate School of Arts and Sciences, The University of Tokyo. The article is <a href="https://www.c.u-tokyo.ac.jp/info/news/awardsandbook/20241205130000.html" target="_blank">here</a>.
@@ -69,11 +69,11 @@
 - date: 2024.12.03
   description:
     en: Preprint published. The title is "Evolution of Collective AI Beyond Individual Optimization." <a href="https://arxiv.org/abs/2412.02085" target="_blank">arXiv:2412.02085</a>
-    ja: プレプリントを掲載．タイトルは"Evolution of Collective AI Beyond Individual Optimization"．<a href="https://arxiv.org/abs/2412.02085" target="_blank">arXiv:2412.02085</a>
+    ja: 主著論文プレプリントを掲載．タイトルは"Evolution of Collective AI Beyond Individual Optimization"．<a href="https://arxiv.org/abs/2412.02085" target="_blank">arXiv:2412.02085</a>
 - date: 2024.11.05
   description:
     en: Preprint published. The title is "Spontaneous Emergence of Agent Individuality through Social Interactions in LLM-Based Communities." <a href="https://arxiv.org/abs/2411.03252" target="_blank">arXiv:2411.03252</a>
-    ja: プレプリントを掲載．タイトルは"Spontaneous Emergence of Agent Individuality through Social Interactions in LLM-Based Communities"．<a href="https://arxiv.org/abs/2411.03252" target="_blank">arXiv:2411.03252</a>
+    ja: 主著論文プレプリントを掲載．タイトルは"Spontaneous Emergence of Agent Individuality through Social Interactions in LLM-Based Communities"．<a href="https://arxiv.org/abs/2411.03252" target="_blank">arXiv:2411.03252</a>
 - date: 2024.11.01
   description:
     en: 'Article published in the Journal of the Japanese Society for Artificial Intelligence. The title is "Students Forum (125) Interview with Prof. Kiyoshi Izumi -- From Complex Systems to Causal AI: Future of Financial Informatics."'
@@ -120,8 +120,8 @@
     ja: 博士アイドル化計画 最終オーディションにて発表．
 - date: 2023.09.19
   description:
-    en: 'Preprint published. The title is "PAMS: Platform for Artificial Market Simulations." <a href="https://arxiv.org/abs/2309.10729" target="_blank">arXiv:2309.10729</a>'
-    ja: 'プレプリントを掲載．タイトルは"PAMS: Platform for Artificial Market Simulations"．<a href="https://arxiv.org/abs/2309.10729" target="_blank">arXiv:2309.10729</a>'
+    en: 'Co-authored preprint published. The title is "PAMS: Platform for Artificial Market Simulations." <a href="https://arxiv.org/abs/2309.10729" target="_blank">arXiv:2309.10729</a>'
+    ja: '共著論文プレプリントを掲載．タイトルは"PAMS: Platform for Artificial Market Simulations"．<a href="https://arxiv.org/abs/2309.10729" target="_blank">arXiv:2309.10729</a>'
 - date: 2023.09.07-2023.09.09
   description:
     en: Poster presentation at the 40th Annual Meeting of the Japanese Cognitive Science Society. The title is "Cognitive Modeling of Thrill-Seeking Irrational Behavior with Conflicting Adaptive Optimizations."
