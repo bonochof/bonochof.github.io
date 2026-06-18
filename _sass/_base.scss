@@ -575,6 +575,17 @@ table {
       border-color: green;
     }
   }
+
+  // The cite button (.cite-item) is always the last <li> in its list, so the
+  // element right before it must not show a trailing separator comma.
+  .author,
+  .info,
+  .award {
+    &:has(+ .cite-item)::after {
+      content: '';
+      margin-right: 10px;
+    }
+  }
 }
 
 .news-list {
