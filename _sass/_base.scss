@@ -551,6 +551,30 @@ table {
       margin-right: 8px;
     }
   }
+
+  .cite-link {
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    padding: 0 6px;
+    border: 1px solid $kabairo;
+    border-radius: 4px;
+    font-size: 11px;
+    line-height: 1.7;
+    color: $kabairo;
+    background: transparent;
+    &:hover {
+      color: #fff;
+      background: $kabairo;
+      text-decoration: none;
+    }
+    &.copied {
+      color: #fff;
+      background: green;
+      border-color: green;
+    }
+  }
 }
 
 .news-list {

@@ -1,0 +1,23 @@
+{%- comment -%}
+  Builds a plain-text citation and renders a small "cite" button.
+  The citation itself lives in data-cite (hidden); clicking copies it.
+  Usage:
+    {%- include contents/cite.html data=data -%}                  (publications / invited talks)
+    {%- include contents/cite.html data=data type="grant" -%}
+    {%- include contents/cite.html data=data type="dissertation" -%}
+    {%- include contents/cite.html data=data type="award" -%}
+  In the Japanese version, the space inside a "Surname Given" name is removed.
+{%- endcomment -%}
+{%- assign d = include.data -%}
+{%- capture cite -%}
+{%- if include.type == "grant" -%}
+{%- assign gtitle = d.title[page.lang] -%}{%- unless gtitle -%}{%- assign gtitle = d.title -%}{%- endunless -%}{{ gtitle | strip_html }}{%- if d.theme %}, "{{ d.theme[page.lang] | default: d.theme | strip_html }}"{%- endif -%}{%- if d.amount %}, {{ d.amount[page.lang] | default: d.amount | strip_html }}{%- endif -%}{%- if d.date %}, {{ d.date | strip_html }}{%- endif -%}{%- if d.role %} ({{ d.role[page.lang] | default: d.role | strip_html }}){%- endif -%}.
+{%- elsif include.type == "award" -%}
+{%- assign cyear = d.date | strip_html | split: ' ' | last | remove: '(' | remove: ')' -%}{{ d.award[page.lang] | join: ', ' | strip_html }}, {{ d.title[page.lang] | strip_html }}{%- if cyear %} ({{ cyear }}){%- endif -%}.
+{%- elsif include.type == "dissertation" -%}
+{%- if d.title.en-main -%}{%- assign dtitle = d.title.en -%}{%- else -%}{%- assign dtitle = d.title[page.lang] -%}{%- endif -%}{%- assign dauthor = d.author[page.lang] | strip_html -%}{%- if page.lang == 'ja' -%}{%- assign dauthor = dauthor | replace: ' ', '' -%}{%- endif -%}{%- assign cvenue = d.in.title[page.lang] -%}{%- unless cvenue -%}{%- assign cvenue = d.in.title -%}{%- endunless -%}{%- assign cyear = d.in.date | strip_html | split: ' ' | last | remove: '(' | remove: ')' -%}{{ dauthor }}, "{{ dtitle | strip_html }}", {{ cvenue | strip_html }}{%- if cyear %} ({{ cyear }}){%- endif -%}.
+{%- else -%}
+{%- assign alist = d.author[page.lang] -%}{%- assign strip_space = false -%}{%- if alist -%}{%- if page.lang == 'ja' -%}{%- assign strip_space = true -%}{%- endif -%}{%- else -%}{%- assign alist = d.author -%}{%- endif -%}{%- assign ctitle = d.title[page.lang] -%}{%- unless ctitle -%}{%- assign ctitle = d.title -%}{%- endunless -%}{%- assign cvenue = d.in.title[page.lang] -%}{%- unless cvenue -%}{%- assign cvenue = d.in.title -%}{%- endunless -%}{%- assign cyear = d.in.date | strip_html | split: ' ' | last | remove: '(' | remove: ')' -%}{%- for a in alist -%}{%- assign nm = a | strip_html -%}{%- if strip_space -%}{%- assign nm = nm | replace: ' ', '' -%}{%- endif -%}{{ nm }}{%- unless forloop.last -%}, {% endunless -%}{%- endfor -%}, "{{ ctitle | strip_html }}", {{ cvenue | strip_html }}{%- if d.in.vol -%}, {{ d.in.vol }}{%- if d.in.numero %} ({{ d.in.numero }}){%- endif -%}{%- endif -%}{%- if d.in.issue -%}, {{ d.in.issue }}{%- endif -%}{%- if d.in.pp -%}, pp. {{ d.in.pp }}{%- endif -%}{%- if cyear %} ({{ cyear }}){%- endif -%}.
+{%- endif -%}
+{%- endcapture -%}
+<li class="detail cite-item"><a class="cite-link" role="button" tabindex="0" data-cite="{{ cite | strip | escape }}" data-copied-label="copied!">cite</a></li>
