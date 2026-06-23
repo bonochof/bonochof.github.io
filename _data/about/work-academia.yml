@@ -1,6 +1,7 @@
-- name-key: teu
-  disc-key: vr
-  start: 2026
+# 東京工科大学（客員研究員）はCV提出先のため，公開・CV掲載を保留（必要になったら復活）
+#- name-key: teu
+#  disc-key: vr
+#  start: 2026
 
 - name-key: ut-izumi
   disc-key: proj
