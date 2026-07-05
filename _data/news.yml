@@ -1,3 +1,7 @@
+- date: 2026.06.30
+  description:
+    en: 'Co-authored preprint published. The title is "OpenLife: Toward Open-World Artificial Life with Autonomous LLM Agents." <a href="https://arxiv.org/abs/2606.31046" target="_blank">arXiv:2606.31046</a>'
+    ja: '共著論文プレプリントを掲載．タイトルは"OpenLife: Toward Open-World Artificial Life with Autonomous LLM Agents"．<a href="https://arxiv.org/abs/2606.31046" target="_blank">arXiv:2606.31046</a>'
 - date: 2026.06.17
   description:
     en: Paper accepted at Collective Intelligence Journal. The title is "Evolution of Collective Behavior from Individually Optimized Chemotactic Agents."
