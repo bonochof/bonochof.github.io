@@ -1,3 +1,14 @@
+- title: "OpenLife: Toward Open-World Artificial Life with Autonomous LLM Agents"
+  author:
+    - Atsushi Masumori
+    - Itsuki Doi
+    - Norihiro Maruyama
+    - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
+    - Takashi Ikegami
+  in:
+    title: The 2026 Conference on Artificial Life
+    date: Aug. 2026
+
 - title: "From Heard to Lived Opinions: Simulating Opinion Dynamics with Grounded LLM Agents in Economic Environments"
   author:
     - Ryuji Hashimoto
