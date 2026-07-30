@@ -8,6 +8,8 @@
   in:
     title: The 2026 Conference on Artificial Life
     date: Aug. 2026
+  refereed: true
+  oral-presentation: false
 
 - title: "From Heard to Lived Opinions: Simulating Opinion Dynamics with Grounded LLM Agents in Economic Environments"
   author:
