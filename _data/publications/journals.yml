@@ -29,6 +29,22 @@
   refereed: true
   #doi: <a href="https://doi.org/10.3390/e26121092" target="_blank">https://doi.org/10.3390/e26121092</a>
 
+- title: "Financial Market as a Self-Organized Ecosystem: Simulation via Learning with Heterogeneous Preferences"
+  author:
+    - Ryuji Hashimoto
+    - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
+    - Masahiro Suzuki
+    - Yuki Tanaka
+    - Kiyoshi Izumi
+  in:
+    title: Artificial Life
+    vol:
+    numero:
+    issue:
+    date: (accepted 2026)
+  refereed: true
+  #doi: <a href="https://doi.org/10.3390/e26121092" target="_blank">https://doi.org/10.3390/e26121092</a>
+
 - title: Effects of Color Discrimination of Perceived Objects by Cognitive Speech Acts on the Reaction Time
   author:
     - Masatoshi Yamada
