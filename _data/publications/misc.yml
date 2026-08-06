@@ -1,4 +1,73 @@
 - title:
+    en: 'Analysys on the Journal’s "Whole Contents" (Vol. 11-20)'
+    ja: 学会誌「全目次」分析（11〜20巻）
+  author:
+    en:
+      - Yusuke Mori
+      - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
+    ja:
+      - 森 友亮
+      - <span style="font-weight:bold;text-decoration:underline">高田 亮介</span>
+  in:
+    title:
+      en: Journal of the Japanese Society for Artificial Intelligence
+      ja: 人工知能
+    vol: 41
+    numero: 4
+    pp: 500-505
+    date: Jul. 2026
+  refereed: false
+  journal: true
+  doi: <a href="https://doi.org/10.11517/jjsai.41.4_500" target="_blank">https://doi.org/10.11517/jjsai.41.4_500</a>
+
+- title:
+    en: '[An Article Iʼve Found in Journal of the Japanese Society for Artificial Intelligence] Takashi IKEGAMI, "Collective Intelligence from Artificial Life"（2003, Vol. 18, No. 6)'
+    ja: 【私が見つけたこの一本】池上高志『人工生命から見た集合知』（2003年，18巻，6号）
+  author:
+    en:
+      - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
+    ja:
+      - <span style="font-weight:bold;text-decoration:underline">高田 亮介</span>
+  in:
+    title:
+      en: Journal of the Japanese Society for Artificial Intelligence
+      ja: 人工知能
+    vol: 41
+    numero: 4
+    pp: 500-505
+    date: Jul. 2026
+  refereed: false
+  journal: true
+  doi: <a href="https://doi.org/10.11517/jjsai.41.4_500" target="_blank">https://doi.org/10.11517/jjsai.41.4_500</a>
+
+- title:
+    en: 'Editors’ Introduction to "The 40th Anniversary of the Journal of the Japanese Society for Artificial Intelligence: PART 2"'
+    ja: 特集「学会誌40周年記念特集②」にあたって
+  author:
+    en:
+      - Yusuke Mori
+      - Kenichi Shibata
+      - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
+      - Youichiro Miyake
+    ja:
+      - 森 友亮
+      - 柴田 健一      
+      - <span style="font-weight:bold;text-decoration:underline">高田 亮介</span>
+      - 三宅 陽一郎
+  in:
+    title:
+      en: Journal of the Japanese Society for Artificial Intelligence
+      ja: 人工知能
+    vol: 41
+    numero: 4
+    pp: 456
+    date: Jul. 2026
+  refereed: false
+  journal: true
+  doi: <a href="https://doi.org/10.11517/jjsai.41.4_456" target="_blank">https://doi.org/10.11517/jjsai.41.4_456</a>
+
+
+- title:
     en: 'Analysys on the Journal’s "Whole Contents" (Vol. 1-10)'
     ja: 学会誌「全目次」分析（1〜10巻）
   author:
