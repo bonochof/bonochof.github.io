@@ -9,6 +9,17 @@
     title: <a href="https://arxiv.org/abs/2606.31046" target="_blank">arXiv:2606.31046</a>
     date: Jun. 2026
 
+- title: "Financial Market as a Self-Organized Ecosystem: Simulation via Learning with Heterogeneous Preferences"
+  author:
+    - Ryuji Hashimoto
+    - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
+    - Masahiro Suzuki
+    - Yuki Tanaka
+    - Kiyoshi Izumi
+  in:
+    title: <a href="https://arxiv.org/abs/2604.23975" target="_blank">arXiv:2604.23975</a>
+    date: Apr. 2026
+
 - title: "From Heard to Lived Opinions: Simulating Opinion Dynamics with Grounded LLM Agents in Economic Environments"
   author:
     - Ryuji Hashimoto
