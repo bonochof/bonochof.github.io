@@ -8,12 +8,11 @@
     - Takashi Ikegami
   in:
     title: Collective Intelligence
-    vol:
-    numero:
-    issue:
-    date: (accepted 2026)
+    vol: 5
+    numero: 3
+    date: Aug. 2026
   refereed: true
-  #doi: <a href="https://doi.org/10.3390/e26121092" target="_blank">https://doi.org/10.3390/e26121092</a>
+  doi: <a href="https://doi.org/10.1177/26339137261477746" target="_blank">https://doi.org/10.1177/26339137261477746</a>
 
 - title: Communication, Embodiment, and Coordination in an El Farol Bar-Inspired LLM Society
   author:
@@ -22,12 +21,12 @@
     - Takashi Ikegami
   in:
     title: Artificial Life
-    vol:
-    numero:
-    issue:
-    date: (accepted 2026)
+    vol: 32
+    numero: 2
+    pp: 208-225
+    date: May. 2026
   refereed: true
-  #doi: <a href="https://doi.org/10.3390/e26121092" target="_blank">https://doi.org/10.3390/e26121092</a>
+  doi: <a href="https://doi.org/10.1162/ARTL.a.459" target="_blank">https://doi.org/10.1162/ARTL.a.459</a>
 
 - title: "Financial Market as a Self-Organized Ecosystem: Simulation via Learning with Heterogeneous Preferences"
   author:
@@ -38,12 +37,12 @@
     - Kiyoshi Izumi
   in:
     title: Artificial Life
-    vol:
-    numero:
-    issue:
-    date: (accepted 2026)
+    vol: 32
+    numero: 2
+    pp: 151-176
+    date: May. 2026
   refereed: true
-  #doi: <a href="https://doi.org/10.3390/e26121092" target="_blank">https://doi.org/10.3390/e26121092</a>
+  doi: <a href="https://doi.org/10.1162/ARTL.a.461" target="_blank">https://doi.org/10.1162/ARTL.a.461</a>
 
 - title: Effects of Color Discrimination of Perceived Objects by Cognitive Speech Acts on the Reaction Time
   author:

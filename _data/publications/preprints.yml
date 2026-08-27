@@ -1,3 +1,11 @@
+#- title: How Much Oracle Is Needed in LLM-Driven Evolution? Separating Selection and Mutation Feedback under Surrogate Evaluation
+#  author:
+#    - Tomoya Hirayama
+#    - <span style="font-weight:bold;text-decoration:underline">Ryosuke Takata</span>
+#  in:
+#    #title: <a href="https://arxiv.org/abs/2608.31046" target="_blank">arXiv:2608.31046</a>
+#    date: Aug. 2026
+
 - title: "OpenLife: Toward Open-World Artificial Life with Autonomous LLM Agents"
   author:
     - Atsushi Masumori
