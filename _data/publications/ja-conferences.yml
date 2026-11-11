@@ -45,7 +45,7 @@
     date: Jun. 2026
   refereed: true
   oral-presentation: false
-  #doi: <a href="https://doi.org/10.11517/pjsai.JSAI2024.0_2F4GS502" target="_blank">https://doi.org/10.11517/pjsai.JSAI2024.0_2F4GS502</a>
+  doi: <a href="https://doi.org/10.11517/pjsai.JSAI2026.0_2YinA10" target="_blank">https://doi.org/10.11517/pjsai.JSAI2026.0_2YinA10</a>
 
 - title:
     en: Spatial Pricing Strategies of LLM Agents under Heterogeneous Customer Distributions
@@ -71,7 +71,7 @@
     date: Jun. 2026
   refereed: true
   oral-presentation: false
-  #doi: <a href="https://doi.org/10.11517/pjsai.JSAI2024.0_2F4GS502" target="_blank">https://doi.org/10.11517/pjsai.JSAI2024.0_2F4GS502</a>
+  doi: <a href="https://doi.org/10.11517/pjsai.JSAI2026.0_4YinA19" target="_blank">https://doi.org/10.11517/pjsai.JSAI2026.0_4YinA19</a>
 
 - title:
     en: 'LLM Multi-Agent Simulation: Emerging Individuality and Strategies from Collective Interaction'
@@ -101,7 +101,7 @@
     date: Jun. 2026
   refereed: true
   oral-presentation: true
-  #doi: <a href="https://doi.org/10.11517/pjsai.JSAI2024.0_2F4GS502" target="_blank">https://doi.org/10.11517/pjsai.JSAI2024.0_2F4GS502</a>
+  doi: <a href="https://doi.org/10.11517/pjsai.JSAI2026.0_1E5OS39c05" target="_blank">https://doi.org/10.11517/pjsai.JSAI2026.0_1E5OS39c05</a>
 
 - title:
     en: 'LLM Multi-Agent Simulation: Emerging Individuality and Strategies from Collective Interaction'
@@ -139,7 +139,7 @@
     date: May. 2025
   refereed: true
   oral-presentation: true
-  #doi: <a href="https://doi.org/10.11517/pjsai.JSAI2024.0_2F4GS502" target="_blank">https://doi.org/10.11517/pjsai.JSAI2024.0_2F4GS502</a>
+  doi: <a href="https://doi.org/10.11517/pjsai.JSAI2025.0_3A1GS1004" target="_blank">https://doi.org/10.11517/pjsai.JSAI2025.0_3A1GS1004</a>
 
 - title:
     en: Effects of Speech Acts on Movements in Reaction to Irregular Stimulus Presentation -- Focusing on Reaction Time and Kinesthetic Impressions in Perceptual Reaction Test --
@@ -155,11 +155,11 @@
     title:
       en: The 39th Annual Conference of the Japanese Society for Artificial Intelligence (JSAI2025)
       ja: 第39回人工知能学会全国大会 (JSAI2025)
-    #p-no: 2F4-GS-5-02
+    p-no: 1Win4-103
     date: May. 2025
   refereed: true
   oral-presentation: true
-  #doi: <a href="https://doi.org/10.11517/pjsai.JSAI2024.0_2F4GS502" target="_blank">https://doi.org/10.11517/pjsai.JSAI2024.0_2F4GS502</a>
+  doi: <a href="https://doi.org/10.11517/pjsai.JSAI2025.0_1Win4103" target="_blank">https://doi.org/10.11517/pjsai.JSAI2025.0_1Win4103</a>
 
 - title:
     en: A Study of Kinesthetic Impressions of Actions Accompanied by Cognitive Speech
