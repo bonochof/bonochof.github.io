@@ -18,7 +18,8 @@
     date: Jun. 2026
   refereed: true
   oral-presentation: false
-  #doi: <a href="https://doi.org/10.11517/pjsai.JSAI2024.0_2F4GS502" target="_blank">https://doi.org/10.11517/pjsai.JSAI2024.0_2F4GS502</a>
+  award-key: JSAI2026
+  doi: <a href="https://doi.org/10.11517/pjsai.JSAI2026.0_2YinB22" target="_blank">https://doi.org/10.11517/pjsai.JSAI2026.0_2YinB22</a>
 
 - title:
     en: Simulating Opinion Dynamics with Grounded LLM Agents in Economic Environments
